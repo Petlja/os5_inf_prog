@@ -44,7 +44,7 @@ BlocklPyModal.prototype.open = function(title, width, height, pythonSrc, blockly
 
     var btnSave = document.createElement("span");
     $(btnSave).addClass("btn btn-primary");
-    $(btnSave).text("Vrati u Python  ");
+    $(btnSave).text(Blockly.Msg.ReturnBtn[$.i18n().locale]);
     var icBtnSave = document.createElement("i");
     $(icBtnSave).addClass("fas fa-undo");
     btnSave.appendChild(icBtnSave);
@@ -135,112 +135,113 @@ BlocklPyModal.prototype.pythonToBlocks = function(code, workspace) {
 
 BlocklPyModal.toolboxXml = `
 <xml style="display: none">
-<category name="Karel" colour="275">
-    <block type="procedures_callnoreturn" inline="true">
-        <mutation name="napred"/>
-    </block>
-    <block type="procedures_callnoreturn" inline="true">
-        <mutation name="levo"/>
-    </block>
-    <block type="procedures_callnoreturn" inline="true">
-        <mutation name="desno"/>
-    </block>
-    <block type="procedures_callnoreturn" inline="true">
-        <mutation name="uzmi"/>
-    </block>
-    <block type="procedures_callnoreturn" inline="true">
-        <mutation name="ostavi"/>
-    </block>
-    <block type="procedures_callreturn" inline="true">
-        <mutation name="moze_napred"/>
-    </block>
-    <block type="procedures_callreturn" inline="true">
-        <mutation name="broj_loptica_na_polju"/>
-    </block>
-    <block type="procedures_callreturn" inline="true">
-        <mutation name="ima_loptica_na_polju"/>
-    </block>
-    <block type="procedures_callreturn" inline="true">
-        <mutation name="broj_loptica_kod_sebe"/>
-    </block>
-    <block type="procedures_callreturn" inline="true">
-    <mutation name="ima_loptica_kod_sebe"/>
-</block>
-</category>
-<category name="Promenljive" custom="VARIABLE" colour="240"></category>
-<category name="Grananja" colour="330">
-  <block type="controls_if_better"></block>
-  <block type="controls_if_better">
-    <mutation else="1"></mutation>
-  </block>
-  <block type="logic_compare"></block>
-  <block type="logic_operation"></block>
-  <block type="logic_negate"></block>
-</category>
-<category name="Petlje" colour="300">
-  <block type="controls_forEach"></block>
-</category>
-<sep></sep>
-<category name="Računanja" colour="270">
-  <block type="math_arithmetic"></block>
-  <block type="math_round"></block>
-</category>
-<category name="Izlaz" colour="160">
-  <block type="text_print"></block>
-</category>
-<category name="Ulaz" colour="165">
-  <block type="text_input_noprompt"></block>
-  <block type="text_input"></block>
-</category>
-<sep></sep>
-<category name="Vrednosti" colour="100">
-  <block type="text"></block>
-  <block type="math_number"></block>
-  <block type="logic_boolean"></block>
-</category>
-<category name="Konverzije" colour="275">
-  <block type="procedures_callreturn" inline="true">
-    <mutation name="int">
-      <arg name=""></arg>
-    </mutation>
-  </block>
-  <block type="procedures_callreturn" inline="true">
-    <mutation name="float">
-      <arg name=""></arg>
-    </mutation>
-  </block>
-  <block type="procedures_callreturn" inline="true">
-    <mutation name="str">
-      <arg name=""></arg>
-    </mutation>
-  </block>
-  <block type="procedures_callreturn" inline="true">
-    <mutation name="bool">
-      <arg name=""></arg>
-    </mutation>
-  </block>
-</category>
-<category name="Liste" colour="30">
-  <block type="lists_create_with">
-    <value name="ADD0">
-      <block type="math_number">
-        <field name="NUM">0</field>
+    <category name="` + Blockly.Msg.Title[$.i18n().locale] + `" colour="275">
+        <block type="procedures_callnoreturn" inline="true">
+            <mutation name="` + Blockly.Msg.Move[$.i18n().locale] + `"/>
+        </block>
+        <block type="procedures_callnoreturn" inline="true">
+            <mutation name="` + Blockly.Msg.Left[$.i18n().locale] + `"/>
+        </block>
+        <block type="procedures_callnoreturn" inline="true">
+            <mutation name="` + Blockly.Msg.Right[$.i18n().locale] + `"/>
+        </block>
+        <block type="procedures_callnoreturn" inline="true">
+            <mutation name="` + Blockly.Msg.PickBall[$.i18n().locale] + `"/>
+        </block>
+        <block type="procedures_callnoreturn" inline="true">
+            <mutation name="` + Blockly.Msg.PutBall[$.i18n().locale] + `"/>
+        </block>
+        <block type="procedures_callreturn" inline="true">
+            <mutation name="` + Blockly.Msg.FrontClear[$.i18n().locale] + `"/>
+        </block>
+        <block type="procedures_callreturn" inline="true">
+            <mutation name="` + Blockly.Msg.CountBalls[$.i18n().locale] + `"/>
+        </block>
+        <block type="procedures_callreturn" inline="true">
+            <mutation name="` + Blockly.Msg.BallsPresent[$.i18n().locale] + `"/>
+        </block>
+        <block type="procedures_callreturn" inline="true">
+            <mutation name="` + Blockly.Msg.GetBalls[$.i18n().locale] + `"/>
+        </block>
+        <block type="procedures_callreturn" inline="true">
+            <mutation name="` + Blockly.Msg.HasBalls[$.i18n().locale] + `"/>
+        </block>
+    </category>
+    <category name="` + Blockly.Msg.Variables[$.i18n().locale] + `" custom="VARIABLE" colour="240"></category>
+    <category name="` + Blockly.Msg.Branches[$.i18n().locale] + `" colour="330">
+      <block type="controls_if_better"></block>
+      <block type="controls_if_better">
+        <mutation else="1"></mutation>
       </block>
-    </value>
-    <value name="ADD1">
-      <block type="math_number">
-        <field name="NUM">0</field>
+      <block type="logic_compare"></block>
+      <block type="logic_operation"></block>
+      <block type="logic_negate"></block>
+    </category>
+    <category name="` + Blockly.Msg.Branches[$.i18n().locale] + `" colour="300">
+      <block type="controls_forEach"></block>
+    </category>
+    <sep></sep>
+    <category name="` + Blockly.Msg.Computing[$.i18n().locale] + `" colour="270">
+      <block type="math_arithmetic"></block>
+      <block type="math_round"></block>
+    </category>
+    <category name="` + Blockly.Msg.Output[$.i18n().locale] + `" colour="160">
+      <block type="text_print"></block>
+    </category>
+    <category name="` + Blockly.Msg.Input[$.i18n().locale] + `" colour="165">
+      <block type="text_input_noprompt"></block>
+      <block type="text_input"></block>
+    </category>
+    <sep></sep>
+    <category name="` + Blockly.Msg.Values[$.i18n().locale] + `" colour="100">
+      <block type="text"></block>
+      <block type="math_number"></block>
+      <block type="logic_boolean"></block>
+    </category>
+    <category name="` + Blockly.Msg.Conversions[$.i18n().locale] + `" colour="275">
+      <block type="procedures_callreturn" inline="true">
+        <mutation name="int">
+          <arg name=""></arg>
+        </mutation>
       </block>
-    </value>
-    <value name="ADD2">
-      <block type="math_number">
-        <field name="NUM">0</field>
+      <block type="procedures_callreturn" inline="true">
+        <mutation name="float">
+          <arg name=""></arg>
+        </mutation>
       </block>
-    </value>
-  </block>
-  <block type="lists_create_with"></block>
-  <block type="lists_create_empty"></block>
-  <block type="lists_append"></block>
-  <block type="range_list1"></block>
-</category>    
+      <block type="procedures_callreturn" inline="true">
+        <mutation name="str">
+          <arg name=""></arg>
+        </mutation>
+      </block>
+      <block type="procedures_callreturn" inline="true">
+        <mutation name="bool">
+          <arg name=""></arg>
+        </mutation>
+      </block>
+    </category>
+    <category name="` + Blockly.Msg.Conversions[$.i18n().locale] + `" colour="30">
+      <block type="lists_create_with">
+        <value name="ADD0">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="ADD1">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <value name="ADD2">
+          <block type="math_number">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+      </block>
+      <block type="lists_create_with"></block>
+      <block type="lists_create_empty"></block>
+      <block type="lists_append"></block>
+      <block type="range_list1"></block>
+    </category>
 </xml>`;
+

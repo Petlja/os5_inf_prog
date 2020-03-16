@@ -3,21 +3,21 @@ Blockly.Blocks['dicts_create_with'] = {
      * Block for creating a dict with any number of elements of any type.
      * @this Blockly.Block
      */
-    init: function() {
+    init: function () {
         console.log("init");
         this.setInputsInline(false);
         this.setColour(Blockly.Blocks.dicts.HUE);
         this.itemCount_ = 1;
         this.updateShape_();
         this.setOutput(true, 'dict');
-        this.setTooltip(Blockly.Msg.DICTS_CREATE_WITH_TOOLTIP);
+        this.setTooltip(Blockly.Msg.DICTS_CREATE_WITH_TOOLTIP[$.i18n().locale]);
     },
     /**
      * Create XML to represent dict inputs.
      * @return {Element} XML storage element.
      * @this Blockly.Block
      */
-    mutationToDom: function(workspace) {
+    mutationToDom: function (workspace) {
         var container = document.createElement('mutation');
         container.setAttribute('items', this.itemCount_);
         return container;
@@ -27,27 +27,27 @@ Blockly.Blocks['dicts_create_with'] = {
      * @param {!Element} xmlElement XML storage element.
      * @this Blockly.Block
      */
-    domToMutation: function(xmlElement) {
+    domToMutation: function (xmlElement) {
         this.itemCount_ = parseInt(xmlElement.getAttribute('items'), 10);
         this.updateShape_();
     },
-    fixEmpty_: function() {
+    fixEmpty_: function () {
         if (this.itemCount_ > 0) {
             this.getInput("START").fieldRow[0].setText("dictionary of");
         } else {
-            this.getInput("START").fieldRow[0].setText(Blockly.Msg.DICTS_CREATE_EMPTY_TITLE);
+            this.getInput("START").fieldRow[0].setText(Blockly.Msg.DICTS_CREATE_EMPTY_TITLE[$.i18n().locale]);
         }
     },
-    addRow: function(i) {
-        if (!this.getInput('VALUE'+i)) {
+    addRow: function (i) {
+        if (!this.getInput('VALUE' + i)) {
             this.appendValueInput('VALUE' + i)
                 .setCheck(null)
                 .setAlign(Blockly.ALIGN_RIGHT)
                 .appendField(
-                      new Blockly.FieldTextInput(
-                          Blockly.Msg.DICTS_CREATE_WITH_ITEM_KEY),
-                     'KEY'+i)
-               .appendField(Blockly.Msg.DICTS_CREATE_WITH_ITEM_MAPPING);
+                    new Blockly.FieldTextInput(
+                        Blockly.Msg.DICTS_CREATE_WITH_ITEM_KEY[$.i18n().locale]),
+                    'KEY' + i)
+                .appendField(Blockly.Msg.DICTS_CREATE_WITH_ITEM_MAPPING[$.i18n().locale]);
         }
     },
     /**
@@ -55,12 +55,12 @@ Blockly.Blocks['dicts_create_with'] = {
      * @private
      * @this Blockly.Block
      */
-    updateShape_: function() {
+    updateShape_: function () {
         var that = this;
         function addField(field, block, e) {
             var rect = field.fieldGroup_.getBoundingClientRect();
             var yPosition = e.clientY;
-            if (yPosition < rect.top+rect.height/2) {
+            if (yPosition < rect.top + rect.height / 2) {
                 that.itemCount_ += 1;
                 that.addRow(that.itemCount_);
             } else {
@@ -84,16 +84,16 @@ Blockly.Blocks['dicts_create_with'] = {
         }
     }
 };
-Blockly.Python.dicts_create_with = function(block) {
-    var value_keys = Blockly.Python.valueToCode(block, 'keys', Blockly.   Python.ORDER_ATOMIC);
+Blockly.Python.dicts_create_with = function (block) {
+    var value_keys = Blockly.Python.valueToCode(block, 'keys', Blockly.Python.ORDER_ATOMIC);
     // TODO: Assemble Python into code variable.
     var code = new Array(block.itemCount_);
-  
+
     for (var n = 1; n <= block.itemCount_; n++) {
         var key = Blockly.Python.quote_(block.getFieldValue('KEY' + n));
         var value = Blockly.Python.valueToCode(block, 'VALUE' + n,
-                Blockly.Python.ORDER_NONE) || '___';
-        code[n-1] = key +": "+ value;
+            Blockly.Python.ORDER_NONE) || '___';
+        code[n - 1] = key + ": " + value;
     }
     code = '{' + code.join(', ') + '}';
     return [code, Blockly.Python.ORDER_ATOMIC];

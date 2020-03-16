@@ -20,13 +20,13 @@ Blockly.Blocks['tuple_create'] = {
    * @this Blockly.Block
    */
   init: function() {
-    this.setHelpUrl(Blockly.Msg.LISTS_CREATE_WITH_HELPURL);
+    this.setHelpUrl(Blockly.Msg.LISTS_CREATE_WITH_HELPURL[$.i18n().locale]);
     this.setColour(Blockly.Blocks.lists.HUE+10);
     this.itemCount_ = 3;
     this.updateShape_();
     this.setOutput(true, 'Tuple');
     this.setInputsInline(true);
-    this.setTooltip(Blockly.Msg.LISTS_CREATE_WITH_TOOLTIP);
+    this.setTooltip(Blockly.Msg.LISTS_CREATE_WITH_TOOLTIP[$.i18n().locale]);
   },
   /**
    * Create XML to represent list inputs.

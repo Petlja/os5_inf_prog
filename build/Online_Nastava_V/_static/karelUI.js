@@ -48,6 +48,7 @@ $(document).ready(function() {
         var canvas = $(this).find(".world")[0];
         var textarea = $(this).find(".codeArea")[0];
         var configarea = $(this).find(".configArea")[0];
+        var problemId  = this.id;
 
         var editor = CodeMirror.fromTextArea(textarea,{lineNumbers: true,
             mode: "python", indentUnit: 4,
@@ -76,7 +77,7 @@ $(document).ready(function() {
             var code = editor.getValue().replace(/\?\?\?\s+/g, "___ ")
             .replace(/\?\?\?/g,"___");
             var bpm = new BlocklPyModal();
-            bpm.open("Карел", 700, 500, code, eBookConfig.staticDir + 'blockly/',
+            bpm.open(Blockly.Msg.Title[$.i18n().locale], 700, 500, code, eBookConfig.staticDir + 'blockly/',
                function(src) {
                   if(src) {
                     editor.setValue("from karel import * \n" + src.replace(/\_\_\_/g,"???"));
@@ -97,12 +98,14 @@ $(document).ready(function() {
             Sk.configure({output: outf, read: builtinRead});
             Sk.canvas = canvas;
  	          var drawer = new RobotDrawer(canvas, 500);
-            Sk.Karel = {drawer: drawer, config: config};
+            Sk.Karel = {drawer: drawer, config: config};   
+            if(eBookConfig.staticDir === undefined)
+                eBookConfig.staticDir = '/_static/'
             Sk.externalLibraries = {
                 karel : {
                     path: eBookConfig.staticDir + 'karel.js',
-                }
-            };
+                }              }
+            ;
             //Sk.pre = "edoutput";
             try {
                 clearError();
@@ -155,6 +158,7 @@ $(document).ready(function() {
 		function showEndMessageSuccess(){
             var eContainer = outerDiv.appendChild(document.createElement('div'));
             eContainer.className = 'col-md-12 alert alert-success';
+            eContainer.id = problemId+"-success"; 
             var msgHead = $('<p>').html($.i18n("msg_karel_correct"));
             eContainer.appendChild(msgHead[0]);
             $('.run-button').removeAttr('disabled')
@@ -164,6 +168,7 @@ $(document).ready(function() {
 		function showEndMessageError(message){
             var eContainer = outerDiv.appendChild(document.createElement('div'));
             eContainer.className = 'col-md-12 alert alert-danger';
+            eContainer.id = problemId+"-error";
             var msgHead = $('<p>').html(message);
             eContainer.appendChild(msgHead[0]);
             $('.run-button').removeAttr('disabled');

@@ -1,7 +1,7 @@
 Blockly.Blocks['text_input_noprompt'] = {
   init: function() {
     this.appendDummyInput()
-        .appendField(Blockly.Msg.TEXT_INPUT);
+        .appendField(Blockly.Msg.TEXT_INPUT[$.i18n().locale]);
     this.setOutput(true, "String");
     this.setColour(230);
     this.setTooltip('');
@@ -16,9 +16,9 @@ Blockly.Python['text_input_noprompt'] = function(block) {
 Blockly.Blocks['text_input'] = {
   init: function() {
     this.appendDummyInput()
-        .appendField(Blockly.Msg.TEXT_INPUT)
+        .appendField(Blockly.Msg.TEXT_INPUT[$.i18n().locale])
         .appendField(this.newQuote_(true))
-        .appendField(new Blockly.FieldTextInput(Blockly.Msg.TEXT_INPUT_PROMPT_SAMPLE), "MESSAGE")
+        .appendField(new Blockly.FieldTextInput(Blockly.Msg.TEXT_INPUT_PROMPT_SAMPLE[$.i18n().locale]), "MESSAGE")
         .appendField(this.newQuote_(false));
     this.setOutput(true, "String");
     this.setColour(230);
