@@ -10,6 +10,7 @@
 	V_razred_uvod_1.rst
 	V_razred_lekcija_1.rst
 	V_razred_test_1.rst
+	V_razred_lekcija_2.rst
 	
 	
 	
