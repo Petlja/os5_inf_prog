@@ -60,7 +60,7 @@ lekcije:
   - tip: quiz
     ime: Квиз - Положај лика на позорници, прогами линијске структуре
     order: 
-    content: V_razred_test_2.rst
+    content: V_razred_test_2.html
     opis: #koristimo ovo polje da se izlistaju svi odgovori 
     alias: quiz2
 
