@@ -63,6 +63,12 @@ lekcije:
     content: V_razred_test_2.html
     opis: #koristimo ovo polje da se izlistaju svi odgovori 
     alias: quiz2
+  - tip: section
+    ime: Час 3
+    order: 3 #kod sekcije postoji u suprotnom prazan
+    content: #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
+    opis:  #opcioni - samo kod sekcije kako bi se u sadrzaju videlo objasnjenje (ako vec nije naveden sadrzaj gore)
+    alias: cas3
   - tip: html
     ime: Корњача графика
     order: 
