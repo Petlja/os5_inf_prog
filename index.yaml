@@ -63,6 +63,18 @@ lekcije:
     content: V_razred_test_2.html
     opis: #koristimo ovo polje da se izlistaju svi odgovori 
     alias: quiz2
+  - tip: html
+    ime: Корњача графика
+    order: 
+    content: V_razred_lekcija_3.html  #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
+    opis: #prazan
+    alias: lekcija3 #edinstven-alias-u-okviru-kursa1
+  - tip: quiz
+    ime: Квиз - Корњача графика
+    order: 
+    content: V_razred_test_3.html
+    opis: #koristimo ovo polje da se izlistaju svi odgovori 
+    alias: quiz3
 
 
 
