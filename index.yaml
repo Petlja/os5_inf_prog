@@ -42,7 +42,7 @@ lekcije:
   - tip: quiz
     ime: Квиз - Алгоритамски начин размишљања
     order: 
-    content: V_razred_test_1.rst
+    content: V_razred_test_1.html
     opis: #koristimo ovo polje da se izlistaju svi odgovori 
     alias: quiz1
   - tip: section
