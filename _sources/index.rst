@@ -13,5 +13,7 @@
 	V_razred_test_2.rst
 	V_razred_lekcija_3.rst
 	V_razred_test_3.rst	
-	
-	
+	V_razred_lekcija_4.rst
+	V_razred_test_4.rst
+	V_razred_lekcija_5.rst
+	V_razred_test_5.rst
