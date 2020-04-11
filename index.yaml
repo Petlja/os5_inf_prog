@@ -111,6 +111,19 @@ lekcije:
     content: V_razred_test_6.html
     opis: #koristimo ovo polje da se izlistaju svi odgovori 
     alias: quiz6
+    tip: html
+    ime: Понављање и оператори
+    order: 
+    content: V_razred_lekcija_7.html  #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
+    opis: #prazan
+    alias: lekcija7 #edinstven-alias-u-okviru-kursa1
+  - tip: quiz
+    ime: Квиз
+    order: 
+    content: V_razred_test_7.html
+    opis: #koristimo ovo polje da se izlistaju svi odgovori 
+    alias: quiz7
+
 
 
 

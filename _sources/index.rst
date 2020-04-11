@@ -18,3 +18,5 @@
 	V_razred_lekcija_5.rst
 	V_razred_test_5.rst
 	V_razred_test_6.rst
+	V_razred_lekcija_7.rst
+	V_razred_test_7.rst
