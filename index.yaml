@@ -81,6 +81,40 @@ lekcije:
     content: V_razred_test_3.html
     opis: #koristimo ovo polje da se izlistaju svi odgovori 
     alias: quiz3
+    tip: html
+    ime: Корњача графика - вежбање
+    order: 
+    content: V_razred_lekcija_4.html  #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
+    opis: #prazan
+    alias: lekcija4 #edinstven-alias-u-okviru-kursa1
+  - tip: quiz
+    ime: Квиз
+    order: 
+    content: V_razred_test_4.html
+    opis: #koristimo ovo polje da se izlistaju svi odgovori 
+    alias: quiz4
+    tip: html
+    ime: Понављање
+    order: 
+    content: V_razred_lekcija_5.html  #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
+    opis: #prazan
+    alias: lekcija5 #edinstven-alias-u-okviru-kursa1
+  - tip: quiz
+    ime: Квиз
+    order: 
+    content: V_razred_test_5.html
+    opis: #koristimo ovo polje da se izlistaju svi odgovori 
+    alias: quiz5
+  - tip: quiz
+    ime: Систематизација
+    order: 
+    content: V_razred_test_6.html
+    opis: #koristimo ovo polje da se izlistaju svi odgovori 
+    alias: quiz6
+
+
+
+
 
 
 
