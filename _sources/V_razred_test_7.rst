@@ -5,7 +5,7 @@
 Питање 1
 ~~~~~~~~~
 
-.. fillintheblank:: ai11
+.. fillintheblank:: ai11_fill
 		    
       .. image:: ../_images/pit7_1.png
         :width: 150px   
@@ -21,7 +21,7 @@
 Питање 2
 ~~~~~~~~~
 
-.. fillintheblank:: ai13
+.. fillintheblank:: ai13_fill
 		    
       .. image:: ../_images/pit7_2.png
         :width: 180px   
@@ -36,7 +36,7 @@
 ~~~~~~~~~
 
 
-.. fillintheblank:: ai14
+.. fillintheblank:: ai14_fill
 		
       .. image:: ../_images/pit7_3.png
         :width: 190px   
@@ -51,7 +51,7 @@
 ~~~~~~~~~
 
 
-.. fillintheblank:: ai15
+.. fillintheblank:: ai15_fill
 
       .. image:: ../_images/pit7_4.png
          :width: 190px   
