@@ -101,7 +101,7 @@ lekcije:
     alias: quiz4
   - tip: section
     ime: Час 5
-    order: 4 #kod sekcije postoji u suprotnom prazan
+    order: 5 #kod sekcije postoji u suprotnom prazan
     content: #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
     opis:  #opcioni - samo kod sekcije kako bi se u sadrzaju videlo objasnjenje (ako vec nije naveden sadrzaj gore)
     alias: cas5
@@ -119,7 +119,7 @@ lekcije:
     alias: quiz5
   - tip: section
     ime: Час 6
-    order: 4 #kod sekcije postoji u suprotnom prazan
+    order: 6 #kod sekcije postoji u suprotnom prazan
     content: #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
     opis:  #opcioni - samo kod sekcije kako bi se u sadrzaju videlo objasnjenje (ako vec nije naveden sadrzaj gore)
     alias: cas6
@@ -131,7 +131,7 @@ lekcije:
     alias: quiz6
   - tip: section
     ime: Час 7
-    order: 4 #kod sekcije postoji u suprotnom prazan
+    order: 7 #kod sekcije postoji u suprotnom prazan
     content: #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
     opis:  #opcioni - samo kod sekcije kako bi se u sadrzaju videlo objasnjenje (ako vec nije naveden sadrzaj gore)
     alias: cas7
