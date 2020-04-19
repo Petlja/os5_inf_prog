@@ -20,127 +20,155 @@ sadrzaj:
   - Како направити квиз
   - Листе у програму
   - Интеракција са корисником и разглашавање
+
 lekcije:
+
   - tip: section
     ime: Час 1
     order: 1 #kod sekcije postoji u suprotnom prazan
     content: #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
     opis:  #opcioni - samo kod sekcije kako bi se u sadrzaju videlo objasnjenje (ako vec nije naveden sadrzaj gore)
     alias: cas 1
+
   - tip: html
     ime: Увод
     order: 
     content: V_razred_uvod_1.html  #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
     opis: #prazan
     alias: uvod-lekcija #edinstven-alias-u-okviru-kursa1
+
   - tip: html
     ime: Алгоритамски начин размишљања
     order: 
     content: V_razred_lekcija_1.html  #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
     opis: #prazan
     alias: lekcija1 #edinstven-alias-u-okviru-kursa1
+
   - tip: quiz
     ime: Квиз - Алгоритамски начин размишљања
     order: 
     content: V_razred_test_1.html
     opis: #koristimo ovo polje da se izlistaju svi odgovori 
     alias: quiz1
+
+
   - tip: section
     ime: Час 2
     order: 2 #kod sekcije postoji u suprotnom prazan
     content: #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
     opis:  #opcioni - samo kod sekcije kako bi se u sadrzaju videlo objasnjenje (ako vec nije naveden sadrzaj gore)
     alias: cas2
+
   - tip: html
     ime: Положај лика на позорници, прогами линијске структуре
     order: 
     content: V_razred_lekcija_2.html  #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
     opis: #prazan
     alias: lekcija2 #edinstven-alias-u-okviru-kursa1
+
   - tip: quiz
     ime: Квиз - Положај лика на позорници, прогами линијске структуре
     order: 
     content: V_razred_test_2.html
     opis: #koristimo ovo polje da se izlistaju svi odgovori 
     alias: quiz2
+
+
   - tip: section
     ime: Час 3
     order: 3 #kod sekcije postoji u suprotnom prazan
     content: #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
     opis:  #opcioni - samo kod sekcije kako bi se u sadrzaju videlo objasnjenje (ako vec nije naveden sadrzaj gore)
     alias: cas3
+
   - tip: html
     ime: Корњача графика
     order: 
     content: V_razred_lekcija_3.html  #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
     opis: #prazan
     alias: lekcija3 #edinstven-alias-u-okviru-kursa1
+
   - tip: quiz
     ime: Квиз - Корњача графика
     order: 
     content: V_razred_test_3.html
     opis: #koristimo ovo polje da se izlistaju svi odgovori 
     alias: quiz3
+
+
   - tip: section
     ime: Час 4
     order: 4 #kod sekcije postoji u suprotnom prazan
     content: #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
     opis:  #opcioni - samo kod sekcije kako bi se u sadrzaju videlo objasnjenje (ako vec nije naveden sadrzaj gore)
     alias: cas4
+
   - tip: html
     ime: Корњача графика - вежбање
     order: 
     content: V_razred_lekcija_4.html  #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
     opis: #prazan
     alias: lekcija4 #edinstven-alias-u-okviru-kursa1
+
   - tip: quiz
     ime: Квиз
     order: 
     content: V_razred_test_4.html
     opis: #koristimo ovo polje da se izlistaju svi odgovori 
     alias: quiz4
+
+
   - tip: section
     ime: Час 5
     order: 5 #kod sekcije postoji u suprotnom prazan
     content: #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
     opis:  #opcioni - samo kod sekcije kako bi se u sadrzaju videlo objasnjenje (ako vec nije naveden sadrzaj gore)
     alias: cas5
+
   - tip: html
     ime: Понављање
     order: 
     content: V_razred_lekcija_5.html  #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
     opis: #prazan
     alias: lekcija5 #edinstven-alias-u-okviru-kursa1
+
   - tip: quiz
     ime: Квиз
     order: 
     content: V_razred_test_5.html
     opis: #koristimo ovo polje da se izlistaju svi odgovori 
     alias: quiz5
+
+
   - tip: section
     ime: Час 6
     order: 6 #kod sekcije postoji u suprotnom prazan
     content: #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
     opis:  #opcioni - samo kod sekcije kako bi se u sadrzaju videlo objasnjenje (ako vec nije naveden sadrzaj gore)
     alias: cas6
+
   - tip: quiz
     ime: Систематизација
     order: 
     content: V_razred_test_6.html
     opis: #koristimo ovo polje da se izlistaju svi odgovori 
     alias: quiz6
+
+
   - tip: section
     ime: Час 7
     order: 7 #kod sekcije postoji u suprotnom prazan
     content: #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
     opis:  #opcioni - samo kod sekcije kako bi se u sadrzaju videlo objasnjenje (ako vec nije naveden sadrzaj gore)
     alias: cas7
+
   - tip: html
-    ime: Понављање и оператори
+    ime: Условно извршавање (гранање)
     order: 
     content: V_razred_lekcija_7.html  #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
     opis: #prazan
     alias: lekcija7 #edinstven-alias-u-okviru-kursa1
+
   - tip: quiz
     ime: Квиз
     order: 
@@ -149,9 +177,24 @@ lekcije:
     alias: quiz7
 
 
+  - tip: section
+    ime: Час 8
+    order: 7 #kod sekcije postoji u suprotnom prazan
+    content: #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
+    opis:  #opcioni - samo kod sekcije kako bi se u sadrzaju videlo objasnjenje (ako vec nije naveden sadrzaj gore)
+    alias: cas8
 
+  - tip: html
+    ime: Променљиве
+    order: 
+    content: V_razred_lekcija_8.html  #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
+    opis: #prazan
+    alias: lekcija8 #edinstven-alias-u-okviru-kursa1
 
-
-
-
+  - tip: quiz
+    ime: Квиз
+    order: 
+    content: V_razred_test_8.html
+    opis: #koristimo ovo polje da se izlistaju svi odgovori 
+    alias: quiz8
 

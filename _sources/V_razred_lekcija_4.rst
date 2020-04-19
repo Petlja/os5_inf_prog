@@ -5,35 +5,37 @@
 
 .. topic:: У оквиру овог часа вежбаћемо све оно што смо до сада прошли: 
             
-            - корњача градика
+            - корњача графика
             - како лик може да црта док се креће
             - зашто спуштамо и подижемо оловку
             - како мењамо боју и дебљину оловке
-            - како кретанјем напред и окретанјем направити цртеж
+            - како кретањем напред и окретањем направити цртеж
 
 Можеш поново прочитати одељак о Корњача графици из нашег Приручника:
 
-   - `Понављање <https://petlja.org/biblioteka/r/lekcije/scratch3-prirucnik/kornjaca>`_
+   - `Корњача-графика <https://petlja.org/biblioteka/r/lekcije/scratch3-prirucnik/kornjaca>`_
 
 Пре него што пређеш даље пробај да урадиш вежбе које се налазе у нашем `Практикуму <https://petlja.org/biblioteka/r/lekcije/scratch3-praktikum/scratch3-kornjaca-grafika#id15>`__:
 
 .. infonote::
 
-  Шта црта следећи програм?
+    Који од датих цртежа црта следећи програм?
  
-  .. image:: ../_images/4_cas.png
-     :width: 190px   
-     :align: center
+    .. image:: ../_images/4_cas.png
+       :width: 190px   
+       :align: center
 	 
+    .. image:: ../_images/4_cas_resenje.png
+        :width: 330px   
+        :align: center
+
+
   .. reveal:: одговор
      :showtitle: Прикажи одговор
      :hidetitle: Сакриј одговор
  
-     **Одговор:**
+     **Одговор: правоугаоник.**
 
-     .. image:: ../_images/4_cas_resenje.png
-        :width: 330px   
-        :align: center
 
 
 

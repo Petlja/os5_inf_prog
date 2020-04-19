@@ -3,82 +3,100 @@
 ====
 
 Питање 1
-~~~~~~~~~
+~~~~~~~~
 
-.. fillintheblank:: ai11_fill
-		    
-      .. image:: ../_images/pit7_1.png
-        :width: 150px   
-        :align: center 
-        
-      Колика је вредност променљиве *а* по извршењу наредби: |blank|
-
-      -   :^4$: Тачно
-          :x: Наредба доделе вредности 5 променљивој а се извршава без обзира да ли је услов гранања испуњен или не.
-  
+.. mchoice:: if_q1
+    :answer_a: одговориће: дан је
+    :answer_b: одговориће: није дан
+    :answer_c: одговориће: ноћ је
+    :answer_d: неће ништа одговорити
+    :correct: d
+   
+    Шта ће изговорити лик ако корисник као одговор упише 11?
+   
+    .. image:: ../_images/L7/test_dan_je.png
+        :width: 400px
+        :align: center      
 
 
 Питање 2
-~~~~~~~~~
+~~~~~~~~
 
-.. fillintheblank:: ai13_fill
-		    
-      .. image:: ../_images/pit7_2.png
-        :width: 180px   
-        :align: center      
+.. mchoice:: if_q2
+    :multiple_answers:
+    :answer_a: 1
+    :answer_b: 2
+    :answer_c: 3
+    :answer_d: 4
+    :answer_e: 5
+    :correct: d, e
+   
+    Који од одговора корисника ће омогућити извршавање наредбе у ДА грани? (Изабери све тачне одговоре)
+   
+    .. image:: ../_images/L7/test_odg_veci_3.png
+         :width: 400px   
+         :align: center      
 
-      Колика је вредност променљиве а по извршењу наредби: |blank|
-
-      -   :0: Тачно
-          :x: Наредба доделе вредности 5 променљивој а се извршава без обзира да ли је услов гранања испуњен или не.
 
 Питање 3
-~~~~~~~~~
+~~~~~~~~
 
+.. mchoice:: if_q3
+    :answer_a: резултат је различит без обзира на положај миша
+    :answer_b: резултат је исти без обзира на положај миша
+    :answer_c: резултат је различит ако је миш у горњој половини позорнице
+    :answer_d: резултат је различит ако је миш у десној половини позорнице
+    :correct: b
 
-.. fillintheblank:: ai14_fill
-		
-      .. image:: ../_images/pit7_3.png
-        :width: 190px   
-        :align: center   
-        
-      Колика је вредност променљиве y по извршењу наредби: |blank|
+   
+    Упореди блокове нредби *A* и *B* по резултату рада.
+   
+    .. image:: ../_images/L7/test_mis_gore_desno.png
+        :width: 500px
+        :align: center      
 
-      -   :^-2$: Тачно
-          :x:  Наредба доделе вредности 5 променљивој а се извршава без обзира да ли је услов гранања испуњен или не.
 
 Питање 4
-~~~~~~~~~
+~~~~~~~~
 
-
-.. fillintheblank:: ai15_fill
-
-      .. image:: ../_images/pit7_4.png
-         :width: 190px   
+.. mchoice:: if_q4
+    :multiple_answers:
+    :answer_a: 3
+    :answer_b: 4
+    :answer_c: 5
+    :answer_d: 6
+    :answer_e: 7
+    :correct: a, b, c
+   
+    Који од одговора корисника ће довести до исписивања поруке? (Изабери све тачне одговоре)
+   
+    .. image:: ../_images/L7/test_odg_nije_veci_5.png
+         :width: 550px
          :align: center      
-
-      Колика је вредност променљиве y по извршењу наредби: |blank|
-
-      -   :^180$: Тачно
-          :x:  Наредба доделе вредности 5 променљивој а се извршава без обзира да ли је услов гранања испуњен или не.
 
 Питање 5
-~~~~~~~~~
+~~~~~~~~
 
-.. mchoice:: ai16
-   :multiple_answers:
-   :answer_a: 
-   :answer_b: 
-   :answer_c:
-   :correct: a
-   :feedback_a: 
-   :feedback_b: 
-   :feedback_c: 
+.. mchoice:: if_q5
+    :multiple_answers:
+    :answer_a: на месту A
+    :answer_b: на месту B
+    :answer_c: на месту C
+    :answer_d: на месту D
+    :correct: a, c, d
    
-
-   Који од следећих низова наредби размењује вредности променљивих а и b? (Изабери све тачне одговоре)
-   
-   .. image:: ../_images/pit7_5.png
-         :width: 500px   
+    Мачак извршава ове наредбе
+    
+    .. image:: ../_images/L7/test_dole_ili_levo.png
+         :width: 400px   
          :align: center      
+
+    Где може да буде мачак на почетку, да би се упутио ка центру позорнице? (Изабери све тачне одговоре)
+   
+    .. image:: ../_images/L7/test_pozornica.png
+         :width: 600px
+         :align: center      
+
+
+
 

@@ -33,7 +33,7 @@
    </iframe>
    </div>
 
-А ако желиш да бациш поглед и како изгледа програм који ово ради кликни |scratch_primer_projekat_link|.
+А ако желиш да бациш поглед и на програм који ово ради, кликни |scratch_primer_projekat_link|.
 
 .. |scratch_primer_projekat_link| raw:: html
 
