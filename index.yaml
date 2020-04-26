@@ -11,12 +11,13 @@ linkovi: #opciono
 sadrzaj:
   - Алгоритамски начин размишљања
   - Блоковско програмирање и окружење Scratch
-  - Положај лика на позорници, прогами линијске структуре 
+  - Положај лика на позорници, програми линијске структуре 
   - Врсте блокова у Скречу, низање корака
   - Корњача графика 
   - Понављање
   - Одлучивање (гранање)
-  - Математичке формуле у програму
+  - Математичке формуле у програму (променљиве)
+  - Процедуре
   - Како направити квиз
   - Листе у програму
   - Интеракција са корисником и разглашавање
@@ -157,17 +158,17 @@ lekcije:
 
   - tip: section
     ime: Час 7
-    order: 7 #kod sekcije postoji u suprotnom prazan
-    content: #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
-    opis:  #opcioni - samo kod sekcije kako bi se u sadrzaju videlo objasnjenje (ako vec nije naveden sadrzaj gore)
+    order: 7
+    content:
+    opis:
     alias: cas7
 
   - tip: html
     ime: Условно извршавање (гранање)
     order: 
-    content: V_razred_lekcija_7.html  #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
-    opis: #prazan
-    alias: lekcija7 #edinstven-alias-u-okviru-kursa1
+    content: V_razred_lekcija_7.html
+    opis:
+    alias: lekcija7
 
   - tip: quiz
     ime: Квиз
@@ -179,22 +180,61 @@ lekcije:
 
   - tip: section
     ime: Час 8
-    order: 7 #kod sekcije postoji u suprotnom prazan
-    content: #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
-    opis:  #opcioni - samo kod sekcije kako bi se u sadrzaju videlo objasnjenje (ako vec nije naveden sadrzaj gore)
+    order: 8 
+    content: 
+    opis:  
     alias: cas8
 
   - tip: html
     ime: Променљиве
     order: 
-    content: V_razred_lekcija_8.html  #kod sekcije prazan, kod html-a, quiz-a i pdf-a putanja do file-a, kod yt link
-    opis: #prazan
-    alias: lekcija8 #edinstven-alias-u-okviru-kursa1
+    content: V_razred_lekcija_8.html
+    opis: 
+    alias: lekcija8
 
   - tip: quiz
     ime: Квиз
     order: 
     content: V_razred_test_8.html
-    opis: #koristimo ovo polje da se izlistaju svi odgovori 
+    opis: 
     alias: quiz8
+
+
+  - tip: section
+    ime: Час 9
+    order: 9 
+    content: 
+    opis:
+    alias: cas9
+
+  - tip: html
+    ime: Променљиве - вежбање
+    order: 
+    content: V_razred_lekcija_9.html
+    opis:
+    alias: lekcija9
+
+
+  - tip: section
+    ime: Час 10
+    order: 10
+    content: 
+    opis:  
+    alias: cas10
+
+  - tip: html
+    ime: Процедуре
+    order: 
+    content: V_razred_lekcija_10.html
+    opis: 
+    alias: lekcija10
+
+  - tip: quiz
+    ime: Квиз - процедуре
+    order: 
+    content: V_razred_test_10.html
+    opis: 
+    alias: quiz10
+
+
 
