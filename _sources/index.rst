@@ -4,7 +4,7 @@
 =======
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     
     V_razred_uvod_1.rst
     V_razred_lekcija_1.rst
@@ -22,3 +22,6 @@
     V_razred_test_7.rst
     V_razred_lekcija_8.rst
     V_razred_test_8.rst
+    V_razred_lekcija_9.rst
+    V_razred_lekcija_10.rst
+    V_razred_test_10.rst
