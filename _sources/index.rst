@@ -30,3 +30,5 @@
     V_razred_cas13a_liste_citanje.rst
     V_razred_cas13b_liste_kviz.rst
     V_razred_cas14a_liste_vezbanje.rst
+    V_razred_cas15a_zvuk_citanje.rst
+    V_razred_cas15b_zvuk_kviz.rst

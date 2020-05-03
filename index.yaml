@@ -296,4 +296,24 @@ lekcije:
     alias: lekcija13
 
 
+  - tip: section
+    ime: Час 14
+    order: 14
+    content: 
+    opis:  
+    alias: cas14
+
+  - tip: html
+    ime: Звук и музика
+    order: 
+    content: V_razred_cas15a_zvuk_citanje.html
+    opis: 
+    alias: lekcija14
+
+  - tip: quiz
+    ime: Квиз - звук и музика
+    order: 
+    content: V_razred_cas15b_zvuk_kviz.html
+    opis: 
+    alias: quiz14
 
