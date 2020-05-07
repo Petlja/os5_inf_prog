@@ -46,11 +46,11 @@
     :answer_b: у горњем десном делу
     :answer_c: у доњем левом делу
     :answer_d: у доњем десном делу
-    :correct: b
+    :correct: d
     :feedback_a: Не.
-    :feedback_b: Тачно.
+    :feedback_b: Не.
     :feedback_c: Не.
-    :feedback_d: Не.
+    :feedback_d: Тачно.
 
     У Скреч окружењу, у којем делу позорнице је тачка са координатама x = 70, y = -90 ?
 
@@ -166,10 +166,10 @@
     :feedback_c: Тачно.
     :feedback_d: Не.
 
-    Која од понуђених слика се добија извршавањем ове скрипте?
+    Која од понуђених слика се добија извршавањем ове скрипте за лик представљен камењем (поред скрипте)?
 
     .. image:: ../_images/T_zavrsni/kamenje_skripta.png
-        :width: 200px   
+        :width: 450px
         :align: center
 
     .. image:: ../_images/T_zavrsni/kamenje_rezultat.png
