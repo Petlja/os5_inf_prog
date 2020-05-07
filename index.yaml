@@ -317,3 +317,17 @@ lekcije:
     opis: 
     alias: quiz14
 
+
+  - tip: section
+    ime: Час 15
+    order: 15
+    content: 
+    opis:  
+    alias: cas15
+
+  - tip: quiz
+    ime: Завршни квиз
+    order: 
+    content: V_razred_cas16a_zavrsni_kviz.html
+    opis: 
+    alias: quiz15
