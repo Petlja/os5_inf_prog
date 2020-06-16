@@ -1,6 +1,6 @@
-courseId: Test_primer
+courseId: kurs-peti
 lang: sr-Cyrl # ako je ćirilica onda sve ide na ćirilici, a u deploymentu će se ako treba konvertovati na latinicu natpis na kartici
-title: Пример Петљадок курса
+title: Информатика и рачунарство за пети разред
 description:
   willLearn: # list
     - Научићете 1
