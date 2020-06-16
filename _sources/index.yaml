@@ -1,5 +1,5 @@
 courseId: kurs-peti
-lang: sr-Cyrl # ako je ćirilica onda sve ide na ćirilici, a u deploymentu će se ako treba konvertovati na latinicu natpis na kartici
+lang: sr-Cyrl
 title: Информатика и рачунарство за пети разред
 description:
   willLearn: # list
@@ -24,11 +24,9 @@ lessons:
     activities:
       - type: reading
         title: Пример фајла
-        file: primer_1.rst # fajl se označava onako kako je u source folderu, pa se u zavisnosti od tipa fajla prilagođava tip lekcije (reading, video, quiz)
+        file: primer_1.rst
         description: #opciono
         guid: 71c00155-f7f3-410d-8019-e88d22cb7f01
-        #ova varijantasa /alias je samo za fazu migracije, poenta je da ako nije pronađen, onda se traži po aliasu, 
-        #pa ako se nađe i guid je NULL, upisuje se, a inače se javlja greška. Kada se tako postave guidi, posle može da se obriše /alias
       - type: reading
         title: Пример pdf фајла
         file: primer_dokument.pdf
@@ -41,7 +39,7 @@ lessons:
         guid: 61657689-aa6b-46c9-87da-51869d6477ee
       - type: quiz 
         title: Пример теста
-        file: primer_test_1.rst # kada uvedemo struktuirani format, ovde će moći da stoji test1.quiz.yaml
+        file: primer_test_1.rst
         description: ...
         guid: a725f29a-b323-4a1a-b52d-6eae141bc243
     archived-activities: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
@@ -53,11 +51,9 @@ lessons:
     activities:
       - type: reading
         title: Primer rst fajla
-        file: primer_2.rst # fajl se označava onako kako je u source folderu, pa se u zavisnosti od tipa fajla prilagođava tip lekcije (reading, video, quiz)
+        file: primer_2.rst
         description: #opciono
         guid: 4576c9a4-2071-4a21-b221-a646477e05be
-        #ova varijantasa /alias je samo za fazu migracije, poenta je da ako nije pronađen, onda se traži po aliasu, 
-        #pa ako se nađe i guid je NULL, upisuje se, a inače se javlja greška. Kada se tako postave guidi, posle može da se obriše /alias    
 archived-lessons: # ne smeta ni ako se ostave drugi atribudi iz aktivnosti, ali se gleda samo guid
   - guid: 3ced8ac6-8be7-4921-bea7-dccf89a7cc79
   - guid: 29a3a23a-0cdb-4a2b-ad6b-611d36c39db5
