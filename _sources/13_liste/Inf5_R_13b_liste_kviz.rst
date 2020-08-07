@@ -20,13 +20,13 @@
 
     Шта ће бити садржај ове листе
     
-    .. image:: ../../_images/T11/ListaInsekti.png
+    .. image:: ../../_images/S3_13_liste_kviz/ListaInsekti.png
         :width: 250
         :align: center
         
     након извршења ове наредбе?
 
-    .. image:: ../../_images/T11/ZamenaElementa.png
+    .. image:: ../../_images/S3_13_liste_kviz/ZamenaElementa.png
         :width: 375
         :align: center
 
@@ -47,13 +47,13 @@
 
     Која је вредност овог блока 
     
-    .. image:: ../../_images/T11/PretragaListe.png
+    .. image:: ../../_images/S3_13_liste_kviz/PretragaListe.png
         :width: 250
         :align: center
 
     ако листа изгледа овако?
     
-    .. image:: ../../_images/T11/ListaInsekti.png
+    .. image:: ../../_images/S3_13_liste_kviz/ListaInsekti.png
         :width: 250
         :align: center
 
@@ -74,13 +74,13 @@
    
     Шта ће бити садржај ове листе
     
-    .. image:: ../../_images/T11/ListaBrojevi.png
+    .. image:: ../../_images/S3_13_liste_kviz/ListaBrojevi.png
         :width: 150px
         :align: center
    
     након извршења ове наредбе?
 
-    .. image:: ../../_images/T11/IzbacivanjeElementa.png
+    .. image:: ../../_images/S3_13_liste_kviz/IzbacivanjeElementa.png
         :width: 305
         :align: center
 
@@ -100,11 +100,11 @@
    
     Која ће бити вредност променљиве "збир" након извршења ове скрипте (листа на почетку изгледа као на слици испод)?
 
-    .. image:: ../../_images/T11/Sabiranje.png
+    .. image:: ../../_images/S3_13_liste_kviz/Sabiranje.png
         :width: 450px
         :align: center
    
-    .. image:: ../../_images/T11/ListaBrojevi.png
+    .. image:: ../../_images/S3_13_liste_kviz/ListaBrojevi.png
         :width: 150px
         :align: center
 
@@ -125,6 +125,6 @@
 
     Листа на почетку садржи само број 1. Који бројеви ће се налазити у листи после извршења ове скрипте?
     
-    .. image:: ../../_images/T11/DodavanjeNaKraj.png
+    .. image:: ../../_images/S3_13_liste_kviz/DodavanjeNaKraj.png
         :width: 580
         :align: center

@@ -105,7 +105,7 @@
 
     У којем случају ће лик који подешен да оставља траг, извршавањем ових наредби нацртати троугао?
 
-    .. image:: ../../_images/T_zavrsni/trougao.png
+    .. image:: ../../_images/S3_16_zavrsni_kviz/trougao.png
         :width: 300px   
         :align: center
 
@@ -126,7 +126,7 @@
 
     Шта се исцртава извршавањем ове скрипте?
     
-    .. image:: ../../_images/T_zavrsni/stepenice.png
+    .. image:: ../../_images/S3_16_zavrsni_kviz/stepenice.png
         :width: 250px   
         :align: center
 
@@ -147,7 +147,7 @@
 
     Колико пута ће се извршити наредбе у телу овог циклуса?
 
-    .. image:: ../../_images/T_zavrsni/ponavljanje_do.png
+    .. image:: ../../_images/S3_16_zavrsni_kviz/ponavljanje_do.png
         :width: 400px
         :align: center
 
@@ -168,11 +168,11 @@
 
     Која од понуђених слика се добија извршавањем ове скрипте за лик представљен камењем (поред скрипте)?
 
-    .. image:: ../../_images/T_zavrsni/kamenje_skripta.png
+    .. image:: ../../_images/S3_16_zavrsni_kviz/kamenje_skripta.png
         :width: 450px
         :align: center
 
-    .. image:: ../../_images/T_zavrsni/kamenje_rezultat.png
+    .. image:: ../../_images/S3_16_zavrsni_kviz/kamenje_rezultat.png
         :width: 325px   
         :align: center
 
@@ -193,7 +193,7 @@
 
     У којем низу наредби се тело петље извршава већи број пута?
 
-    .. image:: ../../_images/T_zavrsni/idi_200.png
+    .. image:: ../../_images/S3_16_zavrsni_kviz/idi_200.png
         :width: 400px
         :align: center
 
@@ -214,7 +214,7 @@
 
     Шта ће бити исписано извршавањем ових наредби, ако је одговор једнак "маказа" (са "а" на крају)?
 
-    .. image:: ../../_images/T_zavrsni/if_papir_kamen_makaze.png
+    .. image:: ../../_images/S3_16_zavrsni_kviz/if_papir_kamen_makaze.png
         :width: 500px
         :align: center
 
@@ -235,7 +235,7 @@
 
     Ако знамо да одговор садржи цео број од 1 до 5, један од ових услова нема исто значење као остали. Који?
 
-    .. image:: ../../_images/T_zavrsni/uslov_3_4.png
+    .. image:: ../../_images/S3_16_zavrsni_kviz/uslov_3_4.png
         :width: 500px
         :align: center
 
@@ -256,7 +256,7 @@
 
     Која је вредност променљиве *a* након извршења ових наредби?
 
-    .. image:: ../../_images/T_zavrsni/a_vrednost.png
+    .. image:: ../../_images/S3_16_zavrsni_kviz/a_vrednost.png
         :width: 400px
         :align: center
 
@@ -277,7 +277,7 @@
 
     Које су вредности променљивих *x* и *y* након извршења ових наредби?
 
-    .. image:: ../../_images/T_zavrsni/x_y_vrednosti.png
+    .. image:: ../../_images/S3_16_zavrsni_kviz/x_y_vrednosti.png
         :width: 400px
         :align: center
 
@@ -298,7 +298,7 @@
 
     Које вредности треба да имају променљиве *a* и *b* да би након извршења ових наредби било *x* = 5, а *y* = 7?
 
-    .. image:: ../../_images/T_zavrsni/x_y_min_max.png
+    .. image:: ../../_images/S3_16_zavrsni_kviz/x_y_min_max.png
         :width: 400px
         :align: center
 
@@ -324,7 +324,7 @@
 		    
     Лево је скрипта чаробњака, а десно су скрипте његове ученице. Колико секунди траје програм?
 
-    .. image:: ../../_images/T_zavrsni/razglas_igranje.png
+    .. image:: ../../_images/S3_16_zavrsni_kviz/razglas_igranje.png
         :width: 800px
         :align: center
 
@@ -339,7 +339,7 @@
 		    
     Сваки од четири лика има по једну скрипту. Колико секунди траје програм?
 
-    .. image:: ../../_images/T_zavrsni/razglas_putovanje.png
+    .. image:: ../../_images/S3_16_zavrsni_kviz/razglas_putovanje.png
         :width: 600px
         :align: center
 
@@ -363,7 +363,7 @@
 
     Који ће бити садржај листе по извршењу програма?
 
-    .. image:: ../../_images/T_zavrsni/liste_brisanje.png
+    .. image:: ../../_images/S3_16_zavrsni_kviz/liste_brisanje.png
         :width: 600px
         :align: center
 

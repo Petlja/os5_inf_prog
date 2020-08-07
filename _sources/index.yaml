@@ -29,6 +29,8 @@ description:
   externalLinks:
     - text: Програмирање у Скречу 3.0, практикум за пети разред
       href: https://petlja.org/biblioteka/r/kursevi/scratch3-praktikum
+    - text: Петљини студији на сајту Скреч
+      href: https://scratch.mit.edu/search/studios?q=petlja
 
 lessons:
   - title: Увод
@@ -53,19 +55,35 @@ lessons:
         title: Квиз - Алгоритамски начин размишљања
         file: Inf5_R_01b_algoritmi_kviz.rst
         guid: 2e314791-53b4-4aee-9c85-afc9dc5f17e6
-  - title: Положај
+      - type: reading
+        title: Подешавања и почетак рада
+        file: Inf5_R_01c_priprema_za_rad_citanje.rst
+        guid: eb18682a-afa5-4a95-adb5-0c629f7e6b34
+      - type: reading
+        title: Први програм
+        file: Inf5_R_01d_prvi_program_citanje.rst
+        guid: cb1ca071-ca2a-4305-9544-367ae2b43d41
+  - title: Положај, оријентација и кретање
     folder: 02_polozaj
     guid: b9cfef3f-aae1-434e-a08a-09a04b864545
-    description:  Положај
+    description: Положај, оријентација и кретање
     activities:
       - type: reading
-        title: Положај и оријентација лика на позорници
+        title: Положај и кретање лика
         file: Inf5_R_02a_polozaj_citanje.rst
         guid: 532e5659-3dff-47f7-bf97-ef01ebf02e56
       - type: quiz
-        title: Квиз - Положај и оријентација лика на позорници
+        title: Квиз - Положај и кретање лика
         file: Inf5_R_02b_polozaj_kviz.rst
         guid: 1d6663b2-a7d7-4961-ab09-2f6a8c2d84c9
+      - type: reading
+        title: Усмеравање лика
+        file: Inf5_R_02c_usmeravanje_citanje.rst
+        guid: 959fc64f-5f04-451f-a966-aec7b1da464d
+      - type: quiz
+        title: Квиз - Усмеравање лика
+        file: Inf5_R_02d_usmeravanje_kviz.rst
+        guid: 98ad3d59-b99d-40dc-83c8-f602746920c5
   - title: Низање корака
     folder: 03_nizanje_koraka
     guid: 03300c0a-b86f-40a1-a725-d8e323b9ca92
@@ -79,10 +97,10 @@ lessons:
         title: Квиз - Низање корака
         file: Inf5_R_03b_nizanje_koraka_kviz.rst
         guid: 22c6ed4c-79b1-4fef-b816-02c8a3c25b17
-  - title: Корњача графика
+  - title: Цртање
     folder: 04_kornjaca
     guid: 482d75da-3f8f-4616-8b89-3d1240143c04
-    description:  Корњача графика
+    description:  Цртање - корњача графика
     activities:
       - type: reading
         title: Корњача графика
@@ -92,32 +110,28 @@ lessons:
         title: Квиз - Корњача графика
         file: Inf5_R_04b_kornjaca_kviz.rst
         guid: e218dbc4-8713-47b6-869d-8b9ef5808d21
-  - title: Корњача графика - вежбање
-    folder: 05_kornjaca_vezbanje
-    guid: 6f4ddd59-d242-4ee1-bb54-ae4c69bf5111
-    description:  Корњача графика - вежбање
-    activities:
-      - type: reading
-        title: Корњача графика
-        file: Inf5_R_05a_kornjaca_vezbanje.rst
-        guid: e681cdd9-ad87-459c-a3e0-e679deb94290
-      - type: quiz
-        title: Квиз - Корњача графика
-        file: Inf5_R_05b_kornjaca_kviz2.rst
-        guid: 7146abdf-cace-46ca-add7-c390d8662cd7
-  - title: Петље
-    folder: 06_petlje
+  - title: Наредбе понављања
+    folder: 05_petlje
     guid: c591cb2c-caeb-4ac5-ba51-6a8f3d726559
-    description:  Петље
+    description:  Наредбе понављања
     activities:
       - type: reading
         title: Наредбе понављања
-        file: Inf5_R_06a_petlje_citanje.rst
+        file: Inf5_R_05a_petlje_citanje.rst
         guid: bdd92d86-0c8e-4e25-ba5c-ae7d2a8d81c1
       - type: quiz
         title: Квиз - Наредбе понављања
-        file: Inf5_R_06b_petlje_kviz.rst
+        file: Inf5_R_05b_petlje_kviz.rst
         guid: 44dcf1d4-cb32-47bb-b2ac-f6b24ef0234c
+  - title: Наредбе понављања - вежбање
+    folder: 06_petlje_vezbanje
+    guid: 6f4ddd59-d242-4ee1-bb54-ae4c69bf5111
+    description:  Наредбе понављања - вежбање
+    activities:
+      - type: reading
+        title: Наредбе понављања - вежбање
+        file: Inf5_R_06a_petlje_vezbanje.rst
+        guid: e681cdd9-ad87-459c-a3e0-e679deb94290
   - title: Систематизација
     folder: 07_sistematizacija
     guid: d1b60d79-6886-4fda-a9b8-8f7f92d03767
