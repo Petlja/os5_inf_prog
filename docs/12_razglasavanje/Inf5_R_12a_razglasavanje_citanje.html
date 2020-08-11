@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sr-Cyrl">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Разглашавање &#8212; Petlja - Информатика и рачунарство за пети разред</title>
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/datafile.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/dragndrop.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/fitb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/lib/prettify.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/video.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webgldemo.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/user-highlights.css" />
+    <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/flatly.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/petlja.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/runestonebase.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/jquery.highlight.js"></script>
+    <script type="text/javascript" src="../_static/bookfuncs.js"></script>
+    <script type="text/javascript" src="../_static/codemirror.js"></script>
+    <script type="text/javascript" src="../_static/xml.js"></script>
+    <script type="text/javascript" src="../_static/css.js"></script>
+    <script type="text/javascript" src="../_static/python.js"></script>
+    <script type="text/javascript" src="../_static/htmlmixed.js"></script>
+    <script type="text/javascript" src="../_static/javascript.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/activecode.js"></script>
+    <script type="text/javascript" src="../_static/clike.js"></script>
+    <script type="text/javascript" src="../_static/timed_activecode.js"></script>
+    <script type="text/javascript" src="../_static/animationbase.js"></script>
+    <script type="text/javascript" src="../_static/mchoice.js"></script>
+    <script type="text/javascript" src="../_static/timedmc.js"></script>
+    <script type="text/javascript" src="../_static/timed.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/clickable.js"></script>
+    <script type="text/javascript" src="../_static/timedclickable.js"></script>
+    <script type="text/javascript" src="../_static/d3.v2.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.ba-bbq.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
+    <script type="text/javascript" src="../_static/pytutor.js"></script>
+    <script type="text/javascript" src="../_static/codelens.js"></script>
+    <script type="text/javascript" src="../_static/datafile.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop.js"></script>
+    <script type="text/javascript" src="../_static/timeddnd.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/fitb.js"></script>
+    <script type="text/javascript" src="../_static/timedfitb.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/matrixeq.js"></script>
+    <script type="text/javascript" src="../_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="../_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="../_static/parsons.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/timedparsons.js"></script>
+    <script type="text/javascript" src="../_static/poll.js"></script>
+    <script type="text/javascript" src="../_static/reveal.js"></script>
+    <script type="text/javascript" src="../_static/shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/showEval.js"></script>
+    <script type="text/javascript" src="../_static/tabbedstuff.js"></script>
+    <script type="text/javascript" src="../_static/runestonevideo.js"></script>
+    <script type="text/javascript" src="../_static/webglinteractive.js"></script>
+    <script type="text/javascript" src="../_static/FileSaver.min.js"></script>
+    <script type="text/javascript" src="../_static/Blob.js"></script>
+    <script type="text/javascript" src="../_static/karelCorner.js"></script>
+    <script type="text/javascript" src="../_static/karelRobot.js"></script>
+    <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
+    <script type="text/javascript" src="../_static/karelUI.js"></script>
+    <script type="text/javascript" src="../_static/karel.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/notes.js"></script>
+    <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
+    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
+    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
+    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
+    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <script type="text/javascript" src="../_static/waypoints.min.js"></script>
+    <script type="text/javascript" src="../_static/rangy-core.js"></script>
+    <script type="text/javascript" src="../_static/rangy-textrange.js"></script>
+    <script type="text/javascript" src="../_static/rangy-cssclassapplier.js"></script>
+    <script type="text/javascript" src="../_static/user-highlights.js"></script>
+    <script type="text/javascript" src="../_static/jquery.idle-timer.js"></script>
+    <script type="text/javascript" src="../_static/processing-1.4.1.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.hotkey.js"></script>
+    <script type="text/javascript" src="../_static/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Квиз - разглашавање" href="Inf5_R_12b_razglasavanje_kviz.html" />
+    <link rel="prev" title="Разглашавање" href="index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+<link rel="shortcut icon" href="../_static/favicon.ico" type="image/ico" />
+
+<script type="text/javascript">
+  eBookConfig = {};
+  eBookConfig.host = 'http://127.0.0.1:8000' ? 'http://127.0.0.1:8000' : 'http://127.0.0.1:8000';
+  eBookConfig.app = eBookConfig.host+'/runestone';
+  eBookConfig.ajaxURL = eBookConfig.app+'/ajax/';
+  eBookConfig.course = 'Информатика и рачунарство за пети разред';
+  eBookConfig.logLevel = 0;
+  eBookConfig.loginRequired = false;
+  eBookConfig.build_info = "";
+  eBookConfig.isLoggedIn = false;
+  eBookConfig.useRunestoneServices = false;
+  eBookConfig.python3 = true;
+  eBookConfig.basecourse = 'Информатика и рачунарство за пети разред';
+  eBookConfig.runestone_version = '3.1.1';
+  eBookConfig.imagesDir = '../_images/';
+  eBookConfig.staticDir = '../_static/';
+  if(typeof(Sk) != "undefined")
+      Sk.imgPath = eBookConfig.imagesDir;
+</script>
+
+<div id="fb-root"></div>
+
+
+
+  </head><body>
+
+
+<!-- Begin navbar -->
+
+<nav id="navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+  <div class="container">
+
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+     <img src="../_static/img/logo.png" style="width:80px; height: 80px;"> 
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="margin-top: 10px; margin-left: 25px;">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="../">Petlja - Информатика и рачунарство за пети разред</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div style="margin-left: 50%;margin-top: 5%;font-size: 20px;">
+  
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+    <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../00_uvod/index.html">Увод</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../00_uvod/Inf5_R_00_uvod.html"><strong>Увод</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../01_algoritmi/index.html">Алгоритми</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../01_algoritmi/Inf5_R_01a_algoritmi_citanje.html">Алгоритамски начин размишљања</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01_algoritmi/Inf5_R_01b_algoritmi_kviz.html">Квиз - Алгоритамски начин размишљања</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01_algoritmi/Inf5_R_01c_priprema_za_rad_citanje.html">Подешавања и почетак рада</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../01_algoritmi/Inf5_R_01d_prvi_program_citanje.html">Први програм</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../02_polozaj/index.html">Положај, оријентација и кретање</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../02_polozaj/Inf5_R_02a_polozaj_citanje.html">Положај и кретање лика</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02_polozaj/Inf5_R_02b_polozaj_kviz.html">Квиз - Положај и кретање лика</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02_polozaj/Inf5_R_02c_usmeravanje_citanje.html">Усмеравање лика</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../02_polozaj/Inf5_R_02d_usmeravanje_kviz.html">Квиз - Усмеравање лика</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../03_nizanje_koraka/index.html">Низање корака</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../03_nizanje_koraka/Inf5_R_03a_nizanje_koraka_citanje.html">Низање корака</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../03_nizanje_koraka/Inf5_R_03b_nizanje_koraka_kviz.html">Квиз - низање корака</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../04_kornjaca/index.html">Цртање</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../04_kornjaca/Inf5_R_04a_kornjaca_citanje.html">Корњача графика</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../04_kornjaca/Inf5_R_04b_kornjaca_kviz.html">Квиз - Корњача графика</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../05_petlje/index.html">Наредбе понављања</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../05_petlje/Inf5_R_05a_petlje_citanje.html">Наредбе понављања</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../05_petlje/Inf5_R_05b_petlje_kviz.html">Квиз - наредбе понављања</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../06_petlje_vezbanje/index.html">Наредбе понављања - вежбање</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../06_petlje_vezbanje/Inf5_R_06a_petlje_vezbanje.html">Наредбе понављања - вежбање</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../07_sistematizacija/index.html">Систематизација</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../07_sistematizacija/Inf5_R_07a_sistematizacija_kviz.html">Систематизација</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../08_grananje/index.html">Грањање</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../08_grananje/Inf5_R_08a_grananje_citanje.html">Условно извршавање (гранање)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../08_grananje/Inf5_R_08b_grananje_kviz.html">Квиз - гранање</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../09_promenljive/index.html">Променљиве</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../09_promenljive/Inf5_R_09a_promenljive_citanje.html">Променљиве</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../09_promenljive/Inf5_R_09b_promenljive_kviz.html">Квиз - променљиве</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../10_promenljive_vezbanje/index.html">Променљиве - вежбање</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../10_promenljive_vezbanje/Inf5_R_10a_promenljive_vezbanje.html">Променљиве - вежбање</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../11_procedure/index.html">Процедуре</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../11_procedure/Inf5_R_11a_procedure_citanje.html">Процедуре</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../11_procedure/Inf5_R_11b_procedure_kviz.html">Квиз - процедуре</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Разглашавање</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Разглашавање</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Inf5_R_12b_razglasavanje_kviz.html">Квиз - разглашавање</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../13_liste/index.html">Листе</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../13_liste/Inf5_R_13a_liste_citanje.html">Листе</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../13_liste/Inf5_R_13b_liste_kviz.html">Квиз - листе</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../14_liste_vezbanje/index.html">Листе - вежбање</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../14_liste_vezbanje/Inf5_R_14a_liste_vezbanje.html">Листе - вежбање</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../15_zvuk/index.html">Звук и музика</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../15_zvuk/Inf5_R_15a_zvuk_citanje.html">Звук и музика</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../15_zvuk/Inf5_R_15b_zvuk_kviz.html">Квиз - звук и музика</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../16_zavrsni_kviz/index.html">Завршни квиз</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../16_zavrsni_kviz/Inf5_R_16a_zavrsni_kviz.html">Завршни квиз</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+
+        </div>
+      </div>
+  </div>
+<div class="container col-md-12" id="continue-reading"></div>
+
+<div class="container col-md-10 col-md-offset-2" id="main-content" style="margin-top: 70px;">
+  
+  <div class="section" id="id1">
+<h1>Разглашавање<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="topic">
+<p class="topic-title first">У оквиру овог часа научићеш:</p>
+<ul class="simple">
+<li>шта су објаве (разглашавања) и како оне функционишу</li>
+<li>како да користиш објаве у својим програмима</li>
+</ul>
+</div>
+<p>Објаве су врло моћан начин да ускладиш, односно синхронизујеш понашање ликова и позадине у програму. Овај пут ћемо све што је потребно да се зна објашњавати успут, кроз примере.</p>
+<div class="section" id="id2">
+<h2>Примери<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>До сада већ сигурно умеш да синхронизујеш ликове помоћу наредби „чекај … секунду” из групе блокова за управљање. Ево још једне прилике да то провериш.</p>
+<div class="section" id="id3">
+<h3>Пример 1 - срнетина<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>Нека три девојчице, Дана, Ана и Тамара, воде следећи разговор:</p>
+<ul class="simple">
+<li>Дана: Ана, јеси ли јела некад срнетину?</li>
+<li>Ана: Нисам и нећу.</li>
+<li>Дана: А зашто не?</li>
+<li>Тамара: Чула је да брза храна није здрава.</li>
+<li>Све три: Ха ха ха</li>
+</ul>
+<p>Исти тај разговор можемо да прикажемо и у табели, додељујући успут трајање свакој реченици:</p>
+<table border="1" class="colwidths-given docutils align-left">
+<colgroup>
+<col width="15%" />
+<col width="35%" />
+<col width="15%" />
+<col width="35%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Трајање</th>
+<th class="head">Дана</th>
+<th class="head">Ана</th>
+<th class="head">Тамара</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>2 секунде</td>
+<td><strong>Ана, јеси ли јела некад срнетину?</strong></td>
+<td><em>чека</em></td>
+<td><em>чека</em></td>
+</tr>
+<tr class="row-odd"><td>2 секунде</td>
+<td><em>чека</em></td>
+<td><strong>Нисам и нећу.</strong></td>
+<td><em>чека</em></td>
+</tr>
+<tr class="row-even"><td>2 секунде</td>
+<td><strong>А зашто не?</strong></td>
+<td><em>чека</em></td>
+<td><em>чека</em></td>
+</tr>
+<tr class="row-odd"><td>3 секунде</td>
+<td><em>чека</em></td>
+<td><em>чека</em></td>
+<td><strong>Чула је да брза храна није здрава.</strong></td>
+</tr>
+<tr class="row-even"><td>заувек</td>
+<td><strong>Ха ха ха</strong></td>
+<td><strong>Ха ха ха</strong></td>
+<td><strong>Ха ха ха</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Сада се скрипта за сваку девојчицу лако саставља на основу њене колоне у табели. Да би скрипте биле једноставније, трајања узастопних чекања смо сабрали и представили једном наредбом чекања.</p>
+<a class="reference internal image-reference" href="../_images/SrnetinaCekanje_Dana.jpg"><img alt="../_images/SrnetinaCekanje_Dana.jpg" class="align-center" src="../_images/SrnetinaCekanje_Dana.jpg" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../_images/SrnetinaCekanje_Ana.jpg"><img alt="../_images/SrnetinaCekanje_Ana.jpg" class="align-center" src="../_images/SrnetinaCekanje_Ana.jpg" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../_images/SrnetinaCekanje_Tamara.jpg"><img alt="../_images/SrnetinaCekanje_Tamara.jpg" class="align-center" src="../_images/SrnetinaCekanje_Tamara.jpg" style="width: 500px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Проблем са оваквим начином синхронизовања ликова је у томе што он није нарочито флексибилан. Претпоставимо да хоћемо да продужимо трајање једне од реченица. Програм се, наравно, може преправити, али када продужимо трајање говора говорника у наредби „изговори”, треба још у скриптама осталих ликова пронаћи и продужити одговарајуће чекање. Слично је и када хоћемо да убацимо нову реченицу. Све ово постаје још компликованије када има више ликова и када је њихов разговор дужи. Уместо да уживамо у дорађивању програма и прављењу богатије и садржајније анимације, ми се све теже одлучјујемо да још понешто додамо, да не бисмо покварили и раздесили програм.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Хајде да видимо како би овај исти разговор могао да се направи помоћу разглашавања. Основна идеја разглашавања је врло једноставна - један од ликова (или позорница) направи објаву и разгласи је, као када телевизијска станица емитује програм. Сви ликови (укључујући и објављивача) могу а не морају да приме објаву, као што преко телевизора можемо а не морамо да пратимо програм.</p>
+<p>Ево како се праве објаве: у групи блокова „догађаји” изаберемо блок <img alt="razglasi" src="../_images/razglasi.png" /> и поставимо га у скрипту. У поље блока уместо „порука1” упишемо текст који желимо. То ће бити име наше објаве.</p>
+<a class="reference internal image-reference" href="../_images/RazglasavanjeMeni.jpg"><img alt="../_images/RazglasavanjeMeni.jpg" class="align-center" src="../_images/RazglasavanjeMeni.jpg" style="width: 375px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Блок <img alt="kad_primim" src="../_images/kad_primim.png" /> можемо да користимо и да бисмо синхронизовали скрипте једног лика између себе, али обично га користимо да бисмо ускладили понашање више ликова. У блоку <img alt="kad_primim" src="../_images/kad_primim.png" /> треба да изаберемо неку од до сада дефинисаних објава, а затим испод тог блока додамо наредбе које треба извршити када изабрана објава буде разглашена.</p>
+<p>За овај пример то је све што нам треба. Погледајмо скрипте за сваку од девојчица и у верзији када се користе објаве.</p>
+<a class="reference internal image-reference" href="../_images/SrnetinaObjave_Dana.jpg"><img alt="../_images/SrnetinaObjave_Dana.jpg" class="align-center" src="../_images/SrnetinaObjave_Dana.jpg" style="width: 500px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<a class="reference internal image-reference" href="../_images/SrnetinaObjave_Ana.jpg"><img alt="../_images/SrnetinaObjave_Ana.jpg" class="align-center" src="../_images/SrnetinaObjave_Ana.jpg" style="width: 500px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<a class="reference internal image-reference" href="../_images/SrnetinaObjave_Tamara.jpg"><img alt="../_images/SrnetinaObjave_Tamara.jpg" class="align-center" src="../_images/SrnetinaObjave_Tamara.jpg" style="width: 500px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>У овом случају, преправљање трајања појединих стања би било знатно једноставније - довољно је изменити програм на само једном месту.</p>
+</div>
+</div>
+<div class="section" id="id4">
+<h2>План комуникације<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p>Када се ликови у програму синхронизују помоћу објава, важно је да план комуникације буде једноставан. У противном, програм може да постане тежак за праћење. Један једноставан план комуникације је да само један лик „зна” када шта треба да се догоди, а остали не морају да знају „целу причу” него само примају објаве и реагују на њих. На тај начин везе између ликова остају једноставне, па нам је лако да пратимо комуникацију. Зато се овакав начин размене врло често користи.</p>
+<div class="section" id="id5">
+<h3>Пример 2 - спортови<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>У следећем, једноставном примеру, позорница мења позадине и сваку промену објављује, а лик прима поруке и реагује на њих коментаром.</p>
+<a class="reference internal image-reference" href="../_images/Sportovi_Izvrsavanje.jpg"><img alt="../_images/Sportovi_Izvrsavanje.jpg" class="align-center" src="../_images/Sportovi_Izvrsavanje.jpg" style="width: 764px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Скрипта позорнице изгледа овако:</p>
+<a class="reference internal image-reference" href="../_images/Sportovi_Pozornica.jpg"><img alt="../_images/Sportovi_Pozornica.jpg" class="align-center" src="../_images/Sportovi_Pozornica.jpg" style="width: 250px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Видимо да није неопходно да у скрипти позорнице кажемо колико треба да се чека да би се завршила реакција дечака. Довољно је да уместо блока <img alt="razglasi" src="../_images/razglasi.png" /> употребимо блок <img alt="razglasi_cekaj" src="../_images/razglasi_cekaj.png" />. Ово је последњи од три блока који су у вези са разглашавањем (два смо користили и у претходном примеру). Када користимо овај блок, рачунар неће наставити са извршавањем скрипте позорнице док се све реакције на објаву не заврше. Овде постоји само једна реакција, али и да их је више, све би биле сачекане. У случају да скрипте реакције такође нешто разглашавају и чекају, полазна скрипта би, наравно, сачекала заједно са њима. Захваљујући овако организованом сачекивању, све тече по реду и следећа позадина се појављује тек када се заврши скрипта реакције дечака.</p>
+<p>Погледајмо и скрипту дечака:</p>
+<a class="reference internal image-reference" href="../_images/Sportovi_Lik.jpg"><img alt="../_images/Sportovi_Lik.jpg" class="align-center" src="../_images/Sportovi_Lik.jpg" style="width: 420px;" /></a>
+<p>Примећујемо да ни „дечак не мора да зна” када ће се која позадина појавити. Што се њега тиче, позорница је могла да поставља позадине било којим редом, па и да их понавља, а скрипте којима дечак реагује на објаве не би морале због тога уопште да се мењају.</p>
+<p>У овом примеру скрипте позорнице и дечака нису независне, оне сарађују путем објава. Међутим, ове скрипте нису ни превише повезане: позорница не зна ништа о томе како дечак реагује на објаве (могао је и да се шета по слици или ради нешто друго), ни колико те реакције трају; са друге стране дечак не зна када ће која објава да се догоди, а то му није ни потребно да би реаговао. Овом лабавом повезаношћу позорнице и дечака добијамо програм који је лакше преправљати, уколико пожелимо да га мењамо.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="id6">
+<h3>Пример 3 - пантер, мајмун и банане<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<p>Џиновска чаробна жаба налази се на обали реке, заједно са пантером, мајмуном и бананама. Жаба треба на својим леђима да пренесе преко реке пантера, мајмуна и банане. При томе може да их преноси само једно по једно и не сме да остави без надзора на истој обали пантера и мајмуна (јер би пантер појео мајмуна), ни мајмуна и банане (јер би мајмун појео банане). Којим редом жаба треба да преноси пантера, мајмуна и банане, да би се сви нашли на другој обали?</p>
+<a class="reference internal image-reference" href="../_images/PanterMajmunBanane.jpg"><img alt="../_images/PanterMajmunBanane.jpg" class="align-center" src="../_images/PanterMajmunBanane.jpg" style="width: 470px;" /></a>
+<p>Ова мозгалица је веома стара, а позната је као задатак о вуку, кози и купусу. Ако ти задатак није познат од раније, немој да пропустиш забаву - пробај прво да самостално смислиш редослед прелазака преко реке.</p>
+<p>Наш стварни задатак овде је да, знајући редослед прелазака преко реке, направимо пројекат који те преласке приказује. Нека су на почетку сви на левој обали и треба да пређу на десну. Један од два могућа редоследа прелажења је овај (други се добија када пантер и банане замене улоге):</p>
+<table border="1" class="colwidths-given docutils align-left">
+<colgroup>
+<col width="40%" />
+<col width="30%" />
+<col width="30%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Акција</th>
+<th class="head">лево остају</th>
+<th class="head">десно остају</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>жаба преноси мајмуна</td>
+<td>пантер и банане</td>
+<td>жаба и мајмун</td>
+</tr>
+<tr class="row-odd"><td>жаба се враћа</td>
+<td>жаба, пантер и банане</td>
+<td>мајмун</td>
+</tr>
+<tr class="row-even"><td>жаба преноси банане</td>
+<td>пантер</td>
+<td>жаба, мајмун и банане</td>
+</tr>
+<tr class="row-odd"><td>жаба се враћа са мајмуном</td>
+<td>жаба, пантер и мајмун</td>
+<td>банане</td>
+</tr>
+<tr class="row-even"><td>жаба преноси пантера</td>
+<td>мајмун</td>
+<td>жаба, пантер и банане</td>
+</tr>
+<tr class="row-odd"><td>жаба се враћа</td>
+<td>жаба и мајмун</td>
+<td>пантер и банане</td>
+</tr>
+<tr class="row-even"><td>жаба преноси мајмуна</td>
+<td>нико</td>
+<td>сви</td>
+</tr>
+</tbody>
+</table>
+<p>Ради решавања оригиналног задатка је требало сетити се да жаба може и да врати мајмуна на леву обалу. Сада када знамо редослед потеза, хајде да видимо како да их прикажемо.</p>
+<p>Жаба би могла да објављује потезе, а сви остали само реагују на објаве. То значи да у скриптама пантера, мајмуна и банана нема никаквог знања о томе како ће се сви они наћи на другој страни, они само умеју да иду са жабом кад их она позове. Сво знање се налази у главној жабиној скрипти, која изгледа овако:</p>
+<a class="reference internal image-reference" href="../_images/PanterMajmunBanane_Zaba1.jpg"><img alt="../_images/PanterMajmunBanane_Zaba1.jpg" class="align-center" src="../_images/PanterMajmunBanane_Zaba1.jpg" style="width: 400px;" /></a>
+<p>Променљиве <strong>а</strong>, <strong>б</strong> и <strong>т</strong> се не мењају током рада програма, па уместо њих свуда у програму могу да стоје бројеви 100, 170, 1. Променљиве смо користили да бисмо лакше подешавали положаје ликова и брзину анимације, јер током испробавања је лакше мењати на пример све брзине на само једном месту. Улоге ових променљивих ћеш још боље разумети када погледаш остале скрипте.</p>
+<p>Поред главне, жаба има и две споредне скрипте, за постављање на почетни положај и за прелазак реке:</p>
+<a class="reference internal image-reference" href="../_images/PanterMajmunBanane_Zaba2.jpg"><img alt="../_images/PanterMajmunBanane_Zaba2.jpg" class="align-center" src="../_images/PanterMajmunBanane_Zaba2.jpg" style="width: 400px;" /></a>
+<p>Жаба на основу <em>X</em> координате свог положаја зна на коју страну треба да иде. Ако је <em>X</em> негативно, значи да се жаба налази на левој страни па треба прећи са леве на десну обалу, а ако је <em>X</em>  позитивно, жаба треба да се врати на леву страну.</p>
+<p>Скрипте осталих ликова су међусобно скоро истоветне, зато ћемо их показати само за пантера:</p>
+<a class="reference internal image-reference" href="../_images/PanterMajmunBanane_Panter.jpg"><img alt="../_images/PanterMajmunBanane_Panter.jpg" class="align-center" src="../_images/PanterMajmunBanane_Panter.jpg" style="width: 400px;" /></a>
+<p>Када пантер прими објаву „пређи са пантером”, он прво дође до жабе (попне јој се на леђа), затим пређе реку заједно са жабом, а на крају сиђе са жабе и стане на своје место на другој обали. Да ли се иде на лево или на десно, пантер одређује на исти начин као и жаба.</p>
+<p>Остала два лика извршавају исте кораке, само што мајмун реагује на објаву „пређи са мајмуном”, а банане на објаву „пређи са бананама”. Још једна мала разлика између скрипти ових ликова је у томе што они користе различите <em>Y</em> координате за свој положај на обали. За пантера је та <em>Y</em> координата 120, за мајмуна 0, а за банане -120.</p>
+</div>
+</div>
+<div class="section" id="id7">
+<h2>Додатак<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<p>Погледај и примере
+<a class="reference external" href="https://petlja.org/biblioteka/r/lekcije/scratch3-praktikum/scratch3-kornjaca-grafika#id6">Породица</a>
+и <a class="reference external" href="https://petlja.org/biblioteka/r/lekcije/scratch3-praktikum/scratch3-grananje#id4">Дан и ноћ</a>
+из нашег практикума, где ћеш видети још неке начине да се реагује на објаве. На пример, видимо да се ликовима може покренути и више скрипти као реакција на једну објаву, да реакција може да садржи и наредбу понављања итд. У наредним лекцијама ће бити још примера у којима се понашање ликова усклађује разглашавањем.</p>
+<p>Петљин <a class="reference external" href="https://scratch.mit.edu/studios/27294857">студио Разглашавање</a> на сајту Скреча садржи урађене пројекте за задатке сличне оним којима смо се овде бавили.</p>
+</div>
+</div>
+
+
+  
+      <div class="col-md-12">
+<ul class="pager">
+    <li id="relations-prev" title='Previous chapter - Разглашавање' data-toggle="tooltip"><a href="index.html"><i class="fas fa-arrow-left"></i></a></li>
+    
+        <li id="relations-next" title='Next chapter - Квиз - разглашавање' data-toggle="tooltip"><a href="Inf5_R_12b_razglasavanje_kviz.html"><i class="fas fa-arrow-right"></i></a></li>
+</ul>
+
+<!-- <ul class="pager"> -->
+    <!-- -->
+        <!-- <li id="relations-prev" title='Претходно поглавље - Разглашавање' data-toggle="tooltip"><a href="index.html">Претходно поглавље</a></li> -->
+    <!--  -->
+    <!-- -->
+        <!-- <li id="relations-next" title='Следеће поглавље - Квиз - разглашавање' data-toggle="tooltip"><a href="Inf5_R_12b_razglasavanje_kviz.html">Следеће поглавље</a></li> -->
+    <!-- -->
+<!-- </ul> -->
+
+<script type="text/javascript">
+
+  $('#relations-prev').tooltip({'placement':'right', 'selector': '', 'delay': { show: 100, hide: 50}});
+  $('#relations-next').tooltip({'placement':'left', 'selector': '', 'delay': { show: 100, hide: 50}});
+
+</script>
+</div>
+  
+</div>
+<footer class="footer col-md-12">
+    <div class="container">
+        <div class="text-center">
+            <hr>
+            <p class="text-muted">
+                <span class="pull-left">&copy; 2019 Petlja (Created using  <a href="https://pypi.org/project/Sphinx/">Swinx</a>, <a href="http://runestoneinteractive.org/">RunestoneComponents</a> and <a href="https://github.com/Petlja/PetljaDoc">PetljaDoc</a>)</span>
+            </p>
+        </div>
+    </div>
+</footer>
+
+
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-32029811-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+
+  </body>
+</html>

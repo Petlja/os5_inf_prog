@@ -1,0 +1,8 @@
+===============
+Листе - вежбање
+===============
+
+.. toctree:: 
+    :maxdepth: 1
+
+    Inf5_R_14a_liste_vezbanje.rst

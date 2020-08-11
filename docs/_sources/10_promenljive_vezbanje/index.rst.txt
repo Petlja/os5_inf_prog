@@ -1,0 +1,8 @@
+====================
+Променљиве - вежбање
+====================
+
+.. toctree:: 
+    :maxdepth: 1
+
+    Inf5_R_10a_promenljive_vezbanje.rst
