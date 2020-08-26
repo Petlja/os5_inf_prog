@@ -102,7 +102,7 @@
 
 .. image:: ../../_images/S3_05_petlje/romb_skripta.png
     :align: center
-    :width: 600
+    :width: 400
 
 
 
@@ -166,7 +166,7 @@
 
 .. image:: ../../_images/S3_05_petlje/auto_odlazi_skripte.png
     :align: center
-    :width: 400
+    :width: 360
 
 
 Пример 5 - Саобраћај
