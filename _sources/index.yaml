@@ -43,217 +43,217 @@ description:
       href: https://scratch.mit.edu/search/studios?q=petlja
 
 lessons:
-  - title: Увод
+  - title: 1 Увод
     folder: 00_uvod
     guid: 89f64b37-66ad-401e-9194-338ea66ce08d
     description: Увод
     activities:
       - type: reading
-        title: Увод
+        title: 1 Увод
         file: Inf5_R_00_uvod.rst
         guid: 17641290-d557-43c4-b021-5697a874d9e7
-  - title: Алгоритми
+  - title: 2 Алгоритми
     folder: 01_algoritmi
     guid: e65f6f86-4782-4a97-b024-8609fcf392a5
     description:  Алгоритми
     activities:
       - type: reading
-        title: Алгоритамски начин размишљања
+        title: 2.1. Алгоритамски начин размишљања
         file: Inf5_R_01a_algoritmi_citanje.rst
         guid: f3b55b94-0020-4cac-babc-40ec0fabf6ad
       - type: quiz
-        title: Квиз - Алгоритамски начин размишљања
+        title: 2.2. Квиз - Алгоритамски начин размишљања
         file: Inf5_R_01b_algoritmi_kviz.rst
         guid: 2e314791-53b4-4aee-9c85-afc9dc5f17e6
       - type: reading
-        title: Подешавања и почетак рада
+        title: 2.3. Подешавања и почетак рада
         file: Inf5_R_01c_priprema_za_rad_citanje.rst
         guid: eb18682a-afa5-4a95-adb5-0c629f7e6b34
       - type: reading
-        title: Први програм
+        title: 2.4. Први програм
         file: Inf5_R_01d_prvi_program_citanje.rst
         guid: cb1ca071-ca2a-4305-9544-367ae2b43d41
-  - title: Положај, оријентација и кретање
+  - title: 3. Положај, оријентација и кретање
     folder: 02_polozaj
     guid: b9cfef3f-aae1-434e-a08a-09a04b864545
     description: Положај, оријентација и кретање
     activities:
       - type: reading
-        title: Положај и кретање лика
+        title: 3.1. Положај и кретање лика
         file: Inf5_R_02a_polozaj_citanje.rst
         guid: 532e5659-3dff-47f7-bf97-ef01ebf02e56
       - type: quiz
-        title: Квиз - Положај и кретање лика
+        title: 3.2. Квиз - Положај и кретање лика
         file: Inf5_R_02b_polozaj_kviz.rst
         guid: 1d6663b2-a7d7-4961-ab09-2f6a8c2d84c9
       - type: reading
-        title: Усмеравање лика
+        title: 3.3. Усмеравање лика
         file: Inf5_R_02c_usmeravanje_citanje.rst
         guid: 959fc64f-5f04-451f-a966-aec7b1da464d
       - type: quiz
-        title: Квиз - Усмеравање лика
+        title: 3.4. Квиз - Усмеравање лика
         file: Inf5_R_02d_usmeravanje_kviz.rst
         guid: 98ad3d59-b99d-40dc-83c8-f602746920c5
-  - title: Низање корака
+  - title: 4. Низање корака
     folder: 03_nizanje_koraka
     guid: 03300c0a-b86f-40a1-a725-d8e323b9ca92
     description:  Низање корака
     activities:
       - type: reading
-        title: Низање корака
+        title: 4.1. Низање корака
         file: Inf5_R_03a_nizanje_koraka_citanje.rst
         guid: 00a94999-1457-43a2-b138-5b68b30e140b
       - type: quiz
-        title: Квиз - Низање корака
+        title: 4.2. Квиз - Низање корака
         file: Inf5_R_03b_nizanje_koraka_kviz.rst
         guid: 22c6ed4c-79b1-4fef-b816-02c8a3c25b17
-  - title: Цртање
+  - title: 5. Цртање
     folder: 04_kornjaca
     guid: 482d75da-3f8f-4616-8b89-3d1240143c04
     description:  Цртање - корњача графика
     activities:
       - type: reading
-        title: Корњача графика
+        title: 5.1. Корњача графика
         file: Inf5_R_04a_kornjaca_citanje.rst
         guid: 670a08a8-6a4c-43fe-a52a-14aeb27371c9
       - type: quiz
-        title: Квиз - Корњача графика
+        title: 5.2. Квиз - Корњача графика
         file: Inf5_R_04b_kornjaca_kviz.rst
         guid: e218dbc4-8713-47b6-869d-8b9ef5808d21
-  - title: Наредбе понављања
+  - title: 6. Наредбе понављања
     folder: 05_petlje
     guid: c591cb2c-caeb-4ac5-ba51-6a8f3d726559
     description:  Наредбе понављања
     activities:
       - type: reading
-        title: Наредбе понављања
+        title: 6.1. Наредбе понављања
         file: Inf5_R_05a_petlje_citanje.rst
         guid: bdd92d86-0c8e-4e25-ba5c-ae7d2a8d81c1
       - type: quiz
-        title: Квиз - Наредбе понављања
+        title: 6.2. Квиз - Наредбе понављања
         file: Inf5_R_05b_petlje_kviz.rst
         guid: 44dcf1d4-cb32-47bb-b2ac-f6b24ef0234c
-  - title: Наредбе понављања - вежбање
+  - title: 7. Наредбе понављања - вежбање
     folder: 06_petlje_vezbanje
     guid: 6f4ddd59-d242-4ee1-bb54-ae4c69bf5111
     description:  Наредбе понављања - вежбање
     activities:
       - type: reading
-        title: Наредбе понављања - вежбање
+        title: 7. Наредбе понављања - вежбање
         file: Inf5_R_06a_petlje_vezbanje.rst
         guid: e681cdd9-ad87-459c-a3e0-e679deb94290
-  - title: Систематизација
+  - title: 8. Систематизација
     folder: 07_sistematizacija
     guid: d1b60d79-6886-4fda-a9b8-8f7f92d03767
     description:  Систематизација
     activities:
       - type: quiz
-        title: Квиз - Систематизација
+        title: 8. Квиз - Систематизација
         file: Inf5_R_07a_sistematizacija_kviz.rst
         guid: 9cc9f3d5-295c-4b79-9190-37b95bcc7b9c
-  - title: Грањање
+  - title: 9. Грањање
     folder: 08_grananje
     guid: 3e5d921c-a2df-431b-8053-2e166aba4cbb
     description:  Грањање
     activities:
       - type: reading
-        title: Условно извршавање (гранање)
+        title: 9.1. Условно извршавање (гранање)
         file: Inf5_R_08a_grananje_citanje.rst
         guid: 7b7c3a5b-e597-44b3-b0bf-00fd90f62c4c
       - type: quiz
-        title: Квиз - гранање
+        title: 9.2. Квиз - гранање
         file: Inf5_R_08b_grananje_kviz.rst
         guid: ad755c0c-0211-48fd-891b-9c426216bd2f
-  - title: Променљиве
+  - title: 10.Променљиве
     folder: 09_promenljive
     guid: 5417d862-f043-47e1-96d8-cddac3e4a512
     description:  Променљиве
     activities:
       - type: reading
-        title: Променљиве
+        title: 10.1. Променљиве
         file: Inf5_R_09a_promenljive_citanje.rst
         guid: dbc45bed-8ef0-4e85-be4f-91ca05cd7053
       - type: quiz
-        title: Квиз - променљиве
+        title: 10.2. Квиз - променљиве
         file: Inf5_R_09b_promenljive_kviz.rst
         guid: f773d76c-a812-4954-9e8a-1532eb1a06cb
-  - title: Променљиве - вежбање
+  - title: 11. Променљиве - вежбање
     folder: 10_promenljive_vezbanje
     guid: 08281eeb-ba4b-4a16-aac5-7e0ef8f76179
     description:  Променљиве - вежбање
     activities:
       - type: reading
-        title: Променљиве - вежбање
+        title: 11. Променљиве - вежбање
         file: Inf5_R_10a_promenljive_vezbanje.rst
         guid: c234da73-8b8b-49ee-94be-0a51dfbfc9a4
-  - title: Процедуре
+  - title: 12. Процедуре
     folder: 11_procedure
     guid: f0b6753d-b5b5-432c-9441-1334739c1a3a
     description:  Процедуре
     activities:
       - type: reading
-        title: Процедуре
+        title: 12.1. Процедуре
         file: Inf5_R_11a_procedure_citanje.rst
         guid: 0de5dcff-abef-42ff-8dfa-aa0698fcdf90
       - type: quiz
-        title: Квиз - процедуре
+        title: 12.2. Квиз - процедуре
         file: Inf5_R_11b_procedure_kviz.rst
         guid: 853b4a7d-7810-450b-90b8-1709f33cb888
-  - title: Разглашавање
+  - title: 13. Разглашавање
     folder: 12_razglasavanje
     guid: b75ecf46-86a3-4d01-9ddb-b1700457caa4
     description:  Разглашавање
     activities:
       - type: reading
-        title: Разглашавање
+        title: 13.1. Разглашавање
         file: Inf5_R_12a_razglasavanje_citanje.rst
         guid: 59df740f-1673-48a7-97ca-cc3fa50f29eb
       - type: quiz
-        title: Квиз - разглашавање
+        title: 13.2. Квиз - разглашавање
         file: Inf5_R_12b_razglasavanje_kviz.rst
         guid: 370f1eb9-7267-443f-a48b-34e5fe106feb
-  - title: Листе
+  - title: 14. Листе
     folder: 13_liste
     guid: e58ec028-df9f-4278-a70e-ffba1e18262f
     description: Листе
     activities:
       - type: reading
-        title: Листе
+        title: 14.1. Листе
         file: Inf5_R_13a_liste_citanje.rst
         guid: 301192fc-1c63-4f03-91fd-9ebf60704101
       - type: quiz
-        title: Квиз - листе
+        title: 14.2. Квиз - листе
         file: Inf5_R_13b_liste_kviz.rst
         guid: 17d4a70a-43fd-476d-8706-6e1f03166c79
-  - title: Листе - вежбање
+  - title: 15. Листе - вежбање
     folder: 14_liste_vezbanje
     guid: 4f0a7ca0-8246-4cb2-a380-4b3442eb6f07
     description: Листе - вежбање
     activities:
       - type: reading
-        title: Листе - вежбање
+        title: 15. Листе - вежбање
         file: Inf5_R_14a_liste_vezbanje.rst
         guid: 536ef363-19c1-4bec-8539-f5803f36ec78
-  - title: Звук и музика
+  - title: 16. Звук и музика
     folder: 15_zvuk
     guid: 8f6b00d9-9813-441b-8650-553d4deee48e
     description: Звук и музика
     activities:
       - type: reading
-        title: Звук и музика
+        title: 16.1. Звук и музика
         file: Inf5_R_15a_zvuk_citanje.rst
         guid: b0a0f2a9-f30d-4d68-9e90-3f8f5f407bca
       - type: quiz
-        title: Квиз - звук и музика
+        title: 16.2. Квиз - звук и музика
         file: Inf5_R_15b_zvuk_kviz.rst
         guid: d35620ca-eb31-4678-8d76-25cc273a910c
 
-  - title: Завршни квиз
+  - title: 17. Завршни квиз
     folder: 16_zavrsni_kviz
     guid: c2d6fa59-d349-4f06-b55a-6aa0280250c8
     description: Завршни квиз
     activities:
       - type: quiz
-        title: Завршни квиз
+        title: 17. Завршни квиз
         file: Inf5_R_16a_zavrsni_kviz.rst
         guid: b004ebd8-a620-4329-9bc7-b1df72e9a75c
