@@ -34,7 +34,7 @@
 
 .. |scratch_primer_projekat_link| raw:: html
 
-   <a href="https://scratch.mit.edu/projects/173903305/editor/" target="_blank">ovde</a>
+   <a href="https://scratch.mit.edu/projects/173903305/editor/" target="_blank">овде</a>
 
 Наредне лекције ће ти помоћи да направиш своје прве програмерске кораке у једном визуелном програмском језику, а текстуално програмирање те чека већ у 6. разреду. 
 
