@@ -14,9 +14,9 @@
     :answer_d: користиш ону јачину на коју су слушалице већ подешене
     :correct: a
     :feedback_a: Тачно.
-    :feedback_b: Не.
-    :feedback_c: Не.
-    :feedback_d: Не.
+    :feedback_b: Нетачно.
+    :feedback_c: Нетачно.
+    :feedback_d: Нетачно.
 
     Када почињеш рад за звуком у Скречу, а нарочито ако користиш слушалице, препоручује се да ...
        
@@ -44,10 +44,10 @@
     :answer_c: је доступна само неким корисницима
     :answer_d: постаје доступна на захтев
     :correct: b
-    :feedback_a: Не.
+    :feedback_a: Нетачно.
     :feedback_b: Тачно.
-    :feedback_c: Не.
-    :feedback_d: Не.
+    :feedback_c: Нетачно.
+    :feedback_d: Нетачно.
 
     Група наредби (блокова) "музика" ...
        
@@ -61,9 +61,9 @@
     :answer_c: број нота које се могу одсвирати у једном минуту
     :answer_d: број откуцаја у минуту
     :correct: d
-    :feedback_a: Не.
-    :feedback_b: Не.
-    :feedback_c: Не.
+    :feedback_a: Нетачно.
+    :feedback_b: Нетачно.
+    :feedback_c: Нетачно.
     :feedback_d: Тачно.
 
     Темпо у музици је ...
@@ -79,8 +79,8 @@
     :answer_d: у четвртинама
     :correct: a
     :feedback_a: Тачно.
-    :feedback_b: Не.
-    :feedback_c: Не.
-    :feedback_d: Не.
+    :feedback_b: Нетачно.
+    :feedback_c: Нетачно.
+    :feedback_d: Нетачно.
 
     У којим јединицама се у наредби "свирај ноту" задаје трајање ноте?

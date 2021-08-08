@@ -13,10 +13,10 @@
     :answer_c: параметар
     :answer_d: аргумент
     :correct: b
-    :feedback_a: Не.
+    :feedback_a: Нетачно.
     :feedback_b: Тачно.
-    :feedback_c: Не.
-    :feedback_d: Не.
+    :feedback_c: Нетачно.
+    :feedback_d: Нетачно.
    
     Група наредби коју издвајамо у засебну програмску целину назива се 
 
@@ -30,10 +30,10 @@
     :answer_c: параметри
     :answer_d: тело процедуре
     :correct: c
-    :feedback_a: Не.
-    :feedback_b: Не.
+    :feedback_a: Нетачно.
+    :feedback_b: Нетачно.
     :feedback_c: Тачно.
-    :feedback_d: Не.
+    :feedback_d: Нетачно.
    
     Шта се задаје у улазним пољима блока који предстаља заглавље процедуре?
 
@@ -61,9 +61,9 @@
     :answer_d: "реченица", "реченица", "реченица"
     :correct: a
     :feedback_a: Тачно.
-    :feedback_b: Не.
-    :feedback_c: Не.
-    :feedback_d: Не.
+    :feedback_b: Нетачно.
+    :feedback_c: Нетачно.
+    :feedback_d: Нетачно.
    
     Процедура "понови и додај" се позива три пута, па лик чија је ово скрипта говори три пута. Шта он изговара први, шта други, а шта трећи пут?
 

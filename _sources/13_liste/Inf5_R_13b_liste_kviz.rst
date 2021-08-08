@@ -13,9 +13,9 @@
     :answer_c: паук, паук, свилена буба, пчела
     :answer_d: лептир, паук, свилена буба, пчела
     :correct: d
-    :feedback_a: Не.
-    :feedback_b: Не.
-    :feedback_c: Не.
+    :feedback_a: Нетачно.
+    :feedback_b: Нетачно.
+    :feedback_c: Нетачно.
     :feedback_d: Тачно.
 
     Шта ће бити садржај ове листе
@@ -41,9 +41,9 @@
     :answer_d: false
     :correct: a
     :feedback_a: Тачно.
-    :feedback_b: Не.
-    :feedback_c: Не.
-    :feedback_d: Не.
+    :feedback_b: Нетачно.
+    :feedback_c: Нетачно.
+    :feedback_d: Нетачно.
 
     Која је вредност овог блока 
     
@@ -67,10 +67,10 @@
     :answer_c: 2, 4, 7
     :answer_d: 0, 4, 7
     :correct: b
-    :feedback_a: Не.
+    :feedback_a: Нетачно.
     :feedback_b: Тачно.
-    :feedback_c: Не.
-    :feedback_d: Не.
+    :feedback_c: Нетачно.
+    :feedback_d: Нетачно.
    
     Шта ће бити садржај ове листе
     
@@ -93,10 +93,10 @@
     :answer_c: 3
     :answer_d: 0
     :correct: b
-    :feedback_a: Не.
+    :feedback_a: Нетачно.
     :feedback_b: Тачно.
-    :feedback_c: Не.
-    :feedback_d: Не.
+    :feedback_c: Нетачно.
+    :feedback_d: Нетачно.
    
     Која ће бити вредност променљиве "збир" након извршења ове скрипте (листа на почетку изгледа као на слици испод)?
 
@@ -118,10 +118,10 @@
     :answer_c: 1, 2, 4, 8
     :answer_d: 81
     :correct: c
-    :feedback_a: Не.
-    :feedback_b: Не.
+    :feedback_a: Нетачно.
+    :feedback_b: Нетачно.
     :feedback_c: Тачно.
-    :feedback_d: Не.
+    :feedback_d: Нетачно.
 
     Листа на почетку садржи само број 1. Који бројеви ће се налазити у листи после извршења ове скрипте?
     
