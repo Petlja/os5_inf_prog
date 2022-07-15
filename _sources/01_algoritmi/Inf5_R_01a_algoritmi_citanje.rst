@@ -29,6 +29,13 @@
 
 Када не знамо како се решава неки проблем, поступак онога ко зна решење може да нам изгледа као магија. 
 
+.. nimgame:: nim1
+   :takeaway: 3
+   :count: 15
+..
+   takeaway je broj koji učenici mogu da uzmu
+   count je broj koliko elemenata postoji na početku 
+   igra se tako što učenik unese broj u boxić pored dugmeta take, pritisne dugme i onda igra računar. može da se igra i u dva igrača ako se odčekira dugme single player u gornjem desnom uglu. Rešićemo malo grafički dizajn u narednom periodu. 
 
 .. topic:: Погледај следећи видео:
 
