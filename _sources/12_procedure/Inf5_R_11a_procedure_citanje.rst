@@ -35,7 +35,7 @@
 
 Један, не нарочито забаван (а ни поучан) начин је да за сваки стих додамо посебан блок у скрипту. Тако добијамо овај дугачак програм.
 
-.. image:: ../../_images/S3_11_procedure/DecaVole1.png
+.. image:: ../../_images/S3_12_procedure/DecaVole1.png
     :width: 500px
     :align: center
 
@@ -45,7 +45,7 @@
 
 У групи "Моји блокови" кликни на дугме "Направи блок".
 
-.. image:: ../../_images/S3_11_procedure/MojiBlokovi.jpg
+.. image:: ../../_images/S3_12_procedure/MojiBlokovi.jpg
     :width: 300px
     :align: center
 
@@ -55,7 +55,7 @@
 
 Кликом у поље у коме на почетку пише "Име блока", можеш да задаш име будућег блока - процедуре. 
 
-.. image:: ../../_images/S3_11_procedure/InterfejsBloka.jpg
+.. image:: ../../_images/S3_12_procedure/InterfejsBloka.jpg
     :width: 550px
     :align: center
 
@@ -77,7 +77,7 @@
 
 Уписивањем имена блока и прављењем улазних поља смо задали како ће наш блок бити коришћен у програму. Кажемо и да смо задали **интерфејс** нашег блока.
 
-.. image:: ../../_images/S3_11_procedure/ParametriBloka.jpg
+.. image:: ../../_images/S3_12_procedure/ParametriBloka.jpg
     :width: 300px
     :align: center
 
@@ -85,7 +85,7 @@
 
 У простору за скрипте појавио се почетни блок, који зовемо **заглавље процедуре**. Испод заглавља треба да задамо шта ће наш нови блок - процедура да ради.
 
-.. image:: ../../_images/S3_11_procedure/DefinisanjeBloka.jpg
+.. image:: ../../_images/S3_12_procedure/DefinisanjeBloka.jpg
     :width: 450px
     :align: center
 
@@ -93,7 +93,7 @@
 
 Додај блокове за спајање и изговарање текста, као на следећој слици. Ови блокови испод заглавља чине **тело процедуре** коју дефинишемо.
 
-.. image:: ../../_images/S3_11_procedure/DecaVole2a.jpg
+.. image:: ../../_images/S3_12_procedure/DecaVole2a.jpg
     :width: 500px
     :align: center
 
@@ -103,7 +103,7 @@
 
 Пошто смо саставили тело процедуре "Кажи строфу", она је сада потпуно спремна за употребу. Остаје још само да у главној скрипти позовемо ову процедуру за сваку строфу по једном.
 
-.. image:: ../../_images/S3_11_procedure/DecaVole2b.jpg
+.. image:: ../../_images/S3_12_procedure/DecaVole2b.jpg
     :width: 400px
     :align: center
 

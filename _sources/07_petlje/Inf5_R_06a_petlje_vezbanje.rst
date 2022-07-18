@@ -86,9 +86,9 @@
 
 |
 
-.. image:: ../../_images/S3_06_petlje_vezbanje/IdemKuci.gif
+.. image:: ../../_images/S3_07_petlje_vezbanje/IdemKuci.gif
     :width: 450
  
 
-.. image:: ../../_images/S3_06_petlje_vezbanje/Bejzbol.gif
+.. image:: ../../_images/S3_07_petlje_vezbanje/Bejzbol.gif
     :width: 450

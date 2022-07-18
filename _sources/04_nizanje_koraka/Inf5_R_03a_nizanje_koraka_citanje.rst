@@ -6,7 +6,7 @@
 .. topic:: У оквиру овог часа вежбаћеш:            
           
             - Прављење скрипти у којима се кораци само нижу један за другим
-			- Препознавање начина употребе блока по његовом облику
+            - Препознавање начина употребе блока по његовом облику
             - Усклађивање скрипти различитих ликова по времену помоћу чекања
 
 
@@ -60,13 +60,13 @@
 
 Лавиринт ћеш најлакше направити ако из галерије позадина изабереш позадину "Xy-grid-30px", коју ћеш затим прилагодити. Ова позадина садржи квадратну мрежу (енгл. *grid*), у којој је сваки квадрат величине 30 корака.
 
-.. image:: ../../_images/S3_03_nizanje_koraka/lavirint_pozadina.jpg
+.. image:: ../../_images/S3_04_nizanje_koraka/lavirint_pozadina.jpg
     :align: center
     :width: 400
 
 Када изабереш ову позадину, кликни на њу у листи (корак 1 на слици), а затим кликни на картицу "Позадине" (корак 2 на слици).
 
-.. image:: ../../_images/S3_03_nizanje_koraka/lavirint_pravljenje.jpg
+.. image:: ../../_images/S3_04_nizanje_koraka/lavirint_pravljenje.jpg
     :align: center
     :width: 600
 
@@ -80,7 +80,7 @@
 
 Прелазимо на ликове. Једини лик у пројекту је буба. Додај је у пројекат, промени јој име (1), подеси јој величину тако да може да стане у једно поље лавиринта (2) и постави је на почетно место (3).
 
-.. image:: ../../_images/S3_03_nizanje_koraka/lavirint_lik.png
+.. image:: ../../_images/S3_04_nizanje_koraka/lavirint_lik.png
     :align: center
     :width: 500
 
@@ -90,7 +90,7 @@
 
 Ево како скрипте изгледају у нашем примеру лавиринта:
 
-.. image:: ../../_images/S3_03_nizanje_koraka/lavirint_skripte.png
+.. image:: ../../_images/S3_04_nizanje_koraka/lavirint_skripte.png
     :align: center
     :width: 600
 
@@ -124,7 +124,7 @@
 
 Знамо да је лопта која одскаче нешто бржа доле, а спорија горе. Да би наша анимација мало више личила на стварност, можемо да убацимо по један блок |cekaj| сваки пут када је лопта горе. Према томе, скрипта има овај облик:
 
-.. image:: ../../_images/S3_03_nizanje_koraka/lopta_odskace_skripta_bez_brojeva.png
+.. image:: ../../_images/S3_04_nizanje_koraka/lopta_odskace_skripta_bez_brojeva.png
     :align: center
     :width: 240
 
@@ -165,7 +165,7 @@
 
     **Могуће решење**
  
-    .. image:: ../../_images/S3_03_nizanje_koraka/lopta_odskace_skripta.png
+    .. image:: ../../_images/S3_04_nizanje_koraka/lopta_odskace_skripta.png
         :align: center
         :width: 360
 
@@ -187,19 +187,19 @@
 
 У пројекту се појављују следећи ликови:
 
-.. image:: ../../_images/S3_03_nizanje_koraka/uzina_likovi.png
+.. image:: ../../_images/S3_04_nizanje_koraka/uzina_likovi.png
     :align: center
     :width: 400
 
 Ово је скрипта девојчице Авери:
 
-.. image:: ../../_images/S3_03_nizanje_koraka/uzina_skripta_avery.png
+.. image:: ../../_images/S3_04_nizanje_koraka/uzina_skripta_avery.png
     :align: center
     :width: 500
 
 Ликови хране треба да се виде док Авери размишља о њима, а остало време да буду сакривени. Сваки од три лика хране треба да извршава ову скрипту, али са различитим бројевима:
 
-.. image:: ../../_images/S3_03_nizanje_koraka/uzina_skripta_vocke_bez_brojeva.png
+.. image:: ../../_images/S3_04_nizanje_koraka/uzina_skripta_vocke_bez_brojeva.png
     :align: center
     :width: 300
 
@@ -215,10 +215,13 @@
  
     Поред сваке скрипте је лик одговарајуће хране.
     
-    .. image:: ../../_images/S3_03_nizanje_koraka/uzina_skripte_vocke.png
+    .. image:: ../../_images/S3_04_nizanje_koraka/uzina_skripte_vocke.png
         :align: center
         :width: 600
 
+
+
+|
 
 Дошло је време да систематизујемо знање о блоковима који су коришћени у досадашњим примерима. 
 
@@ -230,7 +233,7 @@
     
     Све блокове који постоје у Скречу можемо да разврстамо у самосталне и функцијске блокове. **Самостални блокови** представљају наредбе језика, односно кораке алгоритма. Неки од тих блокова имају поља у која се може поставити вредност. **Функцијски блокови** представљају вредности. Они не могу да стоје сами у скрипти, већ се умећу у поља блокова који примају вредности. На тај начин  функцијски блокови прецизирају начин извршавања других блокова.
 
-    .. image:: ../../_images/S3_03_nizanje_koraka/blokovi.jpg
+    .. image:: ../../_images/S3_04_nizanje_koraka/blokovi.jpg
         :align: center
         :width: 600
 

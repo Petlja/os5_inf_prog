@@ -9,7 +9,7 @@
 	
 Подршка за музику се не налази међу основним групама блокова, него у једном од неколико стандардних проширења Скреча. Проширења се једноставно укључују у радно окружење. Док је активна картица "Програм", у доњем левом углу се налази дугме за додавање проширења:
 
-.. image:: ../../_images/S3_15_zvuk/muzika_prosirenja1.png
+.. image:: ../../_images/S3_15_muzika/muzika_prosirenja1.png
     :width: 100
     :align: center
 
@@ -17,7 +17,7 @@
 
 Када кликнемо на то дугме, отвара се листа доступних проширења. Кликом на проширење "музика", додајемо га у радно окружење.
 
-.. image:: ../../_images/S3_15_zvuk/muzika_prosirenja2.jpg
+.. image:: ../../_images/S3_15_muzika/muzika_prosirenja2.png
     :width: 500
     :align: center
 
@@ -25,7 +25,7 @@
 
 Сада имамо нову групу блокова, која се зове "музика". Када кликемо на ту групу, видимо следеће наредбе:
 
-.. image:: ../../_images/S3_15_zvuk/muzika_komande.png
+.. image:: ../../_images/S3_15_muzika/muzika_komande.png
     :width: 636
     :align: center
 
@@ -43,11 +43,19 @@
 Пример 1 - Клавијатура
 ''''''''''''''''''''''
 
+
+.. raw:: html
+
+   <div style="text-align: center">
+   <iframe src="https://scratch.mit.edu/projects/416457135/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"  allowfullscreen>
+   </iframe>
+   </div>
+
 Направићемо пројекат у коме може да се свира на клавијатури, било кликовима на нацртане дирке, било притисцима на тастере тастатуре. 
 
 Сваку дирку основне октаве представљаће по један лик. Укупно ће бити 8 белих и 5 црних дирки (нота *до* се понавља на крају октаве), дакле 13 ликова у програму. 
 
-.. image:: ../../_images/S3_15_zvuk/muzika_klavijatura.png
+.. image:: ../../_images/S3_15_muzika/muzika_klavijatura.png
     :width: 414
     :align: center
 
@@ -55,7 +63,7 @@
 
 Почнимо од дирке за ноту **до**, односно ноту **C4** (нота *C* четврте октаве). Најпре ћемо нацртати костим лика, који се састоји од једног белог правоугаоника.
 
-.. image:: ../../_images/S3_15_zvuk/muzika_kostim_dirke.png
+.. image:: ../../_images/S3_15_muzika/muzika_kostim_dirke.png
     :width: 474
     :align: center
 
@@ -63,13 +71,13 @@
 
 Лик дирке ћемо испрограмирати помоћу три кратке скрипте: једна за постављање на праву позицију при стартовању програма, друга која се извршава када се притисне тастер *А* и трећа, која се извршава када се кликне на овај лик.
 
-.. image:: ../../_images/S3_15_zvuk/muzika_klavir_skripte_bela.png
+.. image:: ../../_images/S3_15_muzika/muzika_klavir_skripte_bela.png
     :width: 300
     :align: center
 
 Напоменимо да није потребно знати бројчане вредности нота, јер кликом на поље у које се уписује вредност, отвара се мала клавијатура у којој можемо да задамо вредност ноте кликом на одговарајућу дирку.
 
-.. image:: ../../_images/S3_15_zvuk/muzika_zadavanje_note.png
+.. image:: ../../_images/S3_15_muzika/muzika_zadavanje_note.png
     :width: 414
     :align: center
 
@@ -79,7 +87,7 @@
 
 Ликови који представљају црне дирке разликују се још и по томе што они као костим имају црни правоугаоник уместо белог, немају наредбу за постављање у позадину (црне дирке су нацртане преко белих), а *Y* координата им је већа за 50. На пример, скрипте за последњу црну дирку изгледају овако:
 
-.. image:: ../../_images/S3_15_zvuk/muzika_klavir_skripte_crna.png
+.. image:: ../../_images/S3_15_muzika/muzika_klavir_skripte_crna.png
     :width: 300
     :align: center
 
@@ -91,11 +99,19 @@
 Пример 2 - Мелодија
 '''''''''''''''''''
 
+
+.. raw:: html
+
+   <div style="text-align: center">
+   <iframe src="https://scratch.mit.edu/projects/416454914/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"  allowfullscreen>
+   </iframe>
+   </div>
+
 Програм који свира одређену мелодију се прави веома лако. Довољно је да наређамо низ блокова "свирај ноту ... током ... откуцаја" и мелодија је спремна за свирање.
 
 Нешто другачији начин, који смо ми овде употребили је да прво висине и трајања нота сместимо у листе:
 
-.. image:: ../../_images/S3_15_zvuk/muzika_dunje_ranke_liste.png
+.. image:: ../../_images/S3_15_muzika/muzika_dunje_ranke_liste.png
     :width: 300
     :align: center
 
@@ -103,7 +119,7 @@
 
 Пошто се на слици не виде целе листе, поменимо да је четрнаеста нота иста као и тринаеста. Након дефинисања овакве две листе, следећа скрипта ће одсвирати мелодију записану у тим листама.
 
-.. image:: ../../_images/S3_15_zvuk/muzika_dunje_ranke_melodija.png
+.. image:: ../../_images/S3_15_muzika/muzika_dunje_ranke_melodija.png
     :width: 700
     :align: center
 
@@ -111,7 +127,7 @@
 
 Ово је већ програм који има смисла и сам за себе. Ми ћемо се ипак још мало поиграти и покушати да извучемо нешто више од музицирања у Скречу. Наша мелодија садржи прва четири такта песме, па ћемо да направимо и ритам за прва четири такта. За то се користи наредба "удараљка". Ми смо се одлучили да по четири ударца која чине један такт сместимо у засебне процедуре. Имена процедура сугеришу како отприлике звуче ударци у одговарајућем такту.
 
-.. image:: ../../_images/S3_15_zvuk/muzika_dunje_ranke_ritam.png
+.. image:: ../../_images/S3_15_muzika/muzika_dunje_ranke_ritam.png
     :width: 600
     :align: center
 
@@ -119,7 +135,7 @@
 
 То нам даје могућност да лако испробавамо различите редоследе тактова. Један редослед који се уклапа у нашу основну мелодију је на пример овај:
 
-.. image:: ../../_images/S3_15_zvuk/muzika_dunje_ranke_4takta.png
+.. image:: ../../_images/S3_15_muzika/muzika_dunje_ranke_4takta.png
     :width: 300
     :align: center
 
@@ -133,7 +149,7 @@
 
 На пример, наредбе које свирају основну мелодију можемо да покрећемо на пријем објаве уместо на започињање програма. Тако можемо да у истом програму одсвирамо исту мелодију више пута, а сваки пут на мало друкчији начин. Једна од могућности је и ова:
 
-.. image:: ../../_images/S3_15_zvuk/muzika_dunje_ranke_konacna1.png
+.. image:: ../../_images/S3_15_muzika/muzika_dunje_ranke_konacna1.png
     :width: 400
     :align: center
 
@@ -146,7 +162,7 @@
 
 Да би основна мелодија могла да се чује на све ове начине, преправили смо почетну скрипту у следеће две:
 
-.. image:: ../../_images/S3_15_zvuk/muzika_dunje_ranke_konacna2.png
+.. image:: ../../_images/S3_15_muzika/muzika_dunje_ranke_konacna2.png
     :width: 800
     :align: center
 

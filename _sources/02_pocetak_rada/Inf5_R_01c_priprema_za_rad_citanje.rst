@@ -21,7 +21,7 @@
     
     Скролуј до краја старне и уочи дугме за избор језика. На следећој слици оно је у црвеном оквиру:
 
-    .. image:: ../../_images/S3_01_prvi_program/izbor_jezika.png
+    .. image:: ../../_images/S3_02_prvi_program/izbor_jezika.png
        :align: center
        :width: 700
 
@@ -36,7 +36,7 @@
 
     Изабери опцију *Придружи се Скречу*, која се налази у горњем десном углу веб стране:
 
-    .. image:: ../../_images/S3_01_prvi_program/pridruzi_se.png
+    .. image:: ../../_images/S3_02_prvi_program/pridruzi_se.png
        :align: center
        :width: 700
 
@@ -53,7 +53,7 @@
 
     Изабери опцију *Пријави се* у врху стране и унеси своје корисничко име и лозинку.
 
-    .. image:: ../../_images/S3_01_prvi_program/prijavi_se.png
+    .. image:: ../../_images/S3_02_prvi_program/prijavi_se.png
        :align: center
        :width: 700
        
@@ -73,7 +73,7 @@
 
     У врху са леве стране нађи опцију *Стварај*:
 
-    .. image:: ../../_images/S3_01_prvi_program/stvaraj.png
+    .. image:: ../../_images/S3_02_prvi_program/stvaraj.png
        :align: center
        :width: 700
 
@@ -82,7 +82,7 @@
 
 Пре него што почнемо, погледај поново слику окружења Скреч и запамти како се зову његови најважнији делови, јер ће ти то помоћи да пратиш описе активности које следе.
 
-.. image:: ../../_images/S3_01_prvi_program/izgled_okruzenja.png
+.. image:: ../../_images/S3_02_prvi_program/izgled_okruzenja.png
    :width: 600
    :align: center
 

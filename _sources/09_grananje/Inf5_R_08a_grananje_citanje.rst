@@ -18,7 +18,7 @@
 Најважнији појам у овој лекцији су наредбе условног извршавања, односно управљачки блокови који омогућавају условно извршавање. Ти блокови изглeдају овако:
 
 
-.. image:: ../../_images/S3_08_grananje/BlokoviGrananja.png
+.. image:: ../../_images/S3_09_grananje/BlokoviGrananja.png
     :width: 400px   
     :align: center
 
@@ -33,9 +33,17 @@
 Пример 1 - Поздрав
 ''''''''''''''''''
 
+.. raw:: html
+
+   <div style="text-align: center">
+   <iframe src="https://scratch.mit.edu/projects/714839283/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"  allowfullscreen>
+   </iframe>
+   </div>
+
+
 Помоћу ове скрипте мачак ће те питати колико је сати да би знао како да те поздрави у наставку програма. Ако унесеш број мањи од 21, мачак ће рећи "Довиђења.", а у супротном ће рећи "Лаку ноћ."
 
-.. image:: ../../_images/S3_08_grananje/if_primer1.png
+.. image:: ../../_images/S3_09_grananje/if_primer1.png
     :width: 400px   
     :align: center
 
@@ -43,7 +51,7 @@
 
 Наилазак на управљачки блок |ako_onda_inace| током извршавања програма је као наилазак на скретницу, јер извршавање може да се настави једним или другим путем.
 
-.. image:: ../../_images/S3_08_grananje/skretnica.png
+.. image:: ../../_images/S3_09_grananje/skretnica.png
     :width: 600px   
     :align: center
 
@@ -54,18 +62,18 @@
 
 У претходном примеру смо користили и оператор за поређење добијеног одговора и броја 21. У групи блокова *Оператори* постоје ова три оператора за поређење:
 
-.. image:: ../../_images/S3_08_grananje/ManjeOd.png
+.. image:: ../../_images/S3_09_grananje/ManjeOd.png
     :width: 150px   
-.. image:: ../../_images/S3_08_grananje/JednakoSa.png
+.. image:: ../../_images/S3_09_grananje/JednakoSa.png
     :width: 150px   
-.. image:: ../../_images/S3_08_grananje/VeceOd.png
+.. image:: ../../_images/S3_09_grananje/VeceOd.png
     :width: 150px   
 
 Као што вероватно претпостављаш, услов формиран овим операторима је испуњен ако између леве и десне стране важи однос описан знаком у средини, као у математици.
 
 Резултат оваквих оператора је увек **тачно** или **нетачно**. Двокликом на оператор у окружењу Скреч добијамо исписан његов резултат, као у примерима *A* и *B* на следећој слици.
 
-.. image:: ../../_images/S3_08_grananje/VrednostOperatora.png
+.. image:: ../../_images/S3_09_grananje/VrednostOperatora.png
     :width: 500px   
     :align: center
 
@@ -90,11 +98,11 @@
 
 За комбиновање једноставнијих услова у сложеније, користе се ови оператори из групе блокова *Оператори*:
 
-.. |And| image:: ../../_images/S3_08_grananje/OperatorI.png
+.. |And| image:: ../../_images/S3_09_grananje/OperatorI.png
     :width: 150px
-.. |Or| image:: ../../_images/S3_08_grananje/OperatorIli.png
+.. |Or| image:: ../../_images/S3_09_grananje/OperatorIli.png
     :width: 150px
-.. |Not| image:: ../../_images/S3_08_grananje/OperatorNije.png
+.. |Not| image:: ../../_images/S3_09_grananje/OperatorNije.png
     :width: 120px
 
 
@@ -105,7 +113,7 @@
 
 У окружењеу Скреч резултате логичких оператора такође можемо да добијемо двокликом на оператор. Да бисмо потврдили да разумемо како функционишу логички оператори, погледајмо следећу слику:
 
-.. image:: ../../_images/S3_08_grananje/LogickiOpPrimer.png
+.. image:: ../../_images/S3_09_grananje/LogickiOpPrimer.png
    :width: 500px
    :align: center
 
@@ -119,15 +127,23 @@
 Пример 2 - Поздрав после поноћи
 '''''''''''''''''''''''''''''''
 
+.. raw:: html
+
+   <div style="text-align: center">
+   <iframe src="https://scratch.mit.edu/projects/714839945/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"  allowfullscreen>
+   </iframe>
+   </div>
+
+
 Помоћу ове скрипте мачак уме да каже *Довиђења* у току дана (од 5 до 20 сати), а *Лаку ноћ* у току ноћи (од 21 до 4 сата).
 
-.. image:: ../../_images/S3_08_grananje/if_primer2a.png
+.. image:: ../../_images/S3_09_grananje/if_primer2a.png
     :width: 600px   
     :align: center
 
 Исти резултат можемо да добијемо и мало другачије:
 
-.. image:: ../../_images/S3_08_grananje/if_primer2b.png
+.. image:: ../../_images/S3_09_grananje/if_primer2b.png
     :width: 600px   
     :align: center
 

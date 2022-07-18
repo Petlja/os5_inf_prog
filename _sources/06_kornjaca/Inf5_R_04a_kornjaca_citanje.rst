@@ -27,7 +27,7 @@
 2. Изабери проширење "Оловка".
 3. Примети да се појавила нова група блокова - "Оловка". Кликни на ту групу да видиш какве блокове она садржи.
 
-.. image:: ../../_images/S3_04_kornjaca/prosirenje_olovka.png
+.. image:: ../../_images/S3_06_kornjaca/prosirenje_olovka.png
     :align: center
     :width: 700
 
@@ -35,7 +35,7 @@
 
 Испробај одмах ова три блока. На пример, овако можеш да нацрташ једну праву линију:
 
-.. image:: ../../_images/S3_04_kornjaca/linija_skripta.png
+.. image:: ../../_images/S3_06_kornjaca/linija_skripta.png
     :align: center
     :width: 200
 
@@ -43,7 +43,7 @@
 
 .. topic:: Погледај видео:
 
-   У овом видеу провежбаћемо како да употребљаваммо оловку у Скречу. 
+   У овом видеу провежбаћемо како да употребљавамо оловку у Скречу. 
    
     .. ytpopup:: ssLLO56xSwo
         :width: 735
@@ -68,7 +68,7 @@
 
 Умеш ли да нацрташ овакву коверту једним потезом?
 
-.. image:: ../../_images/S3_04_kornjaca/koverta_izgled.png
+.. image:: ../../_images/S3_06_kornjaca/koverta_izgled.png
     :align: center
     :width: 200
 
@@ -80,7 +80,7 @@
 
     **Решење**: Ако означимо тачке као на слици, линија се може нацртати једним потезом ако тачке спајамо овим редоследом: :math:`A - E - D - C - B - A - C - E - B`.
  
-    .. image:: ../../_images/S3_04_kornjaca/koverta_resenje.png
+    .. image:: ../../_images/S3_06_kornjaca/koverta_resenje.png
         :align: center
         :width: 200
     
@@ -94,7 +94,7 @@
 
 Лик на почетку постављамо у тачку :math:`A`, а затим га пуштамо да клизи редом ка тачкама :math:`E, D, C, B, A, C, E, B`, као у решењу полазне мозгалице.
 
-.. image:: ../../_images/S3_04_kornjaca/koverta_skripta.png
+.. image:: ../../_images/S3_06_kornjaca/koverta_skripta.png
     :align: center
     :width: 400
 
@@ -114,7 +114,7 @@
 		</div>
 
 
-    .. image:: ../../_images/S3_04_kornjaca/ladja_izgled.png
+    .. image:: ../../_images/S3_06_kornjaca/ladja_izgled.png
           :align: center
           :width: 400
 
@@ -128,7 +128,7 @@
 
     Поједини бројеви из ових скрипти су изостављени. Твој задатак је да их одредиш и упишеш. Размишљај слично као када смо цртали коверту. Ако ти из првог покушаја цртеж не испадне како треба, размисли и пробај поново.
 
-    .. image:: ../../_images/S3_04_kornjaca/ladja_skripte_bez_brojeva.png
+    .. image:: ../../_images/S3_06_kornjaca/ladja_skripte_bez_brojeva.png
         :align: center
         :width: 700
 
@@ -148,7 +148,7 @@
 
   Направи пројекат у коме црташ степенице.
 
- .. image:: ../../_images/S3_04_kornjaca/stepenice_izgled.png
+ .. image:: ../../_images/S3_06_kornjaca/stepenice_izgled.png
       :align: center
       :width: 300
 
@@ -161,7 +161,7 @@
 
  Направи пројекат у коме лик црта нека, или сва слова речи СКРЕЧ. Уочи да три од ових слова не могу да се нацртају једним потезом, што значи да ће за поједина слова бити потребно више пута подизати и спуштати оловку.
 
-  .. image:: ../../_images/S3_04_kornjaca/slova_skrec_izgled.png
+  .. image:: ../../_images/S3_06_kornjaca/slova_skrec_izgled.png
       :align: center
       :width: 300
 

@@ -15,7 +15,7 @@
 
     Анализирај две скрипте приказане на слици. Да ли оне при извршавању производе исти резултат?
 
-    .. image:: ../../_images/S3_05_petlje_kviz/da_li_rade_isto.png
+    .. image:: ../../_images/S3_07_petlje_kviz/da_li_rade_isto.png
         :align: center
 	  
 Питање 2
@@ -30,7 +30,7 @@
     
     Анализом извршавања програма уочавамо да лик престаје да се креће када дође до црвене линије. Означи тачну тврдњу:
  
-    .. image:: ../../_images/S3_05_petlje_kviz/do_kad_ponavlja.png
+    .. image:: ../../_images/S3_07_petlje_kviz/do_kad_ponavlja.png
         :align: center
 
 Питање 3
@@ -47,7 +47,7 @@
     
     Пажљиво погледај изглед блокова за понављање. 
 
-    .. image:: ../../_images/S3_05_petlje/blokovi_ponavljanja.png
+    .. image:: ../../_images/S3_07_petlje/blokovi_ponavljanja.png
         :align: center
         :width: 400
     

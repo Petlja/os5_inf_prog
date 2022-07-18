@@ -66,13 +66,13 @@
    
     Скрипта главног лика је 
     
-    .. image:: ../../_images/S3_12_razglasavanje_kviz/KolikoCeka_Objavljivac.png
+    .. image:: ../../_images/S3_05_sinhronizacija_kviz/KolikoCeka_Objavljivac.png
         :width: 300px
         :align: center
         
     У пројекту су још два лика, од којих први извршава леву, а други десну од ове две скрипте:
 
-    .. image:: ../../_images/S3_12_razglasavanje_kviz/KolikoCeka_Primaoci.png
+    .. image:: ../../_images/S3_05_sinhronizacija_kviz/KolikoCeka_Primaoci.png
         :width: 660px
         :align: center
         
@@ -97,7 +97,7 @@
    
     Ликови *A*, *B* и *C* имају следеће скрипте:
     
-    .. image:: ../../_images/S3_12_razglasavanje_kviz/KoStizePrvi.png
+    .. image:: ../../_images/S3_05_sinhronizacija_kviz/KoStizePrvi.png
         :width: 500px
         :align: center
         

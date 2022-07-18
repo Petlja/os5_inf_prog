@@ -20,7 +20,7 @@
    
     Шта ће изговорити лик ако корисник као одговор упише 11?
    
-    .. image:: ../../_images/S3_08_grananje_kviz/test_dan_je.png
+    .. image:: ../../_images/S3_09_grananje_kviz/test_dan_je.png
         :width: 400px
         :align: center      
 
@@ -39,7 +39,7 @@
    
     Који од одговора корисника ће омогућити извршавање наредбе у ДА грани? (Изабери све тачне одговоре)
    
-    .. image:: ../../_images/S3_08_grananje_kviz/test_odg_veci_3.png
+    .. image:: ../../_images/S3_09_grananje_kviz/test_odg_veci_3.png
          :width: 400px   
          :align: center      
 
@@ -61,7 +61,7 @@
    
     Упореди блокове наредби *A* и *B* по резултату рада.
    
-    .. image:: ../../_images/S3_08_grananje_kviz/test_mis_gore_desno.png
+    .. image:: ../../_images/S3_09_grananje_kviz/test_mis_gore_desno.png
         :width: 500px
         :align: center      
 
@@ -80,7 +80,7 @@
    
     Који од одговора корисника ће довести до исписивања поруке? (Изабери све тачне одговоре)
    
-    .. image:: ../../_images/S3_08_grananje_kviz/test_odg_nije_veci_5.png
+    .. image:: ../../_images/S3_09_grananje_kviz/test_odg_nije_veci_5.png
          :width: 550px
          :align: center      
 
@@ -97,13 +97,13 @@
    
     Мачак извршава ове наредбе
     
-    .. image:: ../../_images/S3_08_grananje_kviz/test_dole_ili_levo.png
+    .. image:: ../../_images/S3_09_grananje_kviz/test_dole_ili_levo.png
          :width: 400px   
          :align: center      
 
     Где може да буде мачак на почетку, да би се упутио ка центру позорнице? (Изабери све тачне одговоре)
    
-    .. image:: ../../_images/S3_08_grananje_kviz/test_pozornica.png
+    .. image:: ../../_images/S3_09_grananje_kviz/test_pozornica.png
          :width: 600px
          :align: center      
 

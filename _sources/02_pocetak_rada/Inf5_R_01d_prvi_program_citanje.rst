@@ -19,7 +19,7 @@
 
 Након што кликнеш на дугме "Стварај", требало би да се налазиш на почетку новог пројекта.
 
-.. image:: ../../_images/S3_01_prvi_program/stvaraj.png
+.. image:: ../../_images/S3_02_prvi_program/stvaraj.png
    :align: center
    :width: 700
 
@@ -27,7 +27,7 @@
 
 Ако си у неком започетом пројекту (који не желиш да сачуваш, или је већ сачуван), нови пројекат можеш да започнеш кликом на мени "Датотека" и избором ставке "Ново".
 
-.. image:: ../../_images/S3_01_prvi_program/novo.png
+.. image:: ../../_images/S3_02_prvi_program/novo.png
    :align: center
    :width: 400
 
@@ -35,7 +35,7 @@
    
 На почетку пројекта треба да изабереш лик, или ликове који ће учествовати у пројекту. Погледај доњи десни део екрана:
 
-.. image:: ../../_images/S3_01_prvi_program/likovi_pozadine.png
+.. image:: ../../_images/S3_02_prvi_program/likovi_pozadine.png
    :align: center
    :width: 400
 
@@ -43,7 +43,7 @@
 
 Слично можеш да додаш и нови лик. Кликни на дугме |novi_lik| у листи ликова и отвориће се галерија ликова. Изабери лик који желиш, тако што ћеш да кликнеш на њега. Сада имамо два лика у пројекту, при чему је нови лик тренутно активан.
 
-.. image:: ../../_images/S3_01_prvi_program/aktivan_lik.png
+.. image:: ../../_images/S3_02_prvi_program/aktivan_lik.png
    :align: center
    :width: 400
 
@@ -55,7 +55,7 @@
    
 .. comment .. sidebar:: Групе блокова
 
-.. image:: ../../_images/S3_01_prvi_program/grupe_blokova.png
+.. image:: ../../_images/S3_02_prvi_program/grupe_blokova.png
    :align: left
    :width: 150
 
@@ -72,7 +72,7 @@
 
 Наша скрипта изгледа овако:
 
-.. image:: ../../_images/S3_01_prvi_program/to_sam_ja.png
+.. image:: ../../_images/S3_02_prvi_program/to_sam_ja.png
    :align: center
    :width: 600
 
@@ -95,14 +95,14 @@
 
 Лик који је уклоњен из пројекта можеш да вратиш кликом у менију на реч "Уреди", а затим на ставку "Поврати лик".
 
-.. image:: ../../_images/S3_01_prvi_program/vracanje_lika.png
+.. image:: ../../_images/S3_02_prvi_program/vracanje_lika.png
    :align: center
    :width: 400
 
 
 Ако желиш, можеш да сачуваш свој пројекат: у линији менија дај име пројекту (црвено „1” на слици испод), затим кликни на мени „Датотека” (корак 2) и одабери где желиш да сачуваш пројекат (корак 3).
 
-.. image:: ../../_images/S3_01_prvi_program/cuvanje_to_sam_ja.png
+.. image:: ../../_images/S3_02_prvi_program/cuvanje_to_sam_ja.png
    :align: center
    :width: 600
 

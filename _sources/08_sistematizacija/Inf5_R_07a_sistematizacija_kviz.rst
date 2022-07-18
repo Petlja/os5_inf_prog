@@ -23,7 +23,7 @@
    Који од блокова припада групи наредби *Изглед*? 
    (Изабери све тачне одговоре)
 
-   .. image:: ../../_images/S3_07_sistematizacija/pit3_1.png
+   .. image:: ../../_images/S3_08_sistematizacija/pit3_1.png
      :width: 600px   
      :align: center
 
@@ -45,7 +45,7 @@
    Које од наредби припадају групи наредби *Догађаји*?
    (Изабери све тачне одговоре)
 
-   .. image:: ../../_images/S3_07_sistematizacija/pit3_2.png
+   .. image:: ../../_images/S3_08_sistematizacija/pit3_2.png
       :width: 650px   
       :align: center
 
@@ -67,7 +67,7 @@
    Који од блокова припада групи наредби *Управљање*?
    (Изабери све тачне одговоре)  
 
-   .. image:: ../../_images/S3_07_sistematizacija/pit3_3.png
+   .. image:: ../../_images/S3_08_sistematizacija/pit3_3.png
       :width: 600px   
       :align: center
 
@@ -127,7 +127,7 @@
 
    Извршењем којег од низова наредби ће  лик изговорити *Здраво* ако корисник унесе вредност 0? 
    
-   .. image:: ../../_images/S3_07_sistematizacija/pit5_9.png
+   .. image:: ../../_images/S3_08_sistematizacija/pit5_9.png
       :width: 570px   
       :align: center
       
@@ -162,7 +162,7 @@
       
    Који услов треба користити за проверу исправности улазног податка?
    
-   .. image:: ../../_images/S3_07_sistematizacija/pit5_10.png
+   .. image:: ../../_images/S3_08_sistematizacija/pit5_10.png
       :width: 460px   
       :align: center
 

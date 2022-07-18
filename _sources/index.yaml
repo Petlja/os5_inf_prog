@@ -268,6 +268,10 @@ lessons:
         title: 15.1. Mузика
         file: Inf5_R_15a_muzika_citanje.rst
         guid: 0f5dcb0f-35e7-4e48-a926-8ba616b40a53
+      - type: quiz
+        title: 15.2. Квиз - музика
+        file: Inf5_R_15b_muzika_kviz.rst
+        guid: d35620ca-eb31-4678-8d76-25cc273a910c
   - title: 16. Завршни квиз
     folder: 16_zavrsni_kviz
     guid: c2d6fa59-d349-4f06-b55a-6aa0280250c8

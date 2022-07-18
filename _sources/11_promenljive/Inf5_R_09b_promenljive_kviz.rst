@@ -8,7 +8,7 @@
 
 .. fillintheblank:: ai11_fill
 		    
-      .. image:: ../../_images/S3_09_promenljive_kviz/pit7_1.png
+      .. image:: ../../_images/S3_11_promenljive_kviz/pit7_1.png
         :width: 150px   
         :align: center 
         
@@ -24,7 +24,7 @@
 
 .. fillintheblank:: ai13_fill
 		    
-      .. image:: ../../_images/S3_09_promenljive_kviz/pit7_2.png
+      .. image:: ../../_images/S3_11_promenljive_kviz/pit7_2.png
         :width: 180px   
         :align: center      
 
@@ -39,7 +39,7 @@
 
 .. fillintheblank:: ai14_fill
 		
-      .. image:: ../../_images/S3_09_promenljive_kviz/pit7_3.png
+      .. image:: ../../_images/S3_11_promenljive_kviz/pit7_3.png
         :width: 190px   
         :align: center   
         
@@ -54,7 +54,7 @@
 
 .. fillintheblank:: ai15_fill
 
-      .. image:: ../../_images/S3_09_promenljive_kviz/pit7_4.png
+      .. image:: ../../_images/S3_11_promenljive_kviz/pit7_4.png
          :width: 190px   
          :align: center      
 
@@ -79,7 +79,7 @@
 
    Који од следећих низова наредби размењује вредности променљивих а и b, ако су а и b позитивни бројеви? (Изабери све тачне одговоре)
    
-   .. image:: ../../_images/S3_09_promenljive_kviz/pit7_5.png
+   .. image:: ../../_images/S3_11_promenljive_kviz/pit7_5.png
          :width: 500px   
          :align: center      
 
