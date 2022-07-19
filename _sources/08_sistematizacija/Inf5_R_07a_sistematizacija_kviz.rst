@@ -148,7 +148,31 @@
 
    Колико пута ће се извршити тело циклуса (А) са слике из претходног питања, ако корисник на питања уноси одговоре следећим редом: 1, 2, 3, 0.
    
+
+
 Питање 9
+~~~~~~~~~
+
+.. mchoice:: for02
+   :multiple_answers:
+   :answer_a: 
+   :answer_b: 
+   :answer_c: 
+   :answer_d: 
+   :correct: b, c
+   :feedback_a: 
+   :feedback_b: 
+   :feedback_c: 
+   :feedback_d: 
+   
+   Којим од бројачких циклуса се постиже да лик направи 80 корака? (Изабери све тачне одговоре).
+
+   .. image:: ../../_images/S3_08_sistematizacija/pit5_7.png
+      :width: 500px   
+      :align: center
+
+
+Питање 10
 ~~~~~~~~~
 
 .. mchoice:: repeat5
@@ -165,7 +189,6 @@
    .. image:: ../../_images/S3_08_sistematizacija/pit5_10.png
       :width: 460px   
       :align: center
-
 
 
 

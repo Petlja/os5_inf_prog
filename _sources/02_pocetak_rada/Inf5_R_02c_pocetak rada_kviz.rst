@@ -29,7 +29,7 @@
 
 Поједини делови Скреч интерфејса на следећој слици означени су бројевима од 1 до 5. 
 
-.. image:: ../../_images/S3_01_prvi_program/pitanje1_2.png
+.. image:: ../../_images/S3_02_prvi_program/pitanje1_2.png
    :width: 600px   
    :align: center
       

@@ -31,6 +31,14 @@
 
 Пример 1 - Срнетина
 '''''''''''''''''''
+ 
+.. raw:: html
+
+   <div style="text-align: center">
+   <iframe src="https://scratch.mit.edu/projects/416420869/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"  allowfullscreen>
+   </iframe>
+   </div>
+
 
 Нека три девојчице, Дана, Ана и Тамара, воде следећи разговор:
 
@@ -111,6 +119,14 @@
 
 Пример 2 - Спортови
 '''''''''''''''''''
+ 
+.. raw:: html
+
+   <div style="text-align: center">
+   <iframe src="https://scratch.mit.edu/projects/416418651/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"  allowfullscreen>
+   </iframe>
+   </div>
+
 
 У следећем, једноставном примеру, позорница мења позадине и сваку промену објављује, а лик прима поруке и реагује на њих коментаром. 
 
