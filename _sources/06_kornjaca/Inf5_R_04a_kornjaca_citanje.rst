@@ -57,14 +57,6 @@
 
 Пример 1 - Коверта
 '''''''''''''''''' 
- 
-.. raw:: html
-
-   <div style="text-align: center">
-   <iframe src="https://scratch.mit.edu/projects/416418381/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"  allowfullscreen>
-   </iframe>
-   </div>
-
 
 Умеш ли да нацрташ овакву коверту једним потезом?
 
@@ -98,28 +90,31 @@
     :align: center
     :width: 400
 
+Кликни на следећу слику да видиш како ради одговарајући програм.
 
+
+.. raw:: html
+
+   <div style="text-align: center">
+   <iframe src="https://scratch.mit.edu/projects/416418381/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"  allowfullscreen>
+   </iframe>
+   </div>
+
+ 
 
 .. reveal:: drugi_primer
     :showtitle: Други пример
     :hidetitle: Сакриј пример
 
     **Пример 2 - Лађа**
-	
-	.. raw:: html
 
-		<div style="text-align: center">
-		<iframe src="https://scratch.mit.edu/projects/416418534/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"  	allowfullscreen>
-		</iframe>
-		</div>
+
+    У овом примеру ћемо нацртати једну овакву лађу.
 
 
     .. image:: ../../_images/S3_06_kornjaca/ladja_izgled.png
           :align: center
           :width: 400
-
-
-    У овом примеру ћемо нацртати једну овакву лађу.
 
 
     Слика се састоји од три дела: трупа, јарбола и заставице. Да нам скрипта не би била предугачка и тешка за праћење, поделићемо је у целине. У првој целини бришемо претходна цртања, искључујемо цртање (подижемо оловку) и постављамо мачка на палубу. У свакој од следеће три целине цртамо по један део лађе (труп, јарбол и заставицу), а у последњој, петој целини поново постављамо мачка на палубу.
@@ -132,11 +127,14 @@
         :align: center
         :width: 700
 
+    Кликни на следећу слику да видиш како ради одговарајући програм.
 
+    	.. raw:: html
 
-
-
-
+    		<div style="text-align: center">
+    		<iframe src="https://scratch.mit.edu/projects/416418534/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"  	allowfullscreen>
+    		</iframe>
+    		</div>
 
 
 .. comment
