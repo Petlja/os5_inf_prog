@@ -26,7 +26,7 @@
 .. |mesto_y|           image:: ../../_images/S3_opste/mesto_y.png
 .. |smer|              image:: ../../_images/S3_opste/smer.png
 
-.. |lopta|             image:: ../../_images/S3_03_nizanje_koraka/lopta.jpg
+.. |lopta|             image:: ../../_images/S3_04_nizanje_koraka/lopta.jpg
 
 
 
