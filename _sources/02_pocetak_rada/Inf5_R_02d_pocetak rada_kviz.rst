@@ -1,9 +1,9 @@
-2.3. Квиз - Почетак рада
+2.4. Квиз - Почетак рада
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Питање 1
 ~~~~~~~~
 
-.. mchoice:: peti_22_1
+.. mchoice:: pocetak_1
    :answer_a: Да
    :answer_b: Не
    :correct: b
@@ -15,10 +15,10 @@
 Питање 2
 ~~~~~~~~
    
-.. mchoice:: peti_22_2
+.. mchoice:: pocetak_2
    :answer_a: Да
    :answer_b: Не
-   :correct: b
+   :correct: а
    :feedback_a: Тачно!
    :feedback_b: Нетачно!
    
@@ -27,26 +27,23 @@
 Питање 3
 ~~~~~~~~
 
-Поједини делови Скреч интерфејса на следећој слици означени су бројевима од 1 до 5. 
-
-.. image:: ../../_images/S3_02_prvi_program/pitanje1_2.png
-   :width: 600px   
-   :align: center
-      
-.. dragndrop:: peti_22_3
-    :feedback: Покушај поново.
-    :match_1: позорница|||4
-    :match_2: палета наредби|||2
-    :match_3: област скрипти|||3
-    :match_4: листа ликова|||5
-    :match_5: линија менија|||1
-    
-    Превлачењем упари називе делова окружења са њиховим позицијама на слици.
-
+.. mchoice:: pocetak_3
+   :answer_a: скрипта
+   :answer_b: објекат
+   :answer_c: интерфејс
+   :answer_d: програм
+   :correct: c
+   :feedback_a: Нетачно.
+   :feedback_b: Нетачно.
+   :feedback_c: Тачно. 
+   :feedback_d: Нетачно.
+   
+   Назив за све прозоре и дугмад који се виде када се покрене Скреч је?
+   
 Питање 4
 ~~~~~~~~
 
-.. mchoice:: peti_22_4
+.. mchoice:: pocetak_4
    :multiple_answers:
    :answer_a: линија менија
    :answer_b: листа ликова
@@ -63,7 +60,7 @@
 Питање 5
 ~~~~~~~~
  
-.. mchoice:: peti_22_5
+.. mchoice:: pocetak_5
    :multiple_answers:
    :answer_a: презентације
    :answer_b: скрипте

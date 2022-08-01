@@ -77,15 +77,19 @@ lessons:
     activities:
       - type: reading
         title: 2.1. Подешавања и почетак рада
-        file: Inf5_R_01c_priprema_za_rad_citanje.rst
+        file: Inf5_R_02a_priprema_za_rad_citanje.rst
         guid: eb18682a-afa5-4a95-adb5-0c629f7e6b34
+      - type: quiz
+        title: 2.2. Квиз - Подешавања
+        file: Inf5_R_02b_podesavanja_kviz.rst
+        guid: b6497698-4d44-4499-90c1-29c656035ab5
       - type: reading
-        title: 2.2. Први програм
-        file: Inf5_R_01d_prvi_program_citanje.rst
+        title: 2.3. Први програм
+        file: Inf5_R_02c_prvi_program_citanje.rst
         guid: cb1ca071-ca2a-4305-9544-367ae2b43d41
       - type: quiz
-        title: 2.3. Квиз - Почетак рада
-        file: Inf5_R_02c_pocetak rada_kviz.rst
+        title: 2.4. Квиз - Почетак рада
+        file: Inf5_R_02d_pocetak rada_kviz.rst
         guid: e4ba8af1-f87d-4fd0-bc09-dacfcb0c4be0
   - title: 3. Положај, оријентација и кретање
     folder: 03_polozaj
@@ -94,19 +98,19 @@ lessons:
     activities:
       - type: reading
         title: 3.1. Положај и кретање лика
-        file: Inf5_R_02a_polozaj_citanje.rst
+        file: Inf5_R_03a_polozaj_citanje.rst
         guid: 532e5659-3dff-47f7-bf97-ef01ebf02e56
       - type: quiz
         title: 3.2. Квиз - Положај и кретање лика
-        file: Inf5_R_02b_polozaj_kviz.rst
+        file: Inf5_R_03b_polozaj_kviz.rst
         guid: 1d6663b2-a7d7-4961-ab09-2f6a8c2d84c9
       - type: reading
         title: 3.3. Усмеравање лика
-        file: Inf5_R_02c_usmeravanje_citanje.rst
+        file: Inf5_R_03c_usmeravanje_citanje.rst
         guid: 959fc64f-5f04-451f-a966-aec7b1da464d
       - type: quiz
         title: 3.4. Квиз - Усмеравање лика
-        file: Inf5_R_02d_usmeravanje_kviz.rst
+        file: Inf5_R_03d_usmeravanje_kviz.rst
         guid: 98ad3d59-b99d-40dc-83c8-f602746920c5
   - title: 4. Низање корака
     folder: 04_nizanje_koraka
@@ -115,11 +119,11 @@ lessons:
     activities:
       - type: reading
         title: 4.1. Низање корака
-        file: Inf5_R_03a_nizanje_koraka_citanje.rst
+        file: Inf5_R_04a_nizanje_koraka_citanje.rst
         guid: 00a94999-1457-43a2-b138-5b68b30e140b
       - type: quiz
         title: 4.2. Квиз - Низање корака
-        file: Inf5_R_03b_nizanje_koraka_kviz.rst
+        file: Inf5_R_04b_nizanje_koraka_kviz.rst
         guid: 22c6ed4c-79b1-4fef-b816-02c8a3c25b17
   - title: 5. Усклађивање скрипти
     folder: 05_sinhronizacija
@@ -128,11 +132,11 @@ lessons:
     activities:
       - type: reading
         title: 5.1. Усклађивање скрипти
-        file: Inf5_R_12a_razglasavanje_citanje.rst
+        file: Inf5_R_05a_razglasavanje_citanje.rst
         guid: 3718060d-7b30-4091-82ff-8cd798b2cfdf
       - type: quiz
         title: 5.2. Квиз - усклађивање скрипти
-        file: Inf5_R_12b_razglasavanje_kviz.rst
+        file: Inf5_R_05b_razglasavanje_kviz.rst
         guid: 1be1a2a7-2b15-4eb3-995c-6ea1d8c3fc08
   - title: 6. Цртање
     folder: 06_kornjaca
@@ -141,11 +145,11 @@ lessons:
     activities:
       - type: reading
         title: 6.1. Цртање
-        file: Inf5_R_04a_kornjaca_citanje.rst
+        file: Inf5_R_06a_kornjaca_citanje.rst
         guid: 670a08a8-6a4c-43fe-a52a-14aeb27371c9
       - type: quiz
         title: 6.2. Квиз - цртање
-        file: Inf5_R_04b_kornjaca_kviz.rst
+        file: Inf5_R_06b_kornjaca_kviz.rst
         guid: e218dbc4-8713-47b6-869d-8b9ef5808d21
   - title: 7. Наредбе понављања
     folder: 07_petlje
@@ -154,15 +158,15 @@ lessons:
     activities:
       - type: reading
         title: 7.1. Наредбе понављања
-        file: Inf5_R_05a_petlje_citanje.rst
+        file: Inf5_R_07a_petlje_citanje.rst
         guid: bdd92d86-0c8e-4e25-ba5c-ae7d2a8d81c1
       - type: quiz
         title: 7.2. Квиз - Наредбе понављања
-        file: Inf5_R_05b_petlje_kviz.rst
+        file: Inf5_R_07b_petlje_kviz.rst
         guid: 44dcf1d4-cb32-47bb-b2ac-f6b24ef0234c
       - type: reading
         title: 7.3. Наредбе понављања - вежбање
-        file: Inf5_R_06a_petlje_vezbanje.rst
+        file: Inf5_R_07c_petlje_vezbanje.rst
         guid: e681cdd9-ad87-459c-a3e0-e679deb94290
   - title: 8. Систематизација
     folder: 08_sistematizacija
@@ -171,7 +175,7 @@ lessons:
     activities:
       - type: quiz
         title: 8. Квиз - Систематизација
-        file: Inf5_R_07a_sistematizacija_kviz.rst
+        file: Inf5_R_08a_sistematizacija_kviz.rst
         guid: 9cc9f3d5-295c-4b79-9190-37b95bcc7b9c
   - title: 9. Гранање
     folder: 09_grananje
@@ -180,11 +184,11 @@ lessons:
     activities:
       - type: reading
         title: 9.1. Условно извршавање (гранање)
-        file: Inf5_R_08a_grananje_citanje.rst
+        file: Inf5_R_09a_grananje_citanje.rst
         guid: 7b7c3a5b-e597-44b3-b0bf-00fd90f62c4c
       - type: quiz
         title: 9.2. Квиз - гранање
-        file: Inf5_R_08b_grananje_kviz.rst
+        file: Inf5_R_09b_grananje_kviz.rst
         guid: ad755c0c-0211-48fd-891b-9c426216bd2f
   - title: 10. Осећаји
     folder: 10_osecaji
@@ -206,15 +210,15 @@ lessons:
     activities:
       - type: reading
         title: 11.1. Променљиве
-        file: Inf5_R_09a_promenljive_citanje.rst
+        file: Inf5_R_11a_promenljive_citanje.rst
         guid: dbc45bed-8ef0-4e85-be4f-91ca05cd7053
       - type: quiz
         title: 11.2. Квиз - променљиве
-        file: Inf5_R_09b_promenljive_kviz.rst
+        file: Inf5_R_11b_promenljive_kviz.rst
         guid: f773d76c-a812-4954-9e8a-1532eb1a06cb
       - type: reading
         title: 11.3. Променљиве - вежбање
-        file: Inf5_R_10a_promenljive_vezbanje.rst
+        file: Inf5_R_11c_promenljive_vezbanje.rst
         guid: c234da73-8b8b-49ee-94be-0a51dfbfc9a4
   - title: 12. Процедуре
     folder: 12_procedure
@@ -223,11 +227,11 @@ lessons:
     activities:
       - type: reading
         title: 12.1. Процедуре
-        file: Inf5_R_11a_procedure_citanje.rst
+        file: Inf5_R_12a_procedure_citanje.rst
         guid: 0de5dcff-abef-42ff-8dfa-aa0698fcdf90
       - type: quiz
         title: 12.2. Квиз - процедуре
-        file: Inf5_R_11b_procedure_kviz.rst
+        file: Inf5_R_12b_procedure_kviz.rst
         guid: 853b4a7d-7810-450b-90b8-1709f33cb888
   - title: 13. Листе
     folder: 13_liste
@@ -244,7 +248,7 @@ lessons:
         guid: 17d4a70a-43fd-476d-8706-6e1f03166c79
       - type: reading
         title: 13.3 Листе - вежбање
-        file: Inf5_R_14a_liste_vezbanje.rst
+        file: Inf5_R_13c_liste_vezbanje.rst
         guid: 536ef363-19c1-4bec-8539-f5803f36ec78
   - title: 14. Звук
     folder: 14_zvuk
