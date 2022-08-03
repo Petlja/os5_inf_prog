@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sr-Cyrl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>7.3. Наредбе понављања - вежбање</title>
+    <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/datafile.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/dragndrop.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/fitb.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/matrixeq.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/parsons.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/lib/prettify.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/poll.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/showEval.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/tabbedstuff.css" />
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/video.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webgldemo.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/editor.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/nimgame.css" />
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-4.0.0-dist/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/flatly.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/petlja-course.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/nbstyle.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/runestonebase.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/language_data.js"></script>
+    <script type="text/javascript" src="../_static/jquery.highlight.js"></script>
+    <script type="text/javascript" src="../_static/bookfuncs.js"></script>
+    <script type="text/javascript" src="../_static/codemirror.js"></script>
+    <script type="text/javascript" src="../_static/xml.js"></script>
+    <script type="text/javascript" src="../_static/css.js"></script>
+    <script type="text/javascript" src="../_static/python.js"></script>
+    <script type="text/javascript" src="../_static/htmlmixed.js"></script>
+    <script type="text/javascript" src="../_static/javascript.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/activecode-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/activecode.js"></script>
+    <script type="text/javascript" src="../_static/clike.js"></script>
+    <script type="text/javascript" src="../_static/timed_activecode.js"></script>
+    <script type="text/javascript" src="../_static/animationbase.js"></script>
+    <script type="text/javascript" src="../_static/mchoice.js"></script>
+    <script type="text/javascript" src="../_static/timedmc.js"></script>
+    <script type="text/javascript" src="../_static/timed.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/mchoice-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/clickable.js"></script>
+    <script type="text/javascript" src="../_static/timedclickable.js"></script>
+    <script type="text/javascript" src="../_static/d3.v2.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.ba-bbq.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
+    <script type="text/javascript" src="../_static/pytutor.js"></script>
+    <script type="text/javascript" src="../_static/codelens.js"></script>
+    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
+    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
+    <script type="text/javascript" src="../_static/datafile.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop.js"></script>
+    <script type="text/javascript" src="../_static/timeddnd.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/dragndrop-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/fitb.js"></script>
+    <script type="text/javascript" src="../_static/timedfitb.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/fitb-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/matrixeq.js"></script>
+    <script type="text/javascript" src="../_static/lib/prettify.js"></script>
+    <script type="text/javascript" src="../_static/lib/hammer.min.js"></script>
+    <script type="text/javascript" src="../_static/parsons.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/parsons-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/timedparsons.js"></script>
+    <script type="text/javascript" src="../_static/poll.js"></script>
+    <script type="text/javascript" src="../_static/reveal.js"></script>
+    <script type="text/javascript" src="../_static/shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/timed_shortanswer.js"></script>
+    <script type="text/javascript" src="../_static/showEval.js"></script>
+    <script type="text/javascript" src="../_static/tabbedstuff.js"></script>
+    <script type="text/javascript" src="../_static/runestonevideo.js"></script>
+    <script type="text/javascript" src="../_static/webglinteractive.js"></script>
+    <script type="text/javascript" src="../_static/FileSaver.min.js"></script>
+    <script type="text/javascript" src="../_static/Blob.js"></script>
+    <script type="text/javascript" src="../_static/karelCorner.js"></script>
+    <script type="text/javascript" src="../_static/karelRobot.js"></script>
+    <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
+    <script type="text/javascript" src="../_static/karelUI.js"></script>
+    <script type="text/javascript" src="../_static/karel.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/notes.js"></script>
+    <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
+    <script type="text/javascript" src="../_static/gallery.js"></script>
+    <script type="text/javascript" src="../_static/associations.js"></script>
+    <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/associations-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/editor.js"></script>
+    <script type="text/javascript" src="../_static/jszip.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/nimgame.js"></script>
+    <script type="text/javascript" src="../_static/nimgame-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/nimgame-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/translations.js"></script>
+    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <script type="text/javascript" src="../_static/waypoints.min.js"></script>
+    <script type="text/javascript" src="../_static/rangy-core.js"></script>
+    <script type="text/javascript" src="../_static/rangy-textrange.js"></script>
+    <script type="text/javascript" src="../_static/rangy-cssclassapplier.js"></script>
+    <script type="text/javascript" src="../_static/user-highlights.js"></script>
+    <script type="text/javascript" src="../_static/jquery.idle-timer.js"></script>
+    <script type="text/javascript" src="../_static/processing-1.4.1.min.js"></script>
+    <script type="text/javascript" src="../_static/jquery.hotkey.js"></script>
+    <script type="text/javascript" src="../_static/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="../_static/course-errors.js"></script>
+    <script type="text/javascript" src="../_static/petlja.js"></script>
+    <script type="text/javascript" src="../_static/require.js"></script>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <link rel="shortcut icon" href="../_static/favicon.ico" type="image/ico" />
+    <script type="text/javascript">
+      eBookConfig = {};
+      eBookConfig.host = 'http://127.0.0.1:8000' ? 'http://127.0.0.1:8000' : 'http://127.0.0.1:8000';
+      eBookConfig.app = eBookConfig.host + '/runestone';
+      eBookConfig.ajaxURL = eBookConfig.app + '/ajax/';
+      eBookConfig.course = 'Информатика и рачунарство за пети разред';
+      eBookConfig.logLevel = '0';
+      eBookConfig.loginRequired = 'false';
+      eBookConfig.build_info = "";
+      eBookConfig.isLoggedIn = false;
+      eBookConfig.useRunestoneServices = false;
+      eBookConfig.python3 = true;
+      eBookConfig.basecourse = 'Информатика и рачунарство за пети разред';
+      eBookConfig.runestone_version = '';
+      eBookConfig.imagesDir = '../_images/';
+      eBookConfig.staticDir = '../_static/';
+      if (typeof (Sk) != "undefined")
+        Sk.imgPath = eBookConfig.imagesDir;
+    </script>
+
+  </head>
+
+  <body>
+
+
+
+<div id="navbar" class="content-header">
+  <div class="right-side-nav">
+    
+    <div id="usefulLinksToggle" class="useful-links-toggle">
+        <a class="dropdown-toggle dropdown-toggle-burger" role="button" href="#" id="usefulLinksDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bars fa-2x"></i>
+        </a>
+        <div class="dropdown-menu dropdown-nav-links shadow-lg" aria-labelledby="usefulLinksDropdown" x-placement="bottom-start" style="position: absolute; transform: translate3d(-55px, 32px, 0px); top: 0px; left: 0px; will-change: transform;">
+          <div class="links-title"> Корисни линкови</div>
+          <div class="useful-link">
+            <a href="https://petlja.org/biblioteka/r/kursevi/scratch3-praktikum" target="_blank">Програмирање у Скречу 3.0, практикум за пети разред</a></div>
+          <div class="useful-link">
+            <a href="https://scratch.mit.edu/search/studios?q=petlja" target="_blank">Петљини студији на сајту Скреч</a></div>
+          
+        </div>
+    </div>
+
+    
+</div>
+
+<div class="left-side-nav">
+  <div class="course-logo-nav">
+      <a target="_blank" href="https://petlja.org">
+          <img src="../_static/img/petlja-logo-wt.svg" alt="petlja.org" id="lightPetljaLogo">
+      </a>
+  </div>
+  <div class="course-logo-nav-kabinet">
+      <a target="_blank" href="https://petlja.org/net.kabinet">
+          <img src="../_static/img/netkabinet-logo-strelica-wt.svg" alt="petlja.org" id="lightNetKabinetLogo">
+      </a>
+  </div>
+</div>
+
+
+<div class="content-header-label" id = "content-header-label" href="../">Програмирање у Скречу</div>
+
+</div>
+
+
+
+
+<div class="petljaCourseContainer">
+
+<div class="petljaCourseContent">
+  
+           <div class="tableOfContent">
+            <h5> Садржај </h5>
+            </div>
+           <div>
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-00_uvod>
+                    <h5>Увод</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../00_uvod/Inf5_R_00_uvod.html><div class="studioLecture" id=activity-Inf5_R_00_uvod><i class="fas fa-file-alt activity-icon"></i>Увод</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-01_algoritmi>
+                    <h5>1. Алгоритми</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../01_algoritmi/Inf5_R_01a_algoritmi_citanje.html><div class="studioLecture" id=activity-Inf5_R_01a_algoritmi_citanje><i class="fas fa-file-alt activity-icon"></i>1.1. Алгоритамски начин размишљања</div></a>
+                <a href=../01_algoritmi/Inf5_R_01b_algoritmi_kviz.html><div class="studioLecture" id=activity-Inf5_R_01b_algoritmi_kviz><i class="far fa-question-circle activity-icon"></i>1.2. Квиз - Алгоритамски начин размишљања</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-02_pocetak_rada>
+                    <h5>2. Почетак рада</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../02_pocetak_rada/Inf5_R_02a_priprema_za_rad_citanje.html><div class="studioLecture" id=activity-Inf5_R_02a_priprema_za_rad_citanje><i class="fas fa-file-alt activity-icon"></i>2.1. Подешавања и почетак рада</div></a>
+                <a href=../02_pocetak_rada/Inf5_R_02b_podesavanja_kviz.html><div class="studioLecture" id=activity-Inf5_R_02b_podesavanja_kviz><i class="far fa-question-circle activity-icon"></i>2.2. Квиз - Подешавања</div></a>
+                <a href=../02_pocetak_rada/Inf5_R_02c_prvi_program_citanje.html><div class="studioLecture" id=activity-Inf5_R_02c_prvi_program_citanje><i class="fas fa-file-alt activity-icon"></i>2.3. Први програм</div></a>
+                <a href=../02_pocetak_rada/Inf5_R_02d_pocetak%20rada_kviz.html><div class="studioLecture" id=activity-Inf5_R_02d_pocetak%20rada_kviz><i class="far fa-question-circle activity-icon"></i>2.4. Квиз - Почетак рада</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-03_polozaj>
+                    <h5>3. Положај, оријентација и кретање</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../03_polozaj/Inf5_R_03a_polozaj_citanje.html><div class="studioLecture" id=activity-Inf5_R_03a_polozaj_citanje><i class="fas fa-file-alt activity-icon"></i>3.1. Положај и кретање лика</div></a>
+                <a href=../03_polozaj/Inf5_R_03b_polozaj_kviz.html><div class="studioLecture" id=activity-Inf5_R_03b_polozaj_kviz><i class="far fa-question-circle activity-icon"></i>3.2. Квиз - Положај и кретање лика</div></a>
+                <a href=../03_polozaj/Inf5_R_03c_usmeravanje_citanje.html><div class="studioLecture" id=activity-Inf5_R_03c_usmeravanje_citanje><i class="fas fa-file-alt activity-icon"></i>3.3. Усмеравање лика</div></a>
+                <a href=../03_polozaj/Inf5_R_03d_usmeravanje_kviz.html><div class="studioLecture" id=activity-Inf5_R_03d_usmeravanje_kviz><i class="far fa-question-circle activity-icon"></i>3.4. Квиз - Усмеравање лика</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-04_nizanje_koraka>
+                    <h5>4. Низање корака</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../04_nizanje_koraka/Inf5_R_04a_nizanje_koraka_citanje.html><div class="studioLecture" id=activity-Inf5_R_04a_nizanje_koraka_citanje><i class="fas fa-file-alt activity-icon"></i>4.1. Низање корака</div></a>
+                <a href=../04_nizanje_koraka/Inf5_R_04b_nizanje_koraka_kviz.html><div class="studioLecture" id=activity-Inf5_R_04b_nizanje_koraka_kviz><i class="far fa-question-circle activity-icon"></i>4.2. Квиз - Низање корака</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-05_sinhronizacija>
+                    <h5>5. Усклађивање скрипти</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../05_sinhronizacija/Inf5_R_05a_razglasavanje_citanje.html><div class="studioLecture" id=activity-Inf5_R_05a_razglasavanje_citanje><i class="fas fa-file-alt activity-icon"></i>5.1. Усклађивање скрипти</div></a>
+                <a href=../05_sinhronizacija/Inf5_R_05b_razglasavanje_kviz.html><div class="studioLecture" id=activity-Inf5_R_05b_razglasavanje_kviz><i class="far fa-question-circle activity-icon"></i>5.2. Квиз - усклађивање скрипти</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-06_kornjaca>
+                    <h5>6. Цртање</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../06_kornjaca/Inf5_R_06a_kornjaca_citanje.html><div class="studioLecture" id=activity-Inf5_R_06a_kornjaca_citanje><i class="fas fa-file-alt activity-icon"></i>6.1. Цртање</div></a>
+                <a href=../06_kornjaca/Inf5_R_06b_kornjaca_kviz.html><div class="studioLecture" id=activity-Inf5_R_06b_kornjaca_kviz><i class="far fa-question-circle activity-icon"></i>6.2. Квиз - цртање</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-07_petlje>
+                    <h5>7. Наредбе понављања</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../07_petlje/Inf5_R_07a_petlje_citanje.html><div class="studioLecture" id=activity-Inf5_R_07a_petlje_citanje><i class="fas fa-file-alt activity-icon"></i>7.1. Наредбе понављања</div></a>
+                <a href=../07_petlje/Inf5_R_07b_petlje_kviz.html><div class="studioLecture" id=activity-Inf5_R_07b_petlje_kviz><i class="far fa-question-circle activity-icon"></i>7.2. Квиз - Наредбе понављања</div></a>
+                <a href=../07_petlje/Inf5_R_07c_petlje_vezbanje.html><div class="studioLecture" id=activity-Inf5_R_07c_petlje_vezbanje><i class="fas fa-file-alt activity-icon"></i>7.3. Наредбе понављања - вежбање</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-08_sistematizacija>
+                    <h5>8. Систематизација</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../08_sistematizacija/Inf5_R_08a_sistematizacija_kviz.html><div class="studioLecture" id=activity-Inf5_R_08a_sistematizacija_kviz><i class="far fa-question-circle activity-icon"></i>8. Квиз - Систематизација</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-09_grananje>
+                    <h5>9. Гранање</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../09_grananje/Inf5_R_09a_grananje_citanje.html><div class="studioLecture" id=activity-Inf5_R_09a_grananje_citanje><i class="fas fa-file-alt activity-icon"></i>9.1. Условно извршавање (гранање)</div></a>
+                <a href=../09_grananje/Inf5_R_09b_grananje_kviz.html><div class="studioLecture" id=activity-Inf5_R_09b_grananje_kviz><i class="far fa-question-circle activity-icon"></i>9.2. Квиз - гранање</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-10_osecaji>
+                    <h5>10. Осећаји</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../10_osecaji/Inf5_R_10a_osecaji_citanje.html><div class="studioLecture" id=activity-Inf5_R_10a_osecaji_citanje><i class="fas fa-file-alt activity-icon"></i>10.1. Осећаји</div></a>
+                <a href=../10_osecaji/Inf5_R_10b_osecaji_kviz.html><div class="studioLecture" id=activity-Inf5_R_10b_osecaji_kviz><i class="far fa-question-circle activity-icon"></i>10.2. Квиз - осећаји</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-11_promenljive>
+                    <h5>11. Променљиве</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../11_promenljive/Inf5_R_11a_promenljive_citanje.html><div class="studioLecture" id=activity-Inf5_R_11a_promenljive_citanje><i class="fas fa-file-alt activity-icon"></i>11.1. Променљиве</div></a>
+                <a href=../11_promenljive/Inf5_R_11b_promenljive_kviz.html><div class="studioLecture" id=activity-Inf5_R_11b_promenljive_kviz><i class="far fa-question-circle activity-icon"></i>11.2. Квиз - променљиве</div></a>
+                <a href=../11_promenljive/Inf5_R_11c_promenljive_vezbanje.html><div class="studioLecture" id=activity-Inf5_R_11c_promenljive_vezbanje><i class="fas fa-file-alt activity-icon"></i>11.3. Променљиве - вежбање</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-12_procedure>
+                    <h5>12. Процедуре</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../12_procedure/Inf5_R_12a_procedure_citanje.html><div class="studioLecture" id=activity-Inf5_R_12a_procedure_citanje><i class="fas fa-file-alt activity-icon"></i>12.1. Процедуре</div></a>
+                <a href=../12_procedure/Inf5_R_12b_procedure_kviz.html><div class="studioLecture" id=activity-Inf5_R_12b_procedure_kviz><i class="far fa-question-circle activity-icon"></i>12.2. Квиз - процедуре</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-13_liste>
+                    <h5>13. Листе</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../13_liste/Inf5_R_13a_liste_citanje.html><div class="studioLecture" id=activity-Inf5_R_13a_liste_citanje><i class="fas fa-file-alt activity-icon"></i>13.1. Листе</div></a>
+                <a href=../13_liste/Inf5_R_13b_liste_kviz.html><div class="studioLecture" id=activity-Inf5_R_13b_liste_kviz><i class="far fa-question-circle activity-icon"></i>13.2. Квиз - листе</div></a>
+                <a href=../13_liste/Inf5_R_13c_liste_vezbanje.html><div class="studioLecture" id=activity-Inf5_R_13c_liste_vezbanje><i class="fas fa-file-alt activity-icon"></i>13.3 Листе - вежбање</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-14_zvuk>
+                    <h5>14. Звук</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../14_zvuk/Inf5_R_14a_zvuk_citanje.html><div class="studioLecture" id=activity-Inf5_R_14a_zvuk_citanje><i class="fas fa-file-alt activity-icon"></i>14.1. Звук</div></a>
+                <a href=../14_zvuk/Inf5_R_14b_zvuk_kviz.html><div class="studioLecture" id=activity-Inf5_R_14b_zvuk_kviz><i class="far fa-question-circle activity-icon"></i>14.2. Квиз - звук</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-15_muzika>
+                    <h5>15. Музика</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../15_muzika/Inf5_R_15a_muzika_citanje.html><div class="studioLecture" id=activity-Inf5_R_15a_muzika_citanje><i class="fas fa-file-alt activity-icon"></i>15.1. Mузика</div></a>
+                <a href=../15_muzika/Inf5_R_15b_muzika_kviz.html><div class="studioLecture" id=activity-Inf5_R_15b_muzika_kviz><i class="far fa-question-circle activity-icon"></i>15.2. Квиз - музика</div></a>
+                </div>
+            </div>
+                
+                <div class="courseContentsSection">
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-16_zavrsni_kviz>
+                    <h5>16. Завршни квиз</h5>
+                    <i class="fas fa-angle-down caret-position "> </i>
+                    <i class="fas fa-angle-up caret-position d-none"></i>
+                </div>
+                <div class="courseContentsSubSection d-none"><a href=../16_zavrsni_kviz/Inf5_R_16a_zavrsni_kviz.html><div class="studioLecture" id=activity-Inf5_R_16a_zavrsni_kviz><i class="far fa-question-circle activity-icon"></i>16. Завршни квиз</div></a>
+                </div>
+            </div>
+                </div>
+</div>
+
+
+
+<div class="lectureContent">
+
+  <div id="errors">
+  </div>
+  
+  <div class="lectureContentMaterial">
+  
+    <div id="main-content">
+    
+  <div class="section" id="id1">
+<h1>7.3. Наредбе понављања - вежбање<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<div class="topic">
+<p class="topic-title">У оквиру овог часа треба да вежбаш разне употребе блокова понављања:</p>
+<ul class="simple">
+<li><p>цртање правилних геометријских фигура</p></li>
+<li><p>цртање кретањем напред и окретањем</p></li>
+<li><p>мењање костима лика да би се добио утисак летења или ходања</p></li>
+<li><p>мењање величине лика да би се добио утисак перспективе (дубине цртежа)</p></li>
+</ul>
+</div>
+<p>Изабери неке од предложених задатака и направи пројекте у којима решаваш те задатке. Слободно се враћај на вежбе са претходног часа да се подсетиш на неке детаље, ако ти је то потребно.</p>
+<div class="section" id="id2">
+<h2>Задаци<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id3">
+<h3>Правоугаоник<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>Направи пројекат којим ћеш нацртати правоугаоник сличан ономе који црта наш програм (кликни на слику да га видиш).</p>
+<div style="text-align: center">
+<iframe src="https://scratch.mit.edu/projects/713827556/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"  allowfullscreen>
+</iframe>
+</div><p>Дужине страница изабери.</p>
+<p>Користи блок <img alt="ponavljaj" src="../_images/ponavljaj.png" />, у коме ће се цртање две странице правоугаоника поновити два пута.</p>
+</div>
+<div class="section" id="id4">
+<h3>Степенице<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>Направи пројекат којим ћеш нацртати степенице сличне онима које црта наш програм (кликни на слику да их видиш).</p>
+<div style="text-align: center">
+<iframe src="https://scratch.mit.edu/projects/713827704/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"  allowfullscreen>
+</iframe>
+</div><p>Користи неки од блокова понављања.</p>
+</div>
+<div class="section" id="id5">
+<h3>Осмоугао<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>Направи пројекат у коме ћеш нацртати осмоугао странице дужине 70 корака. Кликом на слику можеш да видиш како то ради наш програм.</p>
+<div style="text-align: center">
+<iframe src="https://scratch.mit.edu/projects/713827316/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"  allowfullscreen>
+</iframe>
+</div></div>
+<div class="section" id="id6">
+<h3>Низ ромбова<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<p>Направи пројекат у коме ћеш нацртати низ од 8 једнаких ромбова, странице дужине 80 корака, а углова 60 и 120 степени (ромбови су исти као ромб из задатка са претходног часа). Кликом на слику можеш да видиш какав треба да буде резултат одговарајућег програма.</p>
+<div style="text-align: center">
+<iframe src="https://scratch.mit.edu/projects/416414973/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"  allowfullscreen>
+</iframe>
+</div></div>
+<div class="section" id="id7">
+<h3>Кретање и мењање величине лика<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<p>Направи пројекат у коме се лик који изабереш креће и мења своју величину.</p>
+<p>Ликова може да буде и више. Ако немаш инспирације, ми ти нудимо ове две идеје:</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<a class="reference internal image-reference" href="../_images/IdemKuci.gif"><img alt="../_images/IdemKuci.gif" src="../_images/IdemKuci.gif" style="width: 450px;" /></a>
+<a class="reference internal image-reference" href="../_images/Bejzbol.gif"><img alt="../_images/Bejzbol.gif" src="../_images/Bejzbol.gif" style="width: 450px;" /></a>
+</div>
+</div>
+</div>
+
+
+    </div>
+    
+    <div>
+<div class="lecture-prev-next-toggle">
+  <a  href="Inf5_R_07b_petlje_kviz.html" id="prevLectureLink" class="lecture-toggler-arrows"><i class="fas fa-arrow-left fa"></i> <span> Претходна лекција </span> </a>
+  
+  <a id="nextLectureLink" class="lecture-toggler-arrows"><span> Следећа лекција</span>  <i class="fas fa-arrow-right fa"></i> </a>
+</div>
+
+<script type="text/javascript">
+  $('#relations-prev').tooltip({'placement':'right', 'selector': '', 'delay': { show: 100, hide: 50}});
+  $('#relations-next').tooltip({'placement':'left', 'selector': '', 'delay': { show: 100, hide: 50}});
+</script>
+</div>
+
+    
+  </div>
+</div>
+
+<div class="petljadoc-resources">
+  <span class="pull-left">(Created using  <a href="https://pypi.org/project/Sphinx/">Swinx</a>, <a href="http://runestoneinteractive.org/">RunestoneComponents</a> and <a href="https://github.com/Petlja/PetljaDoc">PetljaDoc</a>) <br> © 2022 Petlja</span>
+</div>
+
+
+<div class="lectureToolbox">
+
+  <label class="font-size-toggle" id="fontSizeToggle">
+
+      <i class="fas fa-font"></i><label>Слова</label>
+  </label>
+  <div class="font-change d-none" id="fontChangeModal">
+      <span class="dec-letter-icon" id="decLetterIcon">A-</span>
+      <label id="currentFontSize">16</label>
+      <span class="inc-letter-icon" id="incLetterIcon">A+</span>
+  </div>
+</div>
+
+</div>
+
+  </body>
+</html>

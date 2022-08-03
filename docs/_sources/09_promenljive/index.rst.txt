@@ -1,9 +1,0 @@
-==========
-Променљиве
-==========
-
-.. toctree:: 
-    :maxdepth: 1
-
-    Inf5_R_09a_promenljive_citanje.rst
-    Inf5_R_09b_promenljive_kviz.rst

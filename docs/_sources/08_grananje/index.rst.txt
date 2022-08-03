@@ -1,9 +1,0 @@
-=======
-Грањање
-=======
-
-.. toctree:: 
-    :maxdepth: 1
-
-    Inf5_R_08a_grananje_citanje.rst
-    Inf5_R_08b_grananje_kviz.rst
