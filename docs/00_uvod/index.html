@@ -24,13 +24,10 @@
     <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
     <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/simanim.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/pycode.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/p5js.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/dbDirective.css" />
     <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/regex-check.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/editor.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/nimgame.css" />
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
@@ -119,46 +116,17 @@
     <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/notes.js"></script>
     <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
-    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
-    <script type="text/javascript" src="../_static/simanim.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
-    <script type="text/javascript" src="../_static/pycode.js"></script>
-    <script type="text/javascript" src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
-    <script type="text/javascript" src="../_static/p5js.js"></script>
     <script type="text/javascript" src="../_static/gallery.js"></script>
-    <script type="text/javascript" src="../_static/dbDirective.js"></script>
-    <script type="text/javascript" src="../_static/sql.js"></script>
     <script type="text/javascript" src="../_static/associations.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/regex-check.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/editor.js"></script>
+    <script type="text/javascript" src="../_static/jszip.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/nimgame.js"></script>
+    <script type="text/javascript" src="../_static/nimgame-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/nimgame-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/translations.js"></script>
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
@@ -269,134 +237,138 @@
                 
                 <div class="courseContentsSection">
                 <div class="lecture-div courseContentsSectionHeadline" id=lecture-01_algoritmi>
-                    <h5>1 Алгоритми</h5>
+                    <h5>1. Алгоритми</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
                 <div class="courseContentsSubSection d-none"><a href=../01_algoritmi/Inf5_R_01a_algoritmi_citanje.html><div class="studioLecture" id=activity-Inf5_R_01a_algoritmi_citanje><i class="fas fa-file-alt activity-icon"></i>1.1. Алгоритамски начин размишљања</div></a>
                 <a href=../01_algoritmi/Inf5_R_01b_algoritmi_kviz.html><div class="studioLecture" id=activity-Inf5_R_01b_algoritmi_kviz><i class="far fa-question-circle activity-icon"></i>1.2. Квиз - Алгоритамски начин размишљања</div></a>
-                <a href=../01_algoritmi/Inf5_R_01c_priprema_za_rad_citanje.html><div class="studioLecture" id=activity-Inf5_R_01c_priprema_za_rad_citanje><i class="fas fa-file-alt activity-icon"></i>1.3. Подешавања и почетак рада</div></a>
-                <a href=../01_algoritmi/Inf5_R_01d_prvi_program_citanje.html><div class="studioLecture" id=activity-Inf5_R_01d_prvi_program_citanje><i class="fas fa-file-alt activity-icon"></i>1.4. Први програм</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-02_polozaj>
-                    <h5>2. Положај, оријентација и кретање</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-02_pocetak_rada>
+                    <h5>2. Почетак рада</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../02_polozaj/Inf5_R_02a_polozaj_citanje.html><div class="studioLecture" id=activity-Inf5_R_02a_polozaj_citanje><i class="fas fa-file-alt activity-icon"></i>2.1. Положај и кретање лика</div></a>
-                <a href=../02_polozaj/Inf5_R_02b_polozaj_kviz.html><div class="studioLecture" id=activity-Inf5_R_02b_polozaj_kviz><i class="far fa-question-circle activity-icon"></i>2.2. Квиз - Положај и кретање лика</div></a>
-                <a href=../02_polozaj/Inf5_R_02c_usmeravanje_citanje.html><div class="studioLecture" id=activity-Inf5_R_02c_usmeravanje_citanje><i class="fas fa-file-alt activity-icon"></i>2.3. Усмеравање лика</div></a>
-                <a href=../02_polozaj/Inf5_R_02d_usmeravanje_kviz.html><div class="studioLecture" id=activity-Inf5_R_02d_usmeravanje_kviz><i class="far fa-question-circle activity-icon"></i>2.4. Квиз - Усмеравање лика</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../02_pocetak_rada/Inf5_R_02a_priprema_za_rad_citanje.html><div class="studioLecture" id=activity-Inf5_R_02a_priprema_za_rad_citanje><i class="fas fa-file-alt activity-icon"></i>2.1. Подешавања и почетак рада</div></a>
+                <a href=../02_pocetak_rada/Inf5_R_02b_podesavanja_kviz.html><div class="studioLecture" id=activity-Inf5_R_02b_podesavanja_kviz><i class="far fa-question-circle activity-icon"></i>2.2. Квиз - Подешавања</div></a>
+                <a href=../02_pocetak_rada/Inf5_R_02c_prvi_program_citanje.html><div class="studioLecture" id=activity-Inf5_R_02c_prvi_program_citanje><i class="fas fa-file-alt activity-icon"></i>2.3. Први програм</div></a>
+                <a href=../02_pocetak_rada/Inf5_R_02d_pocetak%20rada_kviz.html><div class="studioLecture" id=activity-Inf5_R_02d_pocetak%20rada_kviz><i class="far fa-question-circle activity-icon"></i>2.4. Квиз - Почетак рада</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-03_nizanje_koraka>
-                    <h5>3. Низање корака</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-03_polozaj>
+                    <h5>3. Положај, оријентација и кретање</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../03_nizanje_koraka/Inf5_R_03a_nizanje_koraka_citanje.html><div class="studioLecture" id=activity-Inf5_R_03a_nizanje_koraka_citanje><i class="fas fa-file-alt activity-icon"></i>3.1. Низање корака</div></a>
-                <a href=../03_nizanje_koraka/Inf5_R_03b_nizanje_koraka_kviz.html><div class="studioLecture" id=activity-Inf5_R_03b_nizanje_koraka_kviz><i class="far fa-question-circle activity-icon"></i>3.2. Квиз - Низање корака</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../03_polozaj/Inf5_R_03a_polozaj_citanje.html><div class="studioLecture" id=activity-Inf5_R_03a_polozaj_citanje><i class="fas fa-file-alt activity-icon"></i>3.1. Положај и кретање лика</div></a>
+                <a href=../03_polozaj/Inf5_R_03b_polozaj_kviz.html><div class="studioLecture" id=activity-Inf5_R_03b_polozaj_kviz><i class="far fa-question-circle activity-icon"></i>3.2. Квиз - Положај и кретање лика</div></a>
+                <a href=../03_polozaj/Inf5_R_03c_usmeravanje_citanje.html><div class="studioLecture" id=activity-Inf5_R_03c_usmeravanje_citanje><i class="fas fa-file-alt activity-icon"></i>3.3. Усмеравање лика</div></a>
+                <a href=../03_polozaj/Inf5_R_03d_usmeravanje_kviz.html><div class="studioLecture" id=activity-Inf5_R_03d_usmeravanje_kviz><i class="far fa-question-circle activity-icon"></i>3.4. Квиз - Усмеравање лика</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-04_kornjaca>
-                    <h5>4. Цртање</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-04_nizanje_koraka>
+                    <h5>4. Низање корака</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../04_kornjaca/Inf5_R_04a_kornjaca_citanje.html><div class="studioLecture" id=activity-Inf5_R_04a_kornjaca_citanje><i class="fas fa-file-alt activity-icon"></i>4.1. Корњача графика</div></a>
-                <a href=../04_kornjaca/Inf5_R_04b_kornjaca_kviz.html><div class="studioLecture" id=activity-Inf5_R_04b_kornjaca_kviz><i class="far fa-question-circle activity-icon"></i>4.2. Квиз - Корњача графика</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../04_nizanje_koraka/Inf5_R_04a_nizanje_koraka_citanje.html><div class="studioLecture" id=activity-Inf5_R_04a_nizanje_koraka_citanje><i class="fas fa-file-alt activity-icon"></i>4.1. Низање корака</div></a>
+                <a href=../04_nizanje_koraka/Inf5_R_04b_nizanje_koraka_kviz.html><div class="studioLecture" id=activity-Inf5_R_04b_nizanje_koraka_kviz><i class="far fa-question-circle activity-icon"></i>4.2. Квиз - Низање корака</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-05_petlje>
-                    <h5>5. Наредбе понављања</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-05_sinhronizacija>
+                    <h5>5. Усклађивање скрипти</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../05_petlje/Inf5_R_05a_petlje_citanje.html><div class="studioLecture" id=activity-Inf5_R_05a_petlje_citanje><i class="fas fa-file-alt activity-icon"></i>5.1. Наредбе понављања</div></a>
-                <a href=../05_petlje/Inf5_R_05b_petlje_kviz.html><div class="studioLecture" id=activity-Inf5_R_05b_petlje_kviz><i class="far fa-question-circle activity-icon"></i>5.2. Квиз - Наредбе понављања</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../05_sinhronizacija/Inf5_R_05a_razglasavanje_citanje.html><div class="studioLecture" id=activity-Inf5_R_05a_razglasavanje_citanje><i class="fas fa-file-alt activity-icon"></i>5.1. Усклађивање скрипти</div></a>
+                <a href=../05_sinhronizacija/Inf5_R_05b_razglasavanje_kviz.html><div class="studioLecture" id=activity-Inf5_R_05b_razglasavanje_kviz><i class="far fa-question-circle activity-icon"></i>5.2. Квиз - усклађивање скрипти</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-06_petlje_vezbanje>
-                    <h5>6. Наредбе понављања - вежбање</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-06_kornjaca>
+                    <h5>6. Цртање</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../06_petlje_vezbanje/Inf5_R_06a_petlje_vezbanje.html><div class="studioLecture" id=activity-Inf5_R_06a_petlje_vezbanje><i class="fas fa-file-alt activity-icon"></i>6. Наредбе понављања - вежбање</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../06_kornjaca/Inf5_R_06a_kornjaca_citanje.html><div class="studioLecture" id=activity-Inf5_R_06a_kornjaca_citanje><i class="fas fa-file-alt activity-icon"></i>6.1. Цртање</div></a>
+                <a href=../06_kornjaca/Inf5_R_06b_kornjaca_kviz.html><div class="studioLecture" id=activity-Inf5_R_06b_kornjaca_kviz><i class="far fa-question-circle activity-icon"></i>6.2. Квиз - цртање</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-07_sistematizacija>
-                    <h5>7. Систематизација</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-07_petlje>
+                    <h5>7. Наредбе понављања</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../07_sistematizacija/Inf5_R_07a_sistematizacija_kviz.html><div class="studioLecture" id=activity-Inf5_R_07a_sistematizacija_kviz><i class="far fa-question-circle activity-icon"></i>7. Квиз - Систематизација</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../07_petlje/Inf5_R_07a_petlje_citanje.html><div class="studioLecture" id=activity-Inf5_R_07a_petlje_citanje><i class="fas fa-file-alt activity-icon"></i>7.1. Наредбе понављања</div></a>
+                <a href=../07_petlje/Inf5_R_07b_petlje_kviz.html><div class="studioLecture" id=activity-Inf5_R_07b_petlje_kviz><i class="far fa-question-circle activity-icon"></i>7.2. Квиз - Наредбе понављања</div></a>
+                <a href=../07_petlje/Inf5_R_07c_petlje_vezbanje.html><div class="studioLecture" id=activity-Inf5_R_07c_petlje_vezbanje><i class="fas fa-file-alt activity-icon"></i>7.3. Наредбе понављања - вежбање</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-08_grananje>
-                    <h5>8. Гранање</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-08_sistematizacija>
+                    <h5>8. Систематизација</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../08_grananje/Inf5_R_08a_grananje_citanje.html><div class="studioLecture" id=activity-Inf5_R_08a_grananje_citanje><i class="fas fa-file-alt activity-icon"></i>8.1. Условно извршавање (гранање)</div></a>
-                <a href=../08_grananje/Inf5_R_08b_grananje_kviz.html><div class="studioLecture" id=activity-Inf5_R_08b_grananje_kviz><i class="far fa-question-circle activity-icon"></i>8.2. Квиз - гранање</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../08_sistematizacija/Inf5_R_08a_sistematizacija_kviz.html><div class="studioLecture" id=activity-Inf5_R_08a_sistematizacija_kviz><i class="far fa-question-circle activity-icon"></i>8. Квиз - Систематизација</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-09_promenljive>
-                    <h5>9. Променљиве</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-09_grananje>
+                    <h5>9. Гранање</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../09_promenljive/Inf5_R_09a_promenljive_citanje.html><div class="studioLecture" id=activity-Inf5_R_09a_promenljive_citanje><i class="fas fa-file-alt activity-icon"></i>9.1. Променљиве</div></a>
-                <a href=../09_promenljive/Inf5_R_09b_promenljive_kviz.html><div class="studioLecture" id=activity-Inf5_R_09b_promenljive_kviz><i class="far fa-question-circle activity-icon"></i>9.2. Квиз - променљиве</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../09_grananje/Inf5_R_09a_grananje_citanje.html><div class="studioLecture" id=activity-Inf5_R_09a_grananje_citanje><i class="fas fa-file-alt activity-icon"></i>9.1. Условно извршавање (гранање)</div></a>
+                <a href=../09_grananje/Inf5_R_09b_grananje_kviz.html><div class="studioLecture" id=activity-Inf5_R_09b_grananje_kviz><i class="far fa-question-circle activity-icon"></i>9.2. Квиз - гранање</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-10_promenljive_vezbanje>
-                    <h5>10. Променљиве - вежбање</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-10_osecaji>
+                    <h5>10. Осећаји</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../10_promenljive_vezbanje/Inf5_R_10a_promenljive_vezbanje.html><div class="studioLecture" id=activity-Inf5_R_10a_promenljive_vezbanje><i class="fas fa-file-alt activity-icon"></i>10. Променљиве - вежбање</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../10_osecaji/Inf5_R_10a_osecaji_citanje.html><div class="studioLecture" id=activity-Inf5_R_10a_osecaji_citanje><i class="fas fa-file-alt activity-icon"></i>10.1. Осећаји</div></a>
+                <a href=../10_osecaji/Inf5_R_10b_osecaji_kviz.html><div class="studioLecture" id=activity-Inf5_R_10b_osecaji_kviz><i class="far fa-question-circle activity-icon"></i>10.2. Квиз - осећаји</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-11_procedure>
-                    <h5>11. Процедуре</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-11_promenljive>
+                    <h5>11. Променљиве</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../11_procedure/Inf5_R_11a_procedure_citanje.html><div class="studioLecture" id=activity-Inf5_R_11a_procedure_citanje><i class="fas fa-file-alt activity-icon"></i>11.1. Процедуре</div></a>
-                <a href=../11_procedure/Inf5_R_11b_procedure_kviz.html><div class="studioLecture" id=activity-Inf5_R_11b_procedure_kviz><i class="far fa-question-circle activity-icon"></i>11.2. Квиз - процедуре</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../11_promenljive/Inf5_R_11a_promenljive_citanje.html><div class="studioLecture" id=activity-Inf5_R_11a_promenljive_citanje><i class="fas fa-file-alt activity-icon"></i>11.1. Променљиве</div></a>
+                <a href=../11_promenljive/Inf5_R_11b_promenljive_kviz.html><div class="studioLecture" id=activity-Inf5_R_11b_promenljive_kviz><i class="far fa-question-circle activity-icon"></i>11.2. Квиз - променљиве</div></a>
+                <a href=../11_promenljive/Inf5_R_11c_promenljive_vezbanje.html><div class="studioLecture" id=activity-Inf5_R_11c_promenljive_vezbanje><i class="fas fa-file-alt activity-icon"></i>11.3. Променљиве - вежбање</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-12_razglasavanje>
-                    <h5>12. Разглашавање</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-12_procedure>
+                    <h5>12. Процедуре</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../12_razglasavanje/Inf5_R_12a_razglasavanje_citanje.html><div class="studioLecture" id=activity-Inf5_R_12a_razglasavanje_citanje><i class="fas fa-file-alt activity-icon"></i>12.1. Разглашавање</div></a>
-                <a href=../12_razglasavanje/Inf5_R_12b_razglasavanje_kviz.html><div class="studioLecture" id=activity-Inf5_R_12b_razglasavanje_kviz><i class="far fa-question-circle activity-icon"></i>12.2. Квиз - разглашавање</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../12_procedure/Inf5_R_12a_procedure_citanje.html><div class="studioLecture" id=activity-Inf5_R_12a_procedure_citanje><i class="fas fa-file-alt activity-icon"></i>12.1. Процедуре</div></a>
+                <a href=../12_procedure/Inf5_R_12b_procedure_kviz.html><div class="studioLecture" id=activity-Inf5_R_12b_procedure_kviz><i class="far fa-question-circle activity-icon"></i>12.2. Квиз - процедуре</div></a>
                 </div>
             </div>
                 
@@ -408,27 +380,29 @@
                 </div>
                 <div class="courseContentsSubSection d-none"><a href=../13_liste/Inf5_R_13a_liste_citanje.html><div class="studioLecture" id=activity-Inf5_R_13a_liste_citanje><i class="fas fa-file-alt activity-icon"></i>13.1. Листе</div></a>
                 <a href=../13_liste/Inf5_R_13b_liste_kviz.html><div class="studioLecture" id=activity-Inf5_R_13b_liste_kviz><i class="far fa-question-circle activity-icon"></i>13.2. Квиз - листе</div></a>
+                <a href=../13_liste/Inf5_R_13c_liste_vezbanje.html><div class="studioLecture" id=activity-Inf5_R_13c_liste_vezbanje><i class="fas fa-file-alt activity-icon"></i>13.3 Листе - вежбање</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-14_liste_vezbanje>
-                    <h5>14. Листе - вежбање</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-14_zvuk>
+                    <h5>14. Звук</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../14_liste_vezbanje/Inf5_R_14a_liste_vezbanje.html><div class="studioLecture" id=activity-Inf5_R_14a_liste_vezbanje><i class="fas fa-file-alt activity-icon"></i>14. Листе - вежбање</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../14_zvuk/Inf5_R_14a_zvuk_citanje.html><div class="studioLecture" id=activity-Inf5_R_14a_zvuk_citanje><i class="fas fa-file-alt activity-icon"></i>14.1. Звук</div></a>
+                <a href=../14_zvuk/Inf5_R_14b_zvuk_kviz.html><div class="studioLecture" id=activity-Inf5_R_14b_zvuk_kviz><i class="far fa-question-circle activity-icon"></i>14.2. Квиз - звук</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-15_zvuk>
-                    <h5>15. Звук и музика</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-15_muzika>
+                    <h5>15. Музика</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../15_zvuk/Inf5_R_15a_zvuk_citanje.html><div class="studioLecture" id=activity-Inf5_R_15a_zvuk_citanje><i class="fas fa-file-alt activity-icon"></i>15.1. Звук и музика</div></a>
-                <a href=../15_zvuk/Inf5_R_15b_zvuk_kviz.html><div class="studioLecture" id=activity-Inf5_R_15b_zvuk_kviz><i class="far fa-question-circle activity-icon"></i>15.2. Квиз - звук и музика</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../15_muzika/Inf5_R_15a_muzika_citanje.html><div class="studioLecture" id=activity-Inf5_R_15a_muzika_citanje><i class="fas fa-file-alt activity-icon"></i>15.1. Mузика</div></a>
+                <a href=../15_muzika/Inf5_R_15b_muzika_kviz.html><div class="studioLecture" id=activity-Inf5_R_15b_muzika_kviz><i class="far fa-question-circle activity-icon"></i>15.2. Квиз - музика</div></a>
                 </div>
             </div>
                 

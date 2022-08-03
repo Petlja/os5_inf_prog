@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>13.1. Листе</title>
+    <title>7.1. Наредбе понављања</title>
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
     <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
@@ -430,139 +430,163 @@
     <div id="main-content">
     
   <div class="section" id="id1">
-<h1>13.1. Листе<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<h1>7.1. Наредбе понављања<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
 <div class="topic">
-<p class="topic-title">У оквиру овог часа научићеш:</p>
+<p class="topic-title">У оквиру овог часа упознаћеш се са:</p>
 <ul class="simple">
-<li><p>шта су листе</p></li>
-<li><p>како да направиш и користиш листе</p></li>
+<li><p>могућностима понављања делова програма</p></li>
+<li><p>блоковима којима се реализује понављање</p></li>
 </ul>
 </div>
-<p>У програмирању, реч листа има скоро исто значење као и у животу: то је у суштини скуп података уређен по неком редоследу. На пример, телефонски именик је листа имена и бројева, рачун из самопослуге је листа купљених ствари и њихових цена итд.</p>
-<p>Можда се питаш зашто нам требају листе у програмирању? Већ следећи, једноставан пример ће ти дати неку идеју о томе.
-Претпоставимо да желимо да направимо пројекат у коме ће главни лик да наброји нека велика достигнућа човечанства. Скрипта главног лика би могла да изгледа овако:</p>
+<p>У групи блокова „Управљање” постоје блокови који служе за понављање других наредби. Они изгледају овако:</p>
+<a class="reference internal image-reference" href="../_images/blokovi_ponavljanja.png"><img alt="../_images/blokovi_ponavljanja.png" class="align-center" src="../_images/blokovi_ponavljanja.png" style="width: 650px;" /></a>
+<p>Наредбе које ставимо у уста оваквог блока, поновиће се одређени број пута. Ако бисмо током рада програма показивали прстом на сваку наредбу редом док се она извршава, правили бисмо кружне покрете. Зато се блокови за понављање наредби зову и петље, или циклуси. Наредбе у устима петље чине тело петље.</p>
+<p>У наставку ћеш, кроз примере, научити како тачно ови блокови функционишу и добити разне идеје када и како да их употребиш.</p>
+<div class="section" id="id2">
+<h2>Примери<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>У првом примеру анимацију ходања остварујемо помоћу блока који реализује понављање задати број пута (први блок на слици горе).</p>
+<p>У другом и трећем примеру показујемо како понављањем корака можемо да скратимо програме за цртање геометријских фигура.</p>
+<p>Четврти пример илуструје како се користи блок који омогућава понављање док не буде задовољен неки услов (трећи блок на слици горе).</p>
+<p>Пети (скривени) пример за непрекидну анимацију саобраћаја користи блок који омогућава бесконачно понављање (други блок на слици горе).</p>
+<div class="section" id="id3">
+<h3>Пример 1 - Ходање<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>У Скречу постоје ликови са више костима, који представљају лик у разним тренуцима током хода. На пример, Ако изабереш лик <em>Avery Walk</em>, приметићеш да Авери има четири костима:</p>
+<a class="reference internal image-reference" href="../_images/hodajuci_lik.png"><img alt="../_images/hodajuci_lik.png" class="align-center" src="../_images/hodajuci_lik.png" style="width: 500px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Слична ситуација је и са овим, и многим другим ликовима:</p>
+<a class="reference internal image-reference" href="../_images/hodajuci_likovi.png"><img alt="../_images/hodajuci_likovi.png" class="align-center" src="../_images/hodajuci_likovi.png" style="width: 500px;" /></a>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Када надовежемо блокове  <img alt="idi_koraka" src="../_images/idi_koraka1.png" />, <img alt="sledeci_kostim" src="../_images/sledeci_kostim.png" /> и <img alt="cekaj" src="../_images/cekaj1.png" />, изгледа као да је лик направио корак (или део корака). Понављањем ова три блока добија се утисак ходања или летења. Међутим, ако лик треба да направи тридесетак корака, било би непрегледно да стављамо ова три блока у скрипту по једном за сваки корак.</p>
+<p>У оваквој ситуацији можемо да употребимо блок <img alt="ponavljaj" src="../_images/ponavljaj.png" /> из групе „Управљање”. Када користимо овај блок, задајемо колико пута ће наредбе у устима овог блока да се понове. Испробај, на пример, следећу једноставну скрипту и увери се да са врло мало труда добијамо прилично реалистичан утисак ходања:</p>
+<a class="reference internal image-reference" href="../_images/hodanje_skripta.png"><img alt="../_images/hodanje_skripta.png" src="../_images/hodanje_skripta.png" style="width: 300px;" /></a>
+<a class="reference internal image-reference" href="../_images/hodanje.gif"><img alt="../_images/hodanje.gif" src="../_images/hodanje.gif" style="width: 450px;" /></a>
+</div>
+<div class="section" id="id4">
+<h3>Пример 2 - Цртање ромба<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>Блокове понављања можемо да употребимо и при цртању. У овом примеру ћемо нацртати ромб са следеће слике.</p>
+<a class="reference internal image-reference" href="../_images/romb_izgled.png"><img alt="../_images/romb_izgled.png" class="align-center" src="../_images/romb_izgled.png" style="width: 200px;" /></a>
+<p>Када не бисмо користили блокове понављања, редослед наредби које цртају би могао да буде:</p>
+<img alt="../_images/romb_resenje1.png" class="align-left" src="../_images/romb_resenje1.png" />
+<ul class="simple">
+<li><p>усмери се ка 120, иди 80 корака</p></li>
+<li><p>усмери се ка 60, иди 80 корака</p></li>
+<li><p>усмери се ка -60, иди 80 корака</p></li>
+<li><p>усмери се ка -120, иди 80 корака</p></li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Ако желимо да искористимо понављање, треба да размишљамо о углу за који оловка скреће, а не о смеру ка коме се се оловка окреће. Ако користимо окрете уместо усмеравања, наредбе ће бити</p>
+<img alt="../_images/romb_resenje2.png" class="align-left" src="../_images/romb_resenje2.png" />
+<ul class="simple">
+<li><p>усмери се ка 120</p></li>
+<li><p>иди 80 корака, скрени налево за 60 степени</p></li>
+<li><p>иди 80 корака, скрени налево за 120 степени</p></li>
+<li><p>иди 80 корака, скрени налево за 60 степени</p></li>
+<li><p>иди 80 корака</p></li>
+</ul>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Овде можемо да допишемо на крај наредбу <em>скрени налево за 120 степени</em>, која неће ништа променити на цртежу (само ће на крају оловка да буде другачије окренута). Сада већ имамо групу наредби која се понавља два пута:</p>
+<ul class="simple">
+<li><p>иди 80 корака, скрени налево за 60 степени</p></li>
+<li><p>иди 80 корака, скрени налево за 120 степени</p></li>
+</ul>
+<p>Цела скрипта, која на почетку брише претходна цртања са позорнице и бира боју и дебљину оловке, може да изгледа, на пример, овако:</p>
+<a class="reference internal image-reference" href="../_images/romb_skripta.png"><img alt="../_images/romb_skripta.png" class="align-center" src="../_images/romb_skripta.png" style="width: 400px;" /></a>
+</div>
+<div class="section" id="id5">
+<h3>Пример 3 - Цртање још неких фигура<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>Покушај да одгонетнеш шта цртају следеће скрипте:</p>
+<a class="reference internal image-reference" href="../_images/sta_crtaju_skripte.png"><img alt="../_images/sta_crtaju_skripte.png" class="align-center" src="../_images/sta_crtaju_skripte.png" style="width: 700px;" /></a>
 
-    <div data-component="reveal" id="primer_dugacka_skripta2"   data-showtitle="Погледај скрипту" data-hidetitle="Сакриј скрипту">
-    <a class="reference internal image-reference" href="../_images/IzgovoriDogadjajePoJedan.png"><img alt="../_images/IzgovoriDogadjajePoJedan.png" class="align-center" src="../_images/IzgovoriDogadjajePoJedan.png" style="width: 610px;" /></a>
-<p>Променљиву „број сек” користимо само да бисмо лакше подешавали трајање изговорених реченица.</p>
+    <div data-component="reveal" id="zadatak_sta_crtaju_odskace"   data-showtitle="Провери одговор" data-hidetitle="Сакриј одговор">
+    <p><strong>Одговор:</strong></p>
+<a class="reference internal image-reference" href="../_images/sta_crtaju_izgled.png"><img alt="../_images/sta_crtaju_izgled.png" class="align-center" src="../_images/sta_crtaju_izgled.png" style="width: 700px;" /></a>
 
     </div>
-    <div class="line-block">
-<div class="line"><br /></div>
-</div>
-<p>Употребом листе у пројекту, скрипта ће сигурно постати краћа. Још важније, тако направљен пројекат је погоднији за дорађивање, па га лакше можемо преправити и додати неку нову функционалност. Зато погледајмо како можемо да искористимо листу у овом задатку.</p>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<p>Прво треба да направимо листу. У групи блокова „Променљиве” постоји и дугме „Направи листу” (ако већ имаш неке променљиве у пројекту, ово дугме је испод блокова који управљају променљивама).</p>
-<a class="reference internal image-reference" href="../_images/PravljenjeListe.png"><img alt="../_images/PravljenjeListe.png" class="align-center" src="../_images/PravljenjeListe.png" style="width: 480px;" /></a>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<p>Кликом на дугме „Направи листу” добијаш прозор - дијалог у коме треба да задаш име листе. Слично као при прављењу променљиве, ако до овог прозора дођеш уређујући неки од ликова (десни дијалог), онда још треба да изабереш да ли ће листа бити доступна само том лику, или свим ликовима (ако правиш листу док уређујеш позорницу, отвориће се леви дијалог и та листа ће бити доступна свим ликовима).</p>
-<a class="reference internal image-reference" href="../_images/PravljenjeListe2.png"><img alt="../_images/PravljenjeListe2.png" class="align-center" src="../_images/PravljenjeListe2.png" style="width: 650px;" /></a>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<p>Назови листу „догађај” и кликни „У реду”. Испод дугмета „Направи листу” појавиће се блок који представља листу.</p>
-<a class="reference internal image-reference" href="../_images/PravljenjeListe3.png"><img alt="../_images/PravljenjeListe3.png" class="align-center" src="../_images/PravljenjeListe3.png" style="width: 300px;" /></a>
-<p>Знак ✓ (квачица) у пољу за потврду значи да је листа тренутно видљива на позорници.</p>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<p>Сада треба да попунимо листу. Мале листе је најлакше попуњавати директним уношењем елемената листе. То можеш да урадиш тако што кликнеш на знак плус у доњем левом углу прозора листе, а када се појави поље за елемент листе - упишеш текст у то поље. Величину прозора који приказује листу можеш да подесиш тако што повучеш знак = у доњем десном углу тог прозора. Понављањем овог поступка у листу се уноси један по један елемент.</p>
-<a class="reference internal image-reference" href="../_images/PravljenjeListe4.png"><img alt="../_images/PravljenjeListe4.png" class="align-center" src="../_images/PravljenjeListe4.png" style="width: 450px;" /></a>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<p>Други начин да попуниш листу је погоднији када имамо велику листу. Можеш да направиш текстуални фајл „dogadjaji.txt” са следећим садржајем:</p>
+    </div>
+<div class="section" id="id6">
+<h3>Пример 4 - Ауто који одлази<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<p>У овом примеру ћемо нацртати ауто како се удаљава, крећући се по путу. Због удаљавања, лик аута током кретања постаје све мањи, а када стигне до хоризонта, ауто нестаје са позорнице.</p>
+<div style="text-align: center">
+<iframe src="https://scratch.mit.edu/projects/416415294/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"  allowfullscreen>
+</iframe>
+</div><p>Ако желиш да направиш овакву анимацију прати следећа упутства.</p>
 
-    <div data-component="reveal" id="primer_sadrzaj"   data-showtitle="Погледај фајл" data-hidetitle="Сакриј фајл">
-    <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">3400</span> <span class="n">пне</span><span class="o">.</span> <span class="o">-</span> <span class="n">Употреба</span> <span class="n">писма</span>
-<span class="mi">3000</span> <span class="n">пне</span><span class="o">.</span> <span class="o">-</span> <span class="n">Изградња</span> <span class="n">велике</span> <span class="n">пирамиде</span> <span class="n">у</span> <span class="n">Гизи</span> <span class="p">(</span><span class="n">Кеопсова</span> <span class="n">пирамида</span><span class="p">)</span>
-<span class="mi">1215</span> <span class="o">-</span> <span class="n">Први</span> <span class="n">правни</span> <span class="n">акт</span> <span class="n">који</span> <span class="n">ограничава</span> <span class="n">власт</span> <span class="n">владара</span>
-<span class="mi">1450</span> <span class="o">-</span> <span class="n">Прва</span> <span class="n">штампарија</span>
-<span class="mi">1769</span> <span class="o">-</span> <span class="n">Прво</span> <span class="n">возило</span> <span class="n">на</span> <span class="n">сопствени</span> <span class="n">погон</span>
-<span class="mi">1859</span> <span class="o">-</span> <span class="n">Дарвинова</span> <span class="n">књига</span> <span class="s2">&quot;О пореклу врста&quot;</span>
-<span class="mi">1869</span> <span class="o">-</span> <span class="n">Отварање</span> <span class="n">Суецког</span> <span class="n">канала</span> <span class="n">за</span> <span class="n">саобраћај</span>
-<span class="mi">1882</span> <span class="o">-</span> <span class="n">Прва</span> <span class="n">хидроелектрана</span> <span class="n">на</span> <span class="n">свету</span>
-<span class="mi">1895</span> <span class="o">-</span> <span class="n">Откриће</span> <span class="n">рендгенских</span> <span class="n">зрака</span>
-<span class="mi">1897</span> <span class="o">-</span> <span class="n">Бежични</span> <span class="n">пренос</span> <span class="n">података</span>
-<span class="mi">1928</span> <span class="o">-</span> <span class="n">Откриће</span> <span class="n">антибиотика</span>
-<span class="mi">1946</span> <span class="o">-</span> <span class="n">Први</span> <span class="n">компјутер</span>
-<span class="mi">1954</span> <span class="o">-</span> <span class="n">Изграђена</span> <span class="n">соларна</span> <span class="n">ћелија</span>
-<span class="mi">1957</span> <span class="o">-</span> <span class="n">Лансирање</span> <span class="n">Спутњика</span> <span class="mi">1</span> <span class="p">(</span><span class="n">почетак</span> <span class="n">свемирске</span> <span class="n">ере</span><span class="p">)</span>
-<span class="mi">1990</span> <span class="o">-</span> <span class="n">Успостављање</span> <span class="n">светске</span> <span class="n">рачунарске</span> <span class="n">мреже</span>
-<span class="mi">2003</span> <span class="o">-</span> <span class="n">Довршено</span> <span class="n">мапирање</span> <span class="n">људског</span> <span class="n">генома</span>
-</pre></div>
+    <div data-component="reveal" id="zadatak_sakrivanje_razgovor_auto_odlazi"   data-showtitle="Упутство" data-hidetitle="Сакриј упутство">
+    <p>Слике аута и позадине можеш да нацрташ како желиш у неком програму за цртање као што је <em>Бојанка</em> (<em>Paint</em>). Када направиш слику аута, можеш да је додаш у Скреч тако што поставиш (без клика) миша на дугме <img alt="novi_lik" src="../_images/novi_lik1.png" />, сачекаш да се отвори приручни мени и изабереш ставку на врху, означену на следећој слици.</p>
+<a class="reference internal image-reference" href="../_images/dodaj_sliku.png"><img alt="../_images/dodaj_sliku.png" class="align-center" src="../_images/dodaj_sliku.png" style="width: 50px;" /></a>
+<p>На исти начин можеш да додаш и слику позадине, само треба да користиш дугме <img alt="nova_pozadina" src="../_images/nova_pozadina1.png" />.</p>
+<div class="line-block">
+<div class="line"><br /></div>
 </div>
+<p>Да бисмо што једноставније усмерили ауто, додаћемо још један лик (било који), назваћемо га „правац” и поставићемо га на место до ког ауто треба да стигне. Лик „правац” не треба да буде видљив, па можемо одмах да га сакријемо кликом на дугме које показује црвена стрелица. Овај лик неће ништа радити и за њега нећемо писати скрипте.</p>
+<a class="reference internal image-reference" href="../_images/auto_odlazi_likovi.png"><img alt="../_images/auto_odlazi_likovi.png" class="align-center" src="../_images/auto_odlazi_likovi.png" style="width: 400px;" /></a>
+<p>На тај начин, довољно је да ауту кажемо да се усмери ка лику „правац” и не морамо ништа да рачунамо. Лик аута треба да понавља следеће кораке:</p>
+<ul class="simple">
+<li><p>усмери се ка лику „правац”</p></li>
+<li><p>помери се одређени број корака (ми смо изабрали 10)</p></li>
+<li><p>мало се смањи (ми смо изабрали смањење за 5% од пуне величине)</p></li>
+<li><p>сачекај мало, да анимација не би била пребрза (ми смо изабрали 0.1 секунду)</p></li>
+</ul>
+<p>Од три блока за понављање наредби, бирамо <img alt="ponavljaj_do" src="../_images/ponavljaj_do.png" />. Када користимо овај, блок, задајемо шта треба да важи да би понављање престало. Пошто се у нашем примеру <em>Y</em> координата аута повећава, понављање можемо да прекинемо када она постане већа од неког погодно изабраног броја (нешто ниже од висине хоризонта). Блок <img alt="vece" src="../_images/vece.png" /> се налази у групи „Оператори” и о њему ћемо још причати.</p>
+<p>Пошто ће ауто након извршавања скрипте бити мањи, померен и скривен, да би следеће извршавање радило како треба, на почетак додајемо блокове који ауто поново чине видљивим и враћају га на почетну позицију и на пуну величину.</p>
+<p>Ево како изгледа скрипта за ауто:</p>
+<a class="reference internal image-reference" href="../_images/auto_odlazi_skripte.png"><img alt="../_images/auto_odlazi_skripte.png" class="align-center" src="../_images/auto_odlazi_skripte.png" style="width: 360px;" /></a>
 
     </div>
-    <p>Када сачуваш фајл, десним кликом на назив листе отвара се мени од само две ставке: „увези” и „извези”. Изабери „увези” и затим кликни на раније припремљени фајл. Листа ће бити попуњена редовима из фајла.</p>
-<a class="reference internal image-reference" href="../_images/AutomatskoPopunjavanjeListe.png"><img alt="../_images/AutomatskoPopunjavanjeListe.png" class="align-center" src="../_images/AutomatskoPopunjavanjeListe.png" style="width: 490px;" /></a>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<p>Јасно, кликом на ставку „извези” садржај листе се пребацује у фајл на твом рачунару (највероватније у фолдеру <em>Downloads</em>).</p>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<p>Пошто је формирање листе завршено, кликни на квачицу у пољу за потврду поред блока „догађај” да би листа постала невидљива.</p>
-<p>Овако направљену листу можемо да употребимо у следећој скрипти, помоћу које лик изговара исте реченице као и у првом решењу.</p>
-<a class="reference internal image-reference" href="../_images/IzgovoriDogadjajeLista.png"><img alt="../_images/IzgovoriDogadjajeLista.png" class="align-center" src="../_images/IzgovoriDogadjajeLista.png" style="width: 600px;" /></a>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<p>Да бисмо направили скрипту, потребно је да прво формирамо променљиву „и”. Ову променљиву користимо као редни број елемента у листи. За листу од 16 елемената променљива „и” ће редом добијати вредности од 1 до 16. Уместо „и” смо могли да употребимо и неко јасније име (нпр. „редни број”), али у програмирању је уобичајено да се за овакве, бројачке променљиве користе имена „и”, „ј”, „к”. Зато и убудуће, када у неком програму видиш променљиву „и”, очекуј да она има намену сличну овој.</p>
-<p>У скрипти смо употребили и два најважнија блока из групе блокова који контролишу листе, а то су:</p>
-<ul class="simple">
-<li><p>блок „елемент … из”, који нам омогућава да из дохватимо и употребимо елемент који нам треба</p></li>
-<li><p>блок „дужина”, који нам говори дужину листе</p></li>
-</ul>
-<a class="reference internal image-reference" href="../_images/BlokoviListe.png"><img alt="../_images/BlokoviListe.png" class="align-center" src="../_images/BlokoviListe.png" style="width: 312px;" /></a>
-<p>Осим ова два постоји још неколико блокова за баратање листама. На пример, наредна два блока омогућавају да из нашег програма сазнамо да ли се неки податак налази у листи (блок „да ли … садржи”) и на којој позицији је тај податак (блок „место од … у”). Ако податак није у листи, вредност другог блока је 0.</p>
-<a class="reference internal image-reference" href="../_images/BlokoviListePretraga.png"><img alt="../_images/BlokoviListePretraga.png" class="align-center" src="../_images/BlokoviListePretraga.png" style="width: 400px;" /></a>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<p>Следећа два блока служе да из нашег програма прикажемо или сакријемо листу када је то потребно</p>
-<a class="reference internal image-reference" href="../_images/BlokoviListePrikaz.png"><img alt="../_images/BlokoviListePrikaz.png" class="align-center" src="../_images/BlokoviListePrikaz.png" style="width: 280px;" /></a>
-<div class="line-block">
-<div class="line"><br /></div>
-</div>
-<p>Остали блокови из ове групе нам омогућавају да мењамо листу, додајући, бришући или преправљајући њене елементе у току рада програма.</p>
-<ul class="simple">
-<li><p>блок <img alt="dodaj" src="../_images/dodaj.png" /> додаје задати податак (ствар) на крај листе</p></li>
-<li><p>блок <img alt="izbaci" src="../_images/izbaci.png" /> избацује из листе елемент са наведене позиције (елементи испод избаченог се померају за једно место навише)</p></li>
-<li><p>блок <img alt="izbaci_sve" src="../_images/izbaci_sve.png" /> избацује из листе све елементе (листа остаје празна)</p></li>
-<li><p>блок <img alt="ubaci" src="../_images/ubaci.png" /> убацује задати податак (ствар) на задато место (1) у листи, а елемент који је био на том месту и сви наредни елементни се померају за једно место наниже</p></li>
-<li><p>блок <img alt="zameni" src="../_images/zameni.png" /> на место задатог елемента (1) у листи уписује задати податак (ствар). Остали елементи се не померају</p></li>
-</ul>
-<div class="topic">
+    
+    <div data-component="reveal" id="peti_primer"   data-showtitle="Пети пример" data-hidetitle="Сакриј пример">
+    <p><strong>Пример 5 - Саобраћај</strong></p>
+<p>Овај пример је надоградња претходног. Приказаћемо како аутомобили иду путем у оба смера.</p>
+<blockquote>
+<div><div style="text-align: center">
+<iframe src="https://scratch.mit.edu/projects/416415440/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"  allowfullscreen>
+</iframe>
+</div><p>Користићемо четири лика у пројекту. Лик „ауто” се удаљава ка лику „правац”, а лик „ауто 2” се приближава ка лику „правац 2”. Лик „правац” је исти као у претходном примеру, а лик „правац 2” се само поставља на ближи крај пута и у супротну траку.</p>
+</div></blockquote>
+<a class="reference internal image-reference" href="../_images/saobracaj_likovi.png"><img alt="../_images/saobracaj_likovi.png" class="align-center" src="../_images/saobracaj_likovi.png" style="width: 400px;" /></a>
+<p>За сваки од два аута ће нам требати по неколико костима, да бисмо дочарали пролазак различитих аутомобила. Постојећи костим можеш да умножиш десним кликом на њега. Након умножавања, преправи изглед лика (костим) по жељи. Ми смо само променили боју аута, али можеш и да нацрташ сасвим другачији ауто или неко друго возило (камион, аутобус и слично).</p>
+<a class="reference internal image-reference" href="../_images/saobracaj_kostimi.png"><img alt="../_images/saobracaj_kostimi.png" class="align-center" src="../_images/saobracaj_kostimi.png" style="width: 300px;" /></a>
+<p>Ликови аута имају међусобно веома сличне скрипте. Лик аута из претходног примера иде од нас, полази у пуној величини, смањује се и завршава са удаљавањем када <em>Y</em> координата постане довољно велика. Обрнуто томе, нови лик аута иде ка нама, полази као мали и повећава се, а са приближавањем завршава када <em>Y</em> координата постане довољно мала.
+Када било који ауто стигне до краја свог пута, сакрива се, мало сачека и мења костим, што ће створити утисак наиласка новог аута. Све ове завршне радње, заједно са целим блоком <img alt="ponavljaj_do" src="../_images/ponavljaj_do.png" /> смештамо у блок <img alt="zauvek" src="../_images/zauvek1.png" />. Овај блок ће понављати све наредбе које се налазе у њему док год се програм извршава. Програм можеш да зауставиш кликом на знак <em>СТОП</em> изнад позорнице.
+Ево и скрипти оба аута:</p>
+<a class="reference internal image-reference" href="../_images/saobracaj_skripte.png"><img alt="../_images/saobracaj_skripte.png" class="align-center" src="../_images/saobracaj_skripte.png" style="width: 800px;" /></a>
+
+    </div>
+    <div class="topic">
 <p class="topic-title">Погледај видео:</p>
-<p>Сада када си научио/научила нешто о листама, погледај како смо их употребили у овом видеу да бисмо унапредили нашу игрицу.</p>
+<p>Пошто си провежбао/провежбала како да употребиш наредбе понављања, погледај сада видео у коме ћемо применити наредбе понављања како бисмо унапредили нашу игрицу.</p>
 <blockquote>
 <div>
-    <div  id="7tvCHyzRuK0" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
-        <div style="background-image: url('https://img.youtube.com/vi/7tvCHyzRuK0/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
+    <div  id="VRyGoHsn63s" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
+        <div style="background-image: url('https://img.youtube.com/vi/VRyGoHsn63s/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
             <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
         </div>
       
 
         </div>
-    <div id="modal-7tvCHyzRuK0" class="ytvideoclose" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(128, 182, 128, 0.3); z-index: 10000;">
-        <div style="background-color: white; position: fixed; top: 4vh; left: 5vw; width:  90vw; height:  90vh; z-index: 100;" id="YTmodal-7tvCHyzRuK0">
+    <div id="modal-VRyGoHsn63s" class="ytvideoclose" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(128, 182, 128, 0.3); z-index: 10000;">
+        <div style="background-color: white; position: fixed; top: 4vh; left: 5vw; width:  90vw; height:  90vh; z-index: 100;" id="YTmodal-VRyGoHsn63s">
         </div>
     </div>
     
     
     </div></blockquote>
 </div>
-<hr class="docutils" />
-<p>Погледај и
-<a class="reference external" href="https://petlja.org/biblioteka/r/lekcije/scratch3-praktikum/scratch3-liste">пројекте, питања и вежбе о листама</a>
-у нашем практикуму. Тако ћеш добити јаснију идеју о новим могућностима које се отварају пред тобом када користиш листе.</p>
-<p>Петљин <a class="reference external" href="https://scratch.mit.edu/studios/25117375">студио Листе</a> на сајту Скреча садржи урађене пројекте за задатке сличне оним којима смо се овде бавили.</p>
+</div>
+</div>
+<div class="section" id="id7">
+<h2>Додатак<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+<p>Ако желиш, погледај <a class="reference external" href="https://petlja.org/biblioteka/r/lekcije/scratch3-praktikum/scratch3-ponavljanje">поглавље Понављање корака</a> у Петљином практикуму. Тамо можеш да нађеш још нека објашњења, вежбе и занимљиве пројекте.</p>
+<p>Петљин <a class="reference external" href="https://scratch.mit.edu/studios/24292278/">студио Понављање</a> на сајту Скреча садржи урађене пројекте за задатке сличне оним којима смо се овде бавили.</p>
+</div>
 </div>
 
 
