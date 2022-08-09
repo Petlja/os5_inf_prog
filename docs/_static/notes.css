@@ -60,6 +60,44 @@
 
 .learnmorenote-type {
     background-color: #FFCDD2;
+    user-select: none;
+}
+
+.learnmorenote-type .course-content p:nth-of-type(1) {
+    cursor: pointer;
+}
+
+    .learnmorenote-type .course-content p:nth-of-type(1)::after {
+        font-family: "Font Awesome 5 Free";
+        content: "\f107";
+        display: inline-block;
+        padding-right: 3px;
+        vertical-align: middle;
+        font-weight: 900;
+        float: right;
+    }
+
+.learnmorenote-type .course-content p.expanded:nth-of-type(1)::after {
+    display: none;
+}
+
+.learnmorenote-type .course-content p:nth-of-type(1)::before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f106";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+    float: right;
+    display: none;
+}
+
+.learnmorenote-type .course-content p.expanded:nth-of-type(1)::before {
+    display: inline-block;
+}
+
+.learnmorenote-type .course-content p:not(:nth-of-type(1)) {
+    display: none;
 }
 .learnmorenote-image {
     left: calc(50% - 28px);

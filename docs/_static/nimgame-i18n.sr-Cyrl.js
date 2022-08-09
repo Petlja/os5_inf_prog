@@ -1,5 +1,5 @@
 $.i18n().load({
-    "sr-Cylr": {
+    "sr-Cyrl": {
         "nimgame_restart_buttnon": "Понови игру",
         "nimgame_take": "Означи кружић",
         "nimgame_single_player": "Играј против рачунара",
