@@ -18,7 +18,7 @@
 .. mchoice:: peti_3_5
    :answer_a: Да
    :answer_b: Не
-   :correct: b
+   :correct: a
    :feedback_a: Тачно!
    :feedback_b: Нетачно!
    

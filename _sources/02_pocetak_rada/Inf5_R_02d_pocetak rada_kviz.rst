@@ -18,7 +18,7 @@
 .. mchoice:: pocetak_2
    :answer_a: Да
    :answer_b: Не
-   :correct: а
+   :correct: a
    :feedback_a: Тачно!
    :feedback_b: Нетачно!
    
