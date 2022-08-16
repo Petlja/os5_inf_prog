@@ -1,8 +1,0 @@
-====
-Увод
-====
-
-.. toctree:: 
-    :maxdepth: 1
-
-    Inf5_R_00_uvod.rst

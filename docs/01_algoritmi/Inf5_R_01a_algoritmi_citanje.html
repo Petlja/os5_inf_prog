@@ -6,6 +6,7 @@
     <title>1.1. Алгоритамски начин размишљања</title>
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/qchoice.css" />
     <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
     <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
@@ -24,13 +25,10 @@
     <link rel="stylesheet" type="text/css" href="../_static/webglinteractive.css" />
     <link rel="stylesheet" type="text/css" href="../_static/karel.css" />
     <link rel="stylesheet" type="text/css" href="../_static/notes.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/simanim.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/pycode.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/p5js.css" />
     <link rel="stylesheet" type="text/css" href="../_static/gallery.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/dbDirective.css" />
     <link rel="stylesheet" type="text/css" href="../_static/associations.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/regex-check.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/editor.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/nimgame.css" />
     <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
     <link rel="stylesheet" href="../_static/user-highlights.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" type="text/css" />
@@ -119,46 +117,17 @@
     <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/notes.js"></script>
     <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blockly_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/blocks_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/python_compressed.js"></script>
-    <script type="text/javascript" src="../_static/blockly/msg-sr.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/utilities.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_errors.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/ast_node_visitor.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/pytifa.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/abstract_interpreter_definitions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/python_to_blockly.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/imported.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/class.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comment.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/comprehensions.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/dict.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/if.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/io.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/lists.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/sets.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/loops.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/parking.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/tuple.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/turtles.js"></script>
-    <script type="text/javascript" src="../_static/blockpy/blocks/text.js"></script>
-    <script type="text/javascript" src="../_static/blockpy-modal.js"></script>
-    <script type="text/javascript" src="../_static/simanim.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/pyodide/v0.16.1/full/pyodide.js"></script>
-    <script type="text/javascript" src="../_static/pycode.js"></script>
-    <script type="text/javascript" src="//toolness.github.io/p5.js-widget/p5-widget.js"></script>
-    <script type="text/javascript" src="../_static/p5js.js"></script>
     <script type="text/javascript" src="../_static/gallery.js"></script>
-    <script type="text/javascript" src="../_static/dbDirective.js"></script>
-    <script type="text/javascript" src="../_static/sql.js"></script>
     <script type="text/javascript" src="../_static/associations.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
     <script type="text/javascript" src="../_static/associations-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/regex-check.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/regex-check-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/editor.js"></script>
+    <script type="text/javascript" src="../_static/jszip.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/editor-i18n.sr-Cyrl.js"></script>
+    <script type="text/javascript" src="../_static/nimgame.js"></script>
+    <script type="text/javascript" src="../_static/nimgame-i18n.en.js"></script>
+    <script type="text/javascript" src="../_static/nimgame-i18n.sr-Cyrl.js"></script>
     <script type="text/javascript" src="../_static/translations.js"></script>
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
@@ -269,134 +238,138 @@
                 
                 <div class="courseContentsSection">
                 <div class="lecture-div courseContentsSectionHeadline" id=lecture-01_algoritmi>
-                    <h5>1 Алгоритми</h5>
+                    <h5>1. Алгоритми</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
                 <div class="courseContentsSubSection d-none"><a href=../01_algoritmi/Inf5_R_01a_algoritmi_citanje.html><div class="studioLecture" id=activity-Inf5_R_01a_algoritmi_citanje><i class="fas fa-file-alt activity-icon"></i>1.1. Алгоритамски начин размишљања</div></a>
                 <a href=../01_algoritmi/Inf5_R_01b_algoritmi_kviz.html><div class="studioLecture" id=activity-Inf5_R_01b_algoritmi_kviz><i class="far fa-question-circle activity-icon"></i>1.2. Квиз - Алгоритамски начин размишљања</div></a>
-                <a href=../01_algoritmi/Inf5_R_01c_priprema_za_rad_citanje.html><div class="studioLecture" id=activity-Inf5_R_01c_priprema_za_rad_citanje><i class="fas fa-file-alt activity-icon"></i>1.3. Подешавања и почетак рада</div></a>
-                <a href=../01_algoritmi/Inf5_R_01d_prvi_program_citanje.html><div class="studioLecture" id=activity-Inf5_R_01d_prvi_program_citanje><i class="fas fa-file-alt activity-icon"></i>1.4. Први програм</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-02_polozaj>
-                    <h5>2. Положај, оријентација и кретање</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-02_pocetak_rada>
+                    <h5>2. Почетак рада</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../02_polozaj/Inf5_R_02a_polozaj_citanje.html><div class="studioLecture" id=activity-Inf5_R_02a_polozaj_citanje><i class="fas fa-file-alt activity-icon"></i>2.1. Положај и кретање лика</div></a>
-                <a href=../02_polozaj/Inf5_R_02b_polozaj_kviz.html><div class="studioLecture" id=activity-Inf5_R_02b_polozaj_kviz><i class="far fa-question-circle activity-icon"></i>2.2. Квиз - Положај и кретање лика</div></a>
-                <a href=../02_polozaj/Inf5_R_02c_usmeravanje_citanje.html><div class="studioLecture" id=activity-Inf5_R_02c_usmeravanje_citanje><i class="fas fa-file-alt activity-icon"></i>2.3. Усмеравање лика</div></a>
-                <a href=../02_polozaj/Inf5_R_02d_usmeravanje_kviz.html><div class="studioLecture" id=activity-Inf5_R_02d_usmeravanje_kviz><i class="far fa-question-circle activity-icon"></i>2.4. Квиз - Усмеравање лика</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../02_pocetak_rada/Inf5_R_02a_priprema_za_rad_citanje.html><div class="studioLecture" id=activity-Inf5_R_02a_priprema_za_rad_citanje><i class="fas fa-file-alt activity-icon"></i>2.1. Подешавања и почетак рада</div></a>
+                <a href=../02_pocetak_rada/Inf5_R_02b_podesavanja_kviz.html><div class="studioLecture" id=activity-Inf5_R_02b_podesavanja_kviz><i class="far fa-question-circle activity-icon"></i>2.2. Квиз - Подешавања</div></a>
+                <a href=../02_pocetak_rada/Inf5_R_02c_prvi_program_citanje.html><div class="studioLecture" id=activity-Inf5_R_02c_prvi_program_citanje><i class="fas fa-file-alt activity-icon"></i>2.3. Први програм</div></a>
+                <a href=../02_pocetak_rada/Inf5_R_02d_pocetak%20rada_kviz.html><div class="studioLecture" id=activity-Inf5_R_02d_pocetak%20rada_kviz><i class="far fa-question-circle activity-icon"></i>2.4. Квиз - Почетак рада</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-03_nizanje_koraka>
-                    <h5>3. Низање корака</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-03_polozaj>
+                    <h5>3. Положај, оријентација и кретање</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../03_nizanje_koraka/Inf5_R_03a_nizanje_koraka_citanje.html><div class="studioLecture" id=activity-Inf5_R_03a_nizanje_koraka_citanje><i class="fas fa-file-alt activity-icon"></i>3.1. Низање корака</div></a>
-                <a href=../03_nizanje_koraka/Inf5_R_03b_nizanje_koraka_kviz.html><div class="studioLecture" id=activity-Inf5_R_03b_nizanje_koraka_kviz><i class="far fa-question-circle activity-icon"></i>3.2. Квиз - Низање корака</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../03_polozaj/Inf5_R_03a_polozaj_citanje.html><div class="studioLecture" id=activity-Inf5_R_03a_polozaj_citanje><i class="fas fa-file-alt activity-icon"></i>3.1. Положај и кретање лика</div></a>
+                <a href=../03_polozaj/Inf5_R_03b_polozaj_kviz.html><div class="studioLecture" id=activity-Inf5_R_03b_polozaj_kviz><i class="far fa-question-circle activity-icon"></i>3.2. Квиз - Положај и кретање лика</div></a>
+                <a href=../03_polozaj/Inf5_R_03c_usmeravanje_citanje.html><div class="studioLecture" id=activity-Inf5_R_03c_usmeravanje_citanje><i class="fas fa-file-alt activity-icon"></i>3.3. Усмеравање лика</div></a>
+                <a href=../03_polozaj/Inf5_R_03d_usmeravanje_kviz.html><div class="studioLecture" id=activity-Inf5_R_03d_usmeravanje_kviz><i class="far fa-question-circle activity-icon"></i>3.4. Квиз - Усмеравање лика</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-04_kornjaca>
-                    <h5>4. Цртање</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-04_nizanje_koraka>
+                    <h5>4. Низање корака</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../04_kornjaca/Inf5_R_04a_kornjaca_citanje.html><div class="studioLecture" id=activity-Inf5_R_04a_kornjaca_citanje><i class="fas fa-file-alt activity-icon"></i>4.1. Корњача графика</div></a>
-                <a href=../04_kornjaca/Inf5_R_04b_kornjaca_kviz.html><div class="studioLecture" id=activity-Inf5_R_04b_kornjaca_kviz><i class="far fa-question-circle activity-icon"></i>4.2. Квиз - Корњача графика</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../04_nizanje_koraka/Inf5_R_04a_nizanje_koraka_citanje.html><div class="studioLecture" id=activity-Inf5_R_04a_nizanje_koraka_citanje><i class="fas fa-file-alt activity-icon"></i>4.1. Низање корака</div></a>
+                <a href=../04_nizanje_koraka/Inf5_R_04b_nizanje_koraka_kviz.html><div class="studioLecture" id=activity-Inf5_R_04b_nizanje_koraka_kviz><i class="far fa-question-circle activity-icon"></i>4.2. Квиз - Низање корака</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-05_petlje>
-                    <h5>5. Наредбе понављања</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-05_sinhronizacija>
+                    <h5>5. Усклађивање скрипти</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../05_petlje/Inf5_R_05a_petlje_citanje.html><div class="studioLecture" id=activity-Inf5_R_05a_petlje_citanje><i class="fas fa-file-alt activity-icon"></i>5.1. Наредбе понављања</div></a>
-                <a href=../05_petlje/Inf5_R_05b_petlje_kviz.html><div class="studioLecture" id=activity-Inf5_R_05b_petlje_kviz><i class="far fa-question-circle activity-icon"></i>5.2. Квиз - Наредбе понављања</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../05_sinhronizacija/Inf5_R_05a_razglasavanje_citanje.html><div class="studioLecture" id=activity-Inf5_R_05a_razglasavanje_citanje><i class="fas fa-file-alt activity-icon"></i>5.1. Усклађивање скрипти</div></a>
+                <a href=../05_sinhronizacija/Inf5_R_05b_razglasavanje_kviz.html><div class="studioLecture" id=activity-Inf5_R_05b_razglasavanje_kviz><i class="far fa-question-circle activity-icon"></i>5.2. Квиз - усклађивање скрипти</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-06_petlje_vezbanje>
-                    <h5>6. Наредбе понављања - вежбање</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-06_kornjaca>
+                    <h5>6. Цртање</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../06_petlje_vezbanje/Inf5_R_06a_petlje_vezbanje.html><div class="studioLecture" id=activity-Inf5_R_06a_petlje_vezbanje><i class="fas fa-file-alt activity-icon"></i>6. Наредбе понављања - вежбање</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../06_kornjaca/Inf5_R_06a_kornjaca_citanje.html><div class="studioLecture" id=activity-Inf5_R_06a_kornjaca_citanje><i class="fas fa-file-alt activity-icon"></i>6.1. Цртање</div></a>
+                <a href=../06_kornjaca/Inf5_R_06b_kornjaca_kviz.html><div class="studioLecture" id=activity-Inf5_R_06b_kornjaca_kviz><i class="far fa-question-circle activity-icon"></i>6.2. Квиз - цртање</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-07_sistematizacija>
-                    <h5>7. Систематизација</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-07_petlje>
+                    <h5>7. Наредбе понављања</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../07_sistematizacija/Inf5_R_07a_sistematizacija_kviz.html><div class="studioLecture" id=activity-Inf5_R_07a_sistematizacija_kviz><i class="far fa-question-circle activity-icon"></i>7. Квиз - Систематизација</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../07_petlje/Inf5_R_07a_petlje_citanje.html><div class="studioLecture" id=activity-Inf5_R_07a_petlje_citanje><i class="fas fa-file-alt activity-icon"></i>7.1. Наредбе понављања</div></a>
+                <a href=../07_petlje/Inf5_R_07b_petlje_kviz.html><div class="studioLecture" id=activity-Inf5_R_07b_petlje_kviz><i class="far fa-question-circle activity-icon"></i>7.2. Квиз - Наредбе понављања</div></a>
+                <a href=../07_petlje/Inf5_R_07c_petlje_vezbanje.html><div class="studioLecture" id=activity-Inf5_R_07c_petlje_vezbanje><i class="fas fa-file-alt activity-icon"></i>7.3. Наредбе понављања - вежбање</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-08_grananje>
-                    <h5>8. Гранање</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-08_sistematizacija>
+                    <h5>8. Систематизација</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../08_grananje/Inf5_R_08a_grananje_citanje.html><div class="studioLecture" id=activity-Inf5_R_08a_grananje_citanje><i class="fas fa-file-alt activity-icon"></i>8.1. Условно извршавање (гранање)</div></a>
-                <a href=../08_grananje/Inf5_R_08b_grananje_kviz.html><div class="studioLecture" id=activity-Inf5_R_08b_grananje_kviz><i class="far fa-question-circle activity-icon"></i>8.2. Квиз - гранање</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../08_sistematizacija/Inf5_R_08a_sistematizacija_kviz.html><div class="studioLecture" id=activity-Inf5_R_08a_sistematizacija_kviz><i class="far fa-question-circle activity-icon"></i>8. Квиз - Систематизација</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-09_promenljive>
-                    <h5>9. Променљиве</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-09_grananje>
+                    <h5>9. Гранање</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../09_promenljive/Inf5_R_09a_promenljive_citanje.html><div class="studioLecture" id=activity-Inf5_R_09a_promenljive_citanje><i class="fas fa-file-alt activity-icon"></i>9.1. Променљиве</div></a>
-                <a href=../09_promenljive/Inf5_R_09b_promenljive_kviz.html><div class="studioLecture" id=activity-Inf5_R_09b_promenljive_kviz><i class="far fa-question-circle activity-icon"></i>9.2. Квиз - променљиве</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../09_grananje/Inf5_R_09a_grananje_citanje.html><div class="studioLecture" id=activity-Inf5_R_09a_grananje_citanje><i class="fas fa-file-alt activity-icon"></i>9.1. Условно извршавање (гранање)</div></a>
+                <a href=../09_grananje/Inf5_R_09b_grananje_kviz.html><div class="studioLecture" id=activity-Inf5_R_09b_grananje_kviz><i class="far fa-question-circle activity-icon"></i>9.2. Квиз - гранање</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-10_promenljive_vezbanje>
-                    <h5>10. Променљиве - вежбање</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-10_osecaji>
+                    <h5>10. Осећаји</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../10_promenljive_vezbanje/Inf5_R_10a_promenljive_vezbanje.html><div class="studioLecture" id=activity-Inf5_R_10a_promenljive_vezbanje><i class="fas fa-file-alt activity-icon"></i>10. Променљиве - вежбање</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../10_osecaji/Inf5_R_10a_osecaji_citanje.html><div class="studioLecture" id=activity-Inf5_R_10a_osecaji_citanje><i class="fas fa-file-alt activity-icon"></i>10.1. Осећаји</div></a>
+                <a href=../10_osecaji/Inf5_R_10b_osecaji_kviz.html><div class="studioLecture" id=activity-Inf5_R_10b_osecaji_kviz><i class="far fa-question-circle activity-icon"></i>10.2. Квиз - осећаји</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-11_procedure>
-                    <h5>11. Процедуре</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-11_promenljive>
+                    <h5>11. Променљиве</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../11_procedure/Inf5_R_11a_procedure_citanje.html><div class="studioLecture" id=activity-Inf5_R_11a_procedure_citanje><i class="fas fa-file-alt activity-icon"></i>11.1. Процедуре</div></a>
-                <a href=../11_procedure/Inf5_R_11b_procedure_kviz.html><div class="studioLecture" id=activity-Inf5_R_11b_procedure_kviz><i class="far fa-question-circle activity-icon"></i>11.2. Квиз - процедуре</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../11_promenljive/Inf5_R_11a_promenljive_citanje.html><div class="studioLecture" id=activity-Inf5_R_11a_promenljive_citanje><i class="fas fa-file-alt activity-icon"></i>11.1. Променљиве</div></a>
+                <a href=../11_promenljive/Inf5_R_11b_promenljive_kviz.html><div class="studioLecture" id=activity-Inf5_R_11b_promenljive_kviz><i class="far fa-question-circle activity-icon"></i>11.2. Квиз - променљиве</div></a>
+                <a href=../11_promenljive/Inf5_R_11c_promenljive_vezbanje.html><div class="studioLecture" id=activity-Inf5_R_11c_promenljive_vezbanje><i class="fas fa-file-alt activity-icon"></i>11.3. Променљиве - вежбање</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-12_razglasavanje>
-                    <h5>12. Разглашавање</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-12_procedure>
+                    <h5>12. Процедуре</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../12_razglasavanje/Inf5_R_12a_razglasavanje_citanje.html><div class="studioLecture" id=activity-Inf5_R_12a_razglasavanje_citanje><i class="fas fa-file-alt activity-icon"></i>12.1. Разглашавање</div></a>
-                <a href=../12_razglasavanje/Inf5_R_12b_razglasavanje_kviz.html><div class="studioLecture" id=activity-Inf5_R_12b_razglasavanje_kviz><i class="far fa-question-circle activity-icon"></i>12.2. Квиз - разглашавање</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../12_procedure/Inf5_R_12a_procedure_citanje.html><div class="studioLecture" id=activity-Inf5_R_12a_procedure_citanje><i class="fas fa-file-alt activity-icon"></i>12.1. Процедуре</div></a>
+                <a href=../12_procedure/Inf5_R_12b_procedure_kviz.html><div class="studioLecture" id=activity-Inf5_R_12b_procedure_kviz><i class="far fa-question-circle activity-icon"></i>12.2. Квиз - процедуре</div></a>
                 </div>
             </div>
                 
@@ -408,27 +381,29 @@
                 </div>
                 <div class="courseContentsSubSection d-none"><a href=../13_liste/Inf5_R_13a_liste_citanje.html><div class="studioLecture" id=activity-Inf5_R_13a_liste_citanje><i class="fas fa-file-alt activity-icon"></i>13.1. Листе</div></a>
                 <a href=../13_liste/Inf5_R_13b_liste_kviz.html><div class="studioLecture" id=activity-Inf5_R_13b_liste_kviz><i class="far fa-question-circle activity-icon"></i>13.2. Квиз - листе</div></a>
+                <a href=../13_liste/Inf5_R_13c_liste_vezbanje.html><div class="studioLecture" id=activity-Inf5_R_13c_liste_vezbanje><i class="fas fa-file-alt activity-icon"></i>13.3 Листе - вежбање</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-14_liste_vezbanje>
-                    <h5>14. Листе - вежбање</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-14_zvuk>
+                    <h5>14. Звук</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../14_liste_vezbanje/Inf5_R_14a_liste_vezbanje.html><div class="studioLecture" id=activity-Inf5_R_14a_liste_vezbanje><i class="fas fa-file-alt activity-icon"></i>14. Листе - вежбање</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../14_zvuk/Inf5_R_14a_zvuk_citanje.html><div class="studioLecture" id=activity-Inf5_R_14a_zvuk_citanje><i class="fas fa-file-alt activity-icon"></i>14.1. Звук</div></a>
+                <a href=../14_zvuk/Inf5_R_14b_zvuk_kviz.html><div class="studioLecture" id=activity-Inf5_R_14b_zvuk_kviz><i class="far fa-question-circle activity-icon"></i>14.2. Квиз - звук</div></a>
                 </div>
             </div>
                 
                 <div class="courseContentsSection">
-                <div class="lecture-div courseContentsSectionHeadline" id=lecture-15_zvuk>
-                    <h5>15. Звук и музика</h5>
+                <div class="lecture-div courseContentsSectionHeadline" id=lecture-15_muzika>
+                    <h5>15. Музика</h5>
                     <i class="fas fa-angle-down caret-position "> </i>
                     <i class="fas fa-angle-up caret-position d-none"></i>
                 </div>
-                <div class="courseContentsSubSection d-none"><a href=../15_zvuk/Inf5_R_15a_zvuk_citanje.html><div class="studioLecture" id=activity-Inf5_R_15a_zvuk_citanje><i class="fas fa-file-alt activity-icon"></i>15.1. Звук и музика</div></a>
-                <a href=../15_zvuk/Inf5_R_15b_zvuk_kviz.html><div class="studioLecture" id=activity-Inf5_R_15b_zvuk_kviz><i class="far fa-question-circle activity-icon"></i>15.2. Квиз - звук и музика</div></a>
+                <div class="courseContentsSubSection d-none"><a href=../15_muzika/Inf5_R_15a_muzika_citanje.html><div class="studioLecture" id=activity-Inf5_R_15a_muzika_citanje><i class="fas fa-file-alt activity-icon"></i>15.1. Mузика</div></a>
+                <a href=../15_muzika/Inf5_R_15b_muzika_kviz.html><div class="studioLecture" id=activity-Inf5_R_15b_muzika_kviz><i class="far fa-question-circle activity-icon"></i>15.2. Квиз - музика</div></a>
                 </div>
             </div>
                 
@@ -468,160 +443,183 @@
 </ul>
 </div>
 <p>Живимо окружени рачунарима. Рачунари се налазе у нашим мобилним уређајима, сатовима, телевизорима, кухињским апаратима, аутомобилима, лифтовима. Олакшавају нам послове, а учење чине занимљивијим. Захваљујући рачунарима, слободно размењујемо информације и брзо им приступамо.</p>
-<p>Често се чини да су рачунари паметни, али то је само привид - рачунари, још увек, не могу самостално да мисле!</p>
-<p><strong>Рачунари</strong> су машине које следе упутства (наредбе) и тако обављају различите задатке.</p>
-<p>Наредбе рачунарима пишу људи, мали и велики програмери. <strong>Програм</strong> je низ наредби које рачунар извршава.</p>
-<p>Да би рачунар могао да ти помогне да брже и лакше обављаш неки посао, потребно је да га за то „обучиш” - програмираш.</p>
-<p>Када не знамо како се решава неки проблем, поступак онога ко зна решење може да нам изгледа као магија.</p>
-<div class="topic">
-<p class="topic-title">Погледај следећи видео:</p>
+<p>Мада се чини да су рачунари паметни, то је само привид - рачунари, још увек, не могу самостално да мисле! Наиме, <strong>рачунари</strong> су машине које следе упутства (наредбе) и тако обављају различите задатке. Наредбе рачунарима пишу људи, мали и велики програмери. <strong>Програм</strong> je низ наредби које рачунар извршава. Да би рачунар могао да ти помогне да брже и лакше обављаш неки посао, потребно је да га за то „обучиш” - програмираш, слично као што  људи  треба да се обуче да раде сложене послове.</p>
+<p>На пример, кувари користе рецепте у којима је поступак прављења јела задат као низ једноставних корака. Те једноставне кораке, наредбе, кувар уме да уради, а њиховим извршавањем по редоследу наведеном у рецепту може да направи и најсложенија јела која никад раније није правио.</p>
+<p>Играч који игра неку игру против другог играча може да победи ако зна правила игре и ако има добар план како да победи - победничку стратегију.</p>
+<p>Оно што је заједничко за програм, рецепт и победничку стратегију је да су то алгоритми записани језиком који разуме њихов извршилац - рачунар, кувар, играч. <strong>Алгоритам</strong> је низ корака који воде до решења неког проблема. Све ове активности - рад рачунара, кување по рецепту, играње игрице коришћењем победничке стратегије, остварују се извршавањем низа елементарних корака по редоследу који је задат алгоритмом.</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Нема свака игра победничку стратегију, али ова коју ти нудимо има. То је верзија игре НИМ са једном гомилом жетона. Два играча А и В наизменично повлаче потезе. У сваком потезу играч може да узме 1, 2 или 3 жетона. Први почиње играч А уписивањем броја жетона које узима. Побеђује онај играч који последњи узме жетон. Можеш да играш против рачунара (single player) или против другог играча. Покушај!</p>
 
-    <div  id="tIP6veneYsI" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
-        <div style="background-image: url('https://img.youtube.com/vi/tIP6veneYsI/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
+    <div id="nim1" class="nim-game" data-nimgame='{"takeaway": 3, "count": 15}'>
+        <div class="switch-wrapp">
+        <label class="switch">
+            <input type="checkbox" checked>
+            <span class="slider round"></span>
+        </label>
+        <p data-game-mode></p>
         </div>
-      
+        <div class="canvas-wrapper">
+        <canvas>
 
+        </canvas>
         </div>
-    <div id="modal-tIP6veneYsI" class="ytvideoclose" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(128, 182, 128, 0.3); z-index: 10000;">
-        <div style="background-color: white; position: fixed; top: 4vh; left: 5vw; width:  90vw; height:  90vh; z-index: 100;" id="YTmodal-tIP6veneYsI">
+        <div class="canvas-control">          
+            <div class="game-input">
+                <div class="player-one row">
+                <input data-input-id="player-1">
+                <button class="btn btn-success" data-id="player-1">
+                </button>
+                </div>
+                <div class="player-two row">
+                    <input data-input-id="player-2">
+                    <button class="btn btn-success" data-id="player-2">
+                    </button>
+                </div>
+            </div>
+            <button class="btn btn-danger res-btn" data-restart></button>
+            <div class="msg-banner">        
+            </div>
+
         </div>
     </div>
-    
-    
-    </div>
-<p>Ксенија је споменула реч алгоритам. <strong>Алгоритам</strong> је низ корака који воде до решења неког проблема. Иако је деловало да Ксенија има много среће јер редовно побеђује Димитрија, у ствари се ради о <em>прецизном низу корака</em> које је она сваки пут следила и који је воде до победе.</p>
-
-            <div class="course-box course-box-question course-content">
-            <ul data-component="multiplechoice" data-multipleanswers="false"  id="L1Algoritam">
-            <p>Q-1: Који алгоритам је Ксенија примењивала?</p>
-<blockquote>
-<div><table class="docutils align-default">
+<p>Да ли си успео/успела да победиш рачунар који игра по стратегији која му је уграђена програмом? Колико жетона треба да узмеш првом потезу да би победио/победила?</p>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<p>Хајде да заједно анализирамо како доћи до победе. Кренућемо од краја игре.</p>
+<p>Побеђује играч који противнику остави 4 жетона. Колико год узео противник, на табли остаје онолико жетона колико други играч може да узме једним потезом. Дакле, у овој игри побеђује онај играч који свом противнику на табли остави неки умножак од 4 жетона - 4, 8 или 12. Ако играч А у првом потезу узме 1 жетон, играч В обезбеђује себи победу узимањем два жетона. Ако играч А у првом потезу узме 2 жетона, играч В обезбеђује себи победу узимањем једног жетона. Међутим, ако играч А у првом потезу узме 3 жетона, обезбедио је победу за себе.</p>
+<p>У следећој табели приказана је победничка стратегија за играча А.</p>
+<table class="docutils align-default">
 <colgroup>
-<col style="width: 50%" />
-<col style="width: 50%" />
+<col style="width: 52%" />
+<col style="width: 48%" />
 </colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Играч А</strong></p></th>
+<th class="head"><p><strong>Играч Б</strong></p></th>
+</tr>
+</thead>
 <tbody>
-<tr class="row-odd"><td><p><strong>Алгоритам А</strong></p></td>
-<td><p><strong>Алгоритам Б</strong></p></td>
-</tr>
 <tr class="row-even"><td><ol class="arabic simple">
-<li><p>У чинију ставити 17 коцкица и поводац.</p></li>
+<li><p>Узима 3 жетона.</p></li>
 </ol>
 </td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Остаје 12.</p></td>
 <td><ol class="arabic simple">
-<li><p>У чинију ставити 17 коцкица и поводац.</p></li>
+<li><p>Узима х жетона (1-3). Остаје 12-х (9-11).</p></li>
 </ol>
 </td>
 </tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="2">
-<li><p>Узети прву коцкицу.</p></li>
-</ol>
-</td>
+<tr class="row-even"><td><p>2a. Ако је противник узео 1, узима 3 жетона.</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>2b. Ако је противник узео 2, узима 2 жетона.</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>2c. Ако је противник узео 3, узима 1 жетон.</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Остаје 8.</p></td>
 <td><ol class="arabic simple" start="2">
-<li><p>Узети прву коцкицу.</p></li>
+<li><p>Узима х жетона (1-3). Остаје 8-х (5-7).</p></li>
 </ol>
 </td>
 </tr>
-<tr class="row-even"><td><ol class="arabic simple" start="3">
-<li><p>Противник узима 2 коцкице, узети такође 2.</p></li>
-</ol>
-</td>
+<tr class="row-even"><td><p>3a. Ако је противник узео 1, узима 3 жетона.</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>3b. Ако је противник узео 2, узима 2 жетона.</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>3c. Ако је противник узео 3, узима 1 жетон.</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Остаје 4.</p></td>
 <td><ol class="arabic simple" start="3">
-<li><p>Ако противник узме 1 коцкицу, узети 3 коцкице.</p></li>
+<li><p>Узима х жетона (1-3). Oстаје 4-х (1-3).</p></li>
 </ol>
 </td>
 </tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="4">
-<li><p>Противник узима 1 коцкицу, узети 3 коцкице.</p></li>
+<tr class="row-even"><td><ol class="arabic simple" start="4">
+<li><p>Узима све преостале жетоне и побеђује.</p></li>
 </ol>
 </td>
 <td><ol class="arabic simple" start="4">
-<li><p>Ако противник узме 2 коцкице, узети 2 коцкице.</p></li>
-</ol>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="5">
-<li><p>Противник узима 3 коцкице, узети 1 коцкицу.</p></li>
-</ol>
-</td>
-<td><ol class="arabic simple" start="5">
-<li><p>Ако противник узме 3 коцкице, узети 1 коцкицу.</p></li>
-</ol>
-</td>
-</tr>
-<tr class="row-odd"><td><ol class="arabic simple" start="6">
-<li><p>Противник узима 2 коцкице, поново узети 2.</p></li>
-</ol>
-</td>
-<td><ol class="arabic simple" start="6">
-<li><p>Поновити кораке 3, 4 и 5 четири пута.</p></li>
-</ol>
-</td>
-</tr>
-<tr class="row-even"><td><ol class="arabic simple" start="7">
-<li><p>Противник узима поводац.</p></li>
-</ol>
-</td>
-<td><ol class="arabic simple" start="7">
-<li><p>Противник узима поводац.</p></li>
+<li><p>Нема жетона. Губи.</p></li>
 </ol>
 </td>
 </tr>
 </tbody>
 </table>
+<p>Примећујеш да је, у победничком алгоритму, природа корака различита.</p>
+<ul class="simple">
+<li><p>Неки кораци се извршавају по редоследу како су наведени (Корак 1: Узима 3 жетона);</p></li>
+<li><p>Неки кораци се извршавају само под одређеним условом (Кораци 2 и 3: Ако је противник узео 1, узима 3 жетона, …);</p></li>
+<li><p>Неки кораци се понављају (кораци 2 и 3 су идентични, дакле корак 2 се понавља 2 пута),</p></li>
+</ul>
+<p>Ток алгоритма је делом линијски (корак по корак), делом условљен (Потез играча А зависи од потеза противника) и делом цикличан
+(неки кораци се понављају).</p>
+<p>Колико жетона треба да узме играч А у првом потезу да би обезбедио победу, ако је на талону 16 жетона, а у једном потезу може да се узме 1-3 жетона?</p>
+<p>А ако је на табли 15 жетона, али у једном потезу може да се узме 1-4 жетона?</p>
+
+    <div data-component="reveal" id="zadatak_sakrivanje_nim"   data-showtitle="Погледај одговор" data-hidetitle="Сакриј одговор">
+    <blockquote>
+<div><p>У првом случају играч А нема победничку стратегију, јер се на почетку налази 16 = 4х4 жетона, што играчу В обезбеђује победу. Једина шанса да победи играч А је да играч В не зна победничку стратегију и вуче потезе насумице.</p>
+<p>У другом случају побеђује онај играч који својим потезом остави противнику 5, 10 или 15 жетона. Дакле, играч Б има победничку стратегију. Да је на табли 16 жетона и да у једном потезу може да се узме 1-4 жетона, играч А би могао да победи, ако у првом потезу узме 1 жетон.</p>
 </div></blockquote>
 
-            <li data-component="answer"  id="L1Algoritam_opt_a">Алгоритам А</li><li data-component="feedback" id="L1Algoritam_opt_a">Објашњавајући како побеђује, Ксенија је као пример претпоставила да у првом кругу Мита узима две коцкице. Да ли алгоритам А говори како треба поступити ако Мита у првом кругу уместо две, узме само једну коцкицу? Покушај да замислиш такву ситуацију и поново реши овај задатак.</li>
-            
-            <li data-component="answer" data-correct id="L1Algoritam_opt_b">Алгоритам B</li><li data-component="feedback" id="L1Algoritam_opt_b">Имаш одлично запажање и начин размишљања програмера!</li>
-            
-
-            </ul>
-            </div>
-            <p>Примећујеш да је, у Ксенијином алгоритму, природа корака различита.</p>
-<ul class="simple">
-<li><p>Неки кораци се извршавају по редоследу како су наведени (У чинију ставити 17 коцкица и поводац; Узети прву коцкицу);</p></li>
-<li><p>Неки кораци се извршавају само под одређеним условом (Ако противник узме 1 коцкицу, узети 3 коцкице, …);</p></li>
-<li><p>Неки кораци се понављају (кораци 3, 4 и 5 понављају се 4 пута),</p></li>
-</ul>
-<p>Ток алгоритма је делом линијски (корак по корак), делом условљен (Ксенијин потез зависи од потеза противника) и делом цикличан
-(неки кораци се понављају).</p>
-<p>Да би Ксенијин алгоритам разумео и рачунар, потребно је да му га објасниш користећи неки од <strong>програмских језика</strong>.</p>
-<p>Програмски језици су углавном текстуални. То значи да програмер пише наредбе у специфичном облику енглеског језика. На пример, ако користиш Пајтон (енгл. Python), наредба да рачунар на екрану испише „Узимам једну коцкицу.“ изгледа овако: <code class="docutils literal notranslate"><span class="pre">print</span> <span class="pre">(‘Uzimam</span> <span class="pre">jednu</span> <span class="pre">kockicu.’)</span></code>.</p>
-<p>Почетницима, текстуални програмски језици често делују сложено. Зато су осмишљени визуелни програмски језици, као што је Скреч. Они ти омогућавају да програмираш без куцања наредби, спајањем графичких блокова. За сада ти можда и ово делује компликовано, али видећеш да није.</p>
-<p>Да бисмо те уверили у једноставност визуелног програмирања, показаћемо ти како се у програмском језику Скреч постиже исписивање реченице „Узимам једну коцкицу.“ Довољно је уписати текст у овај блок.</p>
-<a class="reference internal image-reference" href="../_images/L1_BlokMacaKazeS3.png"><img alt="../_images/L1_BlokMacaKazeS3.png" class="align-center" src="../_images/L1_BlokMacaKazeS3.png" style="width: 200px;" /></a>
+    </div>
+    <p>Да би победнички алгоритам разумео и рачунар, потребно је да му га објасниш користећи неки од <strong>програмских језика</strong>.</p>
+<p>Програмски језици су углавном текстуални. То значи да програмер пише наредбе у специфичном облику енглеског језика. На пример, ако користиш Пајтон (енгл. Python), наредба да рачунар на екрану испише „Узимам 3 жетона.“ изгледа овако: <code class="docutils literal notranslate"><span class="pre">print</span> <span class="pre">(‘Uzimam</span> <span class="pre">3</span> <span class="pre">žetona.’)</span></code>.</p>
+<p>Почетницима текстуални програмски језици често делују сложено. Зато су осмишљени визуелни програмски језици, као што је Скреч. Они ти омогућавају да програмираш без куцања наредби, спајањем графичких блокова. За сада ти, можда, и ово делује компликовано, али видећеш да није.</p>
+<p>Да бисмо те уверили у једноставност визуелног програмирања, показаћемо ти како се у програмском језику Скреч постиже исписивање реченице „Узимам 3 жетона.“ Довољно је уписати текст у овај блок.</p>
+<a class="reference internal image-reference" href="../_images/L1_Blok1.png"><img alt="../_images/L1_Blok1.png" class="align-center" src="../_images/L1_Blok1.png" style="width: 200px;" /></a>
 <p>Када рачунар изрвши ову наредбу, на екрану ће се појавити:</p>
-<a class="reference internal image-reference" href="../_images/L1_MacaKazeS3.png"><img alt="../_images/L1_MacaKazeS3.png" class="align-center" src="../_images/L1_MacaKazeS3.png" style="width: 200px;" /></a>
+<a class="reference internal image-reference" href="../_images/L1_Maca.png"><img alt="../_images/L1_Maca.png" class="align-center" src="../_images/L1_Maca.png" style="width: 200px;" /></a>
 <p>Симпатично, зар не?</p>
 <p>Мада вероватно немаш програмерско искуство у Скречу, верујемо да ћеш моћи да одговориш на следећа питања.</p>
 
-            <div class="course-box course-box-question course-content">
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
             <ul data-component="multiplechoice" data-multipleanswers="false"  id="L1P2">
-            <p>Q-2: На које кораке Ксенијиног алгоритма се односи следећи низ наредби?</p>
-<a class="reference internal image-reference" href="../_images/L1_P2L1S3.png"><img alt="../_images/L1_P2L1S3.png" class="align-center" src="../_images/L1_P2L1S3.png" style="width: 200px;" /></a>
+            <p>Q-1: На које кораке алгоритма Играча Б може да се односи следећи низ наредби?</p>
+<a class="reference internal image-reference" href="../_images/L1_Blokovi2.png"><img alt="../_images/L1_Blokovi2.png" class="align-center" src="../_images/L1_Blokovi2.png" style="width: 200px;" /></a>
 
-            <li data-component="answer" data-correct id="L1P2_opt_a">Кораке 1 и 2</li><li data-component="feedback" id="L1P2_opt_a">Браво! За тебе је програмирање заиста једноставно!</li>
+            <li data-component="answer"  id="L1P2_opt_a">Кораке 1 и 2</li><li data-component="feedback" id="L1P2_opt_a">Шта се дешава у трећем кораку алгоритма? Размисли.</li>
             
-            <li data-component="answer"  id="L1P2_opt_b">Кораке 1 и 3</li><li data-component="feedback" id="L1P2_opt_b">Хм. Шта се дешава у трећем кораку алгоритма? Размисли.</li>
+            <li data-component="answer"  id="L1P2_opt_b">Кораке 1 и 3</li><li data-component="feedback" id="L1P2_opt_b">Шта се дешава у другом кораку алгоритма? Размисли.</li>
             
-            <li data-component="answer"  id="L1P2_opt_c">Кораке 2 и 3</li><li data-component="feedback" id="L1P2_opt_c">Хм. Шта се дешава у трећем кораку алгоритма? Размисли.</li>
+            <li data-component="answer"  id="L1P2_opt_c">Кораке 2 и 3</li><li data-component="feedback" id="L1P2_opt_c">Шта се дешава у првом кораку алгоритма? Размисли.</li>
+            
+            <li data-component="answer" data-correct id="L1P2_opt_d">Кораке 1, 2 и 3</li><li data-component="feedback" id="L1P2_opt_d">Браво! За тебе је програмирање заиста једноставно!</li>
             
 
             </ul>
             </div>
             
-            <div class="course-box course-box-question course-content">
-            <ul data-component="multiplechoice" data-multipleanswers="false"  id="L1P3s">
-            <p>Q-3: Ова наредба делује сложеније. На који корак Ксенијиног алгоритма се она односи?</p>
-<a class="reference internal image-reference" href="../_images/L1_P3L1S3.png"><img alt="../_images/L1_P3L1S3.png" class="align-center" src="../_images/L1_P3L1S3.png" style="width: 200px;" /></a>
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
+            <ul data-component="multiplechoice" data-multipleanswers="true"  id="L1P3s">
+            <p>Q-2: Ова наредба делује сложеније. На који корак алгоритма Играча A се она односи? (Изабери све тачне одговоре)</p>
+<a class="reference internal image-reference" href="../_images/L1_Blokovi3.png"><img alt="../_images/L1_Blokovi3.png" class="align-center" src="../_images/L1_Blokovi3.png" style="width: 200px;" /></a>
 
-            <li data-component="answer"  id="L1P3s_opt_a">Корак 3</li><li data-component="feedback" id="L1P3s_opt_a">Само полако! Размисли опет.</li>
+            <li data-component="answer"  id="L1P3s_opt_a">Корак 1</li><li data-component="feedback" id="L1P3s_opt_a"></li>
             
-            <li data-component="answer"  id="L1P3s_opt_b">Корак 4</li><li data-component="feedback" id="L1P3s_opt_b">Само полако! Размисли опет.</li>
+            <li data-component="answer" data-correct id="L1P3s_opt_b">Корак 2</li><li data-component="feedback" id="L1P3s_opt_b"></li>
             
-            <li data-component="answer" data-correct id="L1P3s_opt_c">Корак 5</li><li data-component="feedback" id="L1P3s_opt_c">Браво! Већ препознајемо будућег програмера!</li>
+            <li data-component="answer" data-correct id="L1P3s_opt_c">Корак 3</li><li data-component="feedback" id="L1P3s_opt_c"></li>
+            
+            <li data-component="answer"  id="L1P3s_opt_d">Корак 4</li><li data-component="feedback" id="L1P3s_opt_d"></li>
             
 
             </ul>
@@ -633,13 +631,25 @@
 <p>Покушај да даш неко упутство другарицама и друговима. Видећеш да ће свако од њих, иако су добили прецизна упутства,
 задатак урадити на свој начин. На људе утичу њихове емоције, предзнање, искуство, концентрација и још много чинилаца. Људи могу да увежбају да раде по прецизном упутству, али и даље ће грешити чешће него рачунари (на пример због умора).</p>
 <p>Лепота програмирања лежи у могућности да смишљаш разне занимљиве ствари и састављањем програма оствариш своје идеје. Рачунар, сам по себи, не рађа креативност, али може да ти помогне да развијеш и испољиш своју креативност и покажеш је коме год желиш, па чак и целом свету!</p>
+<div class="section" id="id2">
+<h2>Шта смо научили<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>У овој лекцији увели смо појам алгоритма. На примеру игре Ним показали смо како одговарајућим редоследом потеза можеш да дођеш до победе. Тај низ корака, који називамо победничка стратегија, је пример алгоритма. Да би рачунар могао да изврши алгоритам, потребно је да га испрограмираш, односно да кораке алгоритма запишеш језиком који рачунар разуме - програмским језиком. Језик програмирања који ћеш учити кроз лекције овог курса је Скреч.</p>
+</div>
+<div class="section" id="id3">
+<h2>Додатак<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>Више детаља о структури алгоритама, начину њиховог графичког представљања и начину њиховог записивања у Скречу, можеш да видиш у тексту
+<a class="reference external" href="https://petlja.org/biblioteka/r/lekcije/scratch3-praktikum/scratch3-grananje">Основни елементи програмске логике у Скречу</a>
+из нашег практикума.</p>
 
-    <div class="course-box course-box-info">
+    <div class="note-wrapper infonote-type">
+        <div class="note-icon-holder"> </div>
+        <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <p><strong>Провери своје знање пролазећи кроз наредна питања и вежбе.</strong></p>
 
-    </p></div></div>
+    </div></div>
+</div>
 </div>
 
 

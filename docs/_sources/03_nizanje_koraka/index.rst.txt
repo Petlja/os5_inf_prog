@@ -1,9 +1,0 @@
-=============
-Низање корака
-=============
-
-.. toctree:: 
-    :maxdepth: 1
-
-    Inf5_R_03a_nizanje_koraka_citanje.rst
-    Inf5_R_03b_nizanje_koraka_kviz.rst

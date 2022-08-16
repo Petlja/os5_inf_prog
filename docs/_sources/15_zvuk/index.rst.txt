@@ -1,9 +1,0 @@
-=============
-Звук и музика
-=============
-
-.. toctree:: 
-    :maxdepth: 1
-
-    Inf5_R_15a_zvuk_citanje.rst
-    Inf5_R_15b_zvuk_kviz.rst
