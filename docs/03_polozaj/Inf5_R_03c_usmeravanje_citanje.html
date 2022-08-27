@@ -6,6 +6,7 @@
     <title>3.3. Усмеравање лика</title>
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/qchoice.css" />
     <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
     <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
@@ -109,6 +110,7 @@
     <script type="text/javascript" src="../_static/karelCorner.js"></script>
     <script type="text/javascript" src="../_static/karelRobot.js"></script>
     <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelChat.js"></script>
     <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
     <script type="text/javascript" src="../_static/karelUI.js"></script>
     <script type="text/javascript" src="../_static/karel.js"></script>
@@ -439,7 +441,7 @@
 </ul>
 </div>
 <p>Група блокова „Кретање” садржи велики број блокова. Неке од њих смо већ користили и видели како функционишу. Сада ћемо укратко описати и остале блокове из ове групе. Ако ти за неки блок не буде јасно како он ради, слободно га испробај у било ком тренутку. При испробавању може да буде корисно да имаш два или више ликова на позорници. Ако желиш, можеш да ликовима промениш имена - само изабери лик кликом на њега у листи ликова и упиши ново име у одговарајуће поље у врху листе ликова (на следећој слици то поље је у црвеном оквиру).</p>
-<a class="reference internal image-reference" href="../_images/imenovanje_likova.png"><img alt="../_images/imenovanje_likova.png" class="align-center" src="../_images/imenovanje_likova.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="../_images/imenovanje_likova.png"><img alt="../_images/imenovanje_likova.png" class="align-center" src="../_images/imenovanje_likova.png" style="width: 500px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -449,7 +451,11 @@
 </ul>
 <p>Одговори на следећа питања.</p>
 
-            <div class="course-box course-box-question course-content">
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
             <ul data-component="multiplechoice" data-multipleanswers="true"  id="апсолутно_кретање">
             <p>Q-29: Померање лика на одређено место - одредиште независно од тренутне позиције лика назива се <strong>апсолутно кретање</strong>. Које од наредби омогућавају апсолутно кретање? (Изабери све тачне одговоре)</p>
 <a class="reference internal image-reference" href="../_images/pitanje3_1.png"><img alt="../_images/pitanje3_1.png" class="align-center" src="../_images/pitanje3_1.png" style="width: 545px;" /></a>
@@ -466,7 +472,11 @@
             </ul>
             </div>
             
-            <div class="course-box course-box-question course-content">
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
             <ul data-component="multiplechoice" data-multipleanswers="true"  id="релативно_кретање">
             <p>Q-30: Померање лика на одредиште које је од тренутне позиције лика удаљено задати број корака у задатом смеру назива се <strong>релативно кретање</strong>. Које од наредби омогућавају релативно кретање? (Изабери све тачне одговоре)</p>
 <a class="reference internal image-reference" href="../_images/pitanje3_2.png"><img alt="../_images/pitanje3_2.png" class="align-center" src="../_images/pitanje3_2.png" style="width: 630px;" /></a>
@@ -488,7 +498,7 @@
 <ul class="simple">
 <li><p>Блок <img alt="idi_koraka" src="../_images/idi_koraka.png" /> помера лик задати број корака у смеру у коме је лик окренут. Смер лика можемо да задамо у листи ликова. Кликни у поље „смер” и када се појави круг са стрелицом, помери стрелицу да показује у смеру у ком желиш да окренеш лик. Примети како се лик окреће у смеру стрелице.</p></li>
 </ul>
-<a class="reference internal image-reference" href="../_images/interaktivno_zadavanje_smera_lika1.png"><img alt="../_images/interaktivno_zadavanje_smera_lika1.png" class="align-center" src="../_images/interaktivno_zadavanje_smera_lika1.png" style="width: 600px;" /></a>
+<a class="reference internal image-reference" href="../_images/interaktivno_zadavanje_smera_lika1.png"><img alt="../_images/interaktivno_zadavanje_smera_lika1.png" class="align-center" src="../_images/interaktivno_zadavanje_smera_lika1.png" style="width: 780px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -500,12 +510,12 @@
 <div class="line"><br /></div>
 </div>
 <p>За неке ликове није природно да се окрећу у свим смеровима:</p>
-<a class="reference internal image-reference" href="../_images/interaktivno_zadavanje_smera_lika2.png"><img alt="../_images/interaktivno_zadavanje_smera_lika2.png" class="align-center" src="../_images/interaktivno_zadavanje_smera_lika2.png" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="../_images/interaktivno_zadavanje_smera_lika2.png"><img alt="../_images/interaktivno_zadavanje_smera_lika2.png" class="align-center" src="../_images/interaktivno_zadavanje_smera_lika2.png" style="width: 780px;" /></a>
 <p>У таквом случају користимо три дугмета <img alt="interaktivno_nacin_okretanja" src="../_images/interaktivno_nacin_okretanja.png" />, која се налазе испод круга за задавање смера, да бисмо задали начин окретања лика. Испробај свако од ова три дугмета: кликни на дугме, окрећи стрелицу на кругу и прати на који начин се лик окреће. Ако задржиш миша изнад дугмета, добићеш кратку поруку о функцији тог дугмета. Примети да и поред тога што лик не мора да се <strong>окрене</strong> (усмери) ка смеру кретања, задати <strong>смер кретања</strong> за њега и даље важи. Ово можеш да потврдиш користећи блок <img alt="idi_koraka" src="../_images/idi_koraka.png" />.</p>
 <p>Начин окретања лика можемо да мењамо и у програму, а за то се користи блок <img alt="nacin_okretanja" src="../_images/nacin_okretanja.png" />. Још један блок који утиче на окретање лика је <img alt="ako_si" src="../_images/ako_si.png" />. Њиме задајемо да лик који дође до ивице позорнице, треба да се окрене, што ће нам бити потребно касније.</p>
 <hr class="docutils" />
 <p>Остали су нам још блокови <img alt="mesto_x" src="../_images/mesto_x.png" />, <img alt="mesto_y" src="../_images/mesto_y.png" /> и <img alt="smer" src="../_images/smer.png" />, који су другачији од осталих. Пре свега, они нису наредбе него само показују вредности кордината и смера активног лика. Уочи да у палети блокова испред ових блокова стоје мала четвртаста поља. Кликни у та поља и у њима ће се појавити квачице, а вредности координата и смера се појављаују на позорници:</p>
-<a class="reference internal image-reference" href="../_images/blokovi_reporteri.png"><img alt="../_images/blokovi_reporteri.png" class="align-center" src="../_images/blokovi_reporteri.png" style="width: 600px;" /></a>
+<a class="reference internal image-reference" href="../_images/blokovi_reporteri.png"><img alt="../_images/blokovi_reporteri.png" class="align-center" src="../_images/blokovi_reporteri.png" style="width: 780px;" /></a>
 <p>Пошто блокови <img alt="mesto_x" src="../_images/mesto_x.png" />, <img alt="mesto_y" src="../_images/mesto_y.png" /> и <img alt="smer" src="../_images/smer.png" /> јављају неке вредности, зовемо их блокови-репортери (остали блокови су блокови-наредбе).</p>
 <div class="topic">
 <p class="topic-title">Погледај видео:</p>
@@ -514,7 +524,7 @@
 <div>
     <div  id="XaQ6fgrMBGQ" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
         <div style="background-image: url('https://img.youtube.com/vi/XaQ6fgrMBGQ/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
+            <img src="../_static/images/play_button.svg" style="margin-top: 78px;" /> 
         </div>
       
 
@@ -558,7 +568,7 @@
 
     <div data-component="reveal" id="zadatak_sakrivanje_jurnjava"   data-showtitle="Погледај упутство" data-hidetitle="Сакриј упутство">
     <p>Изабери следеће ликове из галерије (ми смо им променили имена у <em>пас</em>, <em>мачка</em> и <em>миш</em>), а позадину изабери по жељи (ми смо користили позадину <em>Golden-rock</em>).</p>
-<a class="reference internal image-reference" href="../_images/vezba_pas_macka_mis_likovi.png"><img alt="../_images/vezba_pas_macka_mis_likovi.png" class="align-center" src="../_images/vezba_pas_macka_mis_likovi.png" style="width: 320px;" /></a>
+<a class="reference internal image-reference" href="../_images/vezba_pas_macka_mis_likovi.png"><img alt="../_images/vezba_pas_macka_mis_likovi.png" class="align-center" src="../_images/vezba_pas_macka_mis_likovi.png" style="width: 400px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -587,10 +597,10 @@
         <div class="note-icon-holder"> </div>
         <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <p><strong>Провери своје знање пролазећи кроз наредна питања и вежбе.</strong></p>
 
-    </p></div></div>
+    </div></div>
 </div>
 </div>
 

@@ -6,6 +6,7 @@
     <title>9.1. Условно извршавање (гранање)</title>
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/qchoice.css" />
     <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
     <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
@@ -109,6 +110,7 @@
     <script type="text/javascript" src="../_static/karelCorner.js"></script>
     <script type="text/javascript" src="../_static/karelRobot.js"></script>
     <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelChat.js"></script>
     <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
     <script type="text/javascript" src="../_static/karelUI.js"></script>
     <script type="text/javascript" src="../_static/karel.js"></script>
@@ -459,7 +461,12 @@
 <p>У програмирању се ова два могућа пута извршавања зову гране, па се зато и управљачки блок за условно извршавање зове <strong>гранање</strong> или <strong>наредба гранања</strong>. Група наредби у горњим устима блока се назива <strong>да грана</strong> јер се извршава када је одговор на питање из услова <strong>да</strong>, док, слично томе, наредбе у доњим устима чине <strong>не грану</strong>.</p>
 <p>Упиши изостављену реч.</p>
 
-        <div class="course-box course-box-question course-content">
+        <div class="course-box course-box-question course-content petlja-problem-box fitb-question">
+        <div class="image-background"></div>
+        <div class="petlja-problem-box-icon-holder"> </div>
+        <img src="../_static/img/fitb-img.svg" class="petlja-problem-image  fitb-image" /> 
+        <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
+        
         <div data-component="fillintheblank" id="grananje_1p">
             <p>У скриптама са простом линијском структуром свака наредба се извршава тачно једанпут. У скриптама са цикличном структуром постоје наредбе које се могу извршавати више пута. Каква је структура скрипти код којих се неке наредбе неће извршити ниједном?</p>
 <p>(<em>Одговор напиши малим словима, ћирилицом</em>) <input type="text"></p>
@@ -484,7 +491,11 @@
 <p>У примеру А видимо да је резултат испитивања испуњености услова вредност <strong>false</strong>, што значи <strong>нетачно</strong>. И заиста, нетачно је да су бројеви 20 и 50 једнаки. У примеру B испитивали смо да ли је број који је унео корисник мањи од броја 50 и добили вредност <strong>true</strong>, што значи <strong>тачно</strong>. Заиста, корисник је унео број 32, а тај број је мањи од броја 50.</p>
 <p>Одговори на следећа питања.</p>
 
-            <div class="course-box course-box-question course-content">
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
             <ul data-component="multiplechoice" data-multipleanswers="true"  id="pit9_2">
             <p>Q-68: Који од одговора корисника ће омогућити извршавање наредбе у ДА грани? (Изабери све тачне одговоре)</p>
 <a class="reference internal image-reference" href="../_images/p9_2.png"><img alt="../_images/p9_2.png" class="align-center" src="../_images/p9_2.png" style="width: 310px;" /></a>
@@ -501,7 +512,11 @@
             </ul>
             </div>
             
-            <div class="course-box course-box-question course-content">
+            <div class="course-box course-box-question course-content petlja-problem-box choice-question">
+                <div class="image-background"></div>
+                <div class="petlja-problem-box-icon-holder"> </div>
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image  qchoice-image" />
+                <img src="../_static/img/qchoice-img.svg" class="petlja-problem-image-quiz  qchoice-image" /> 
             <ul data-component="multiplechoice" data-multipleanswers="false"  id="pit9_3">
             <p>Q-69: Шта ће изговорити лик ако корисник на питање <em>Да ли пада киша</em> одговори са <em>да</em>?</p>
 <a class="reference internal image-reference" href="../_images/p9_3.png"><img alt="../_images/p9_3.png" class="align-center" src="../_images/p9_3.png" style="width: 400px;" /></a>
@@ -553,7 +568,7 @@
 <div>
     <div  id="_oqxqGW5IoY" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
         <div style="background-image: url('https://img.youtube.com/vi/_oqxqGW5IoY/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
+            <img src="../_static/images/play_button.svg" style="margin-top: 78px;" /> 
         </div>
       
 
@@ -581,10 +596,10 @@
         <div class="note-icon-holder"> </div>
         <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <p><strong>Провери своје знање пролазећи кроз наредна питања и вежбе.</strong></p>
 
-    </p></div></div>
+    </div></div>
 </div>
 </div>
 

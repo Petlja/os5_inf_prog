@@ -6,6 +6,7 @@
     <title>6.1. Цртање</title>
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/qchoice.css" />
     <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
     <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
@@ -109,6 +110,7 @@
     <script type="text/javascript" src="../_static/karelCorner.js"></script>
     <script type="text/javascript" src="../_static/karelRobot.js"></script>
     <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelChat.js"></script>
     <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
     <script type="text/javascript" src="../_static/karelUI.js"></script>
     <script type="text/javascript" src="../_static/karel.js"></script>
@@ -446,7 +448,7 @@
 <li><p>Изабери проширење „Оловка”.</p></li>
 <li><p>Примети да се појавила нова група блокова - „Оловка”. Кликни на ту групу да видиш какве блокове она садржи.</p></li>
 </ol>
-<a class="reference internal image-reference" href="../_images/prosirenje_olovka.png"><img alt="../_images/prosirenje_olovka.png" class="align-center" src="../_images/prosirenje_olovka.png" style="width: 700px;" /></a>
+<a class="reference internal image-reference" href="../_images/prosirenje_olovka.png"><img alt="../_images/prosirenje_olovka.png" class="align-center" src="../_images/prosirenje_olovka.png" style="width: 780px;" /></a>
 <p>Можемо да замислимо да је додавањем овог проширења сваки лик добио по једну оловку, којој може да подешава боју и дебљину. Блоком <img alt="spusti" src="../_images/spusti.png" /> кажемо лику да спусти своју оловку, то јест активирамо остављање трага, а блоком <img alt="podigni" src="../_images/podigni.png" /> га деактивирамо. Блок <img alt="obrisi" src="../_images/obrisi.png" /> уклања трагове свих ликова. Немој да мешаш овај блок са блоком <img alt="sakrij" src="../_images/sakrij1.png" />, који сакрива сам лик, а не његове трагове.</p>
 <p>Испробај одмах ова три блока. На пример, овако можеш да нацрташ једну праву линију:</p>
 <a class="reference internal image-reference" href="../_images/linija_skripta.png"><img alt="../_images/linija_skripta.png" class="align-center" src="../_images/linija_skripta.png" style="width: 200px;" /></a>
@@ -458,7 +460,7 @@
 <div>
     <div  id="ssLLO56xSwo" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
         <div style="background-image: url('https://img.youtube.com/vi/ssLLO56xSwo/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
+            <img src="../_static/images/play_button.svg" style="margin-top: 78px;" /> 
         </div>
       
 
@@ -485,8 +487,8 @@
 
     </div>
     <p>Остави решење да буде видљиво, јер ће нам требати у наставку. Да бисмо коверту нацртали у Скречу, потребно је да изаберемо где ће се на позорници налазити која тачка.</p>
-<p>Нека коверта буде широка 200 корака и нека се налази на средини позорнице по ширини. Онда <em>X</em> координата за тачке <em>A</em> и <em>E</em> треба да буде -100, за тачку <em>D</em> 0, а за тачке <em>B</em> и <em>C</em> +100. Према томе, за сада смо одредили да је <span class="math notranslate nohighlight">\(A(-100, \_), B(100, \_), C(100, \_), D(0, \_), E(-100, \_)\)</span>.</p>
-<p>Изаберимо још да је коверта висока 150 корака (100 за затворену коверту и 50 за део који се пресавија). Полазећи од тога да је врх коверте у тачки (0, 50), добијамо да је <em>Y</em> координата за тачку <em>D</em> 50, за тачке <em>E</em> и <em>C</em> 0, а за тачке <em>A</em> и <em>B</em> -100. Сада имамо све координате: <span class="math notranslate nohighlight">\(A(-100, -100), B(100, -100), C(100, 0), D(0, 50), E(-100, 0)\)</span>.</p>
+<p>Нека коверта буде широка 200 корака и нека се налази на средини позорнице по ширини. Онда <em>X</em> координата за тачке <em>A</em> и <em>E</em> треба да буде -100, за тачку <em>D</em>  координата <em>X</em> треба да буде 0, а за тачке <em>B</em> и <em>C</em> координата <em>X</em> треба да буде +100. Према томе, за сада смо одредили да је <span class="math notranslate nohighlight">\(A(-100, \_), B(100, \_), C(100, \_), D(0, \_), E(-100, \_)\)</span>.</p>
+<p>Изаберимо још да је коверта висока 150 корака (100 за затворену коверту и 50 за део који се пресавија). Полазећи од тога да је врх коверте у тачки (0, 50), добијамо да је <em>Y</em> координата за тачку <em>D</em> 50, за тачке <em>E</em> и <em>C</em>  координата <em>Y</em> је 0, а за тачке <em>A</em> и <em>B</em> координата <em>Y</em> је -100. Сада имамо све координате: <span class="math notranslate nohighlight">\(A(-100, -100), B(100, -100), C(100, 0), D(0, 50), E(-100, 0)\)</span>.</p>
 <p>Сада само треба да убацимо ове координате у блокове кретања. Користићемо блок <img alt="klizi_xy" src="../_images/klizi_xy2.png" /> радије него <img alt="idi_xy" src="../_images/idi_xy2.png" />, да бисмо могли да пратимо цртање и лакше поправимо скрипту ако буде потребно.</p>
 <p>Лик на почетку постављамо у тачку <span class="math notranslate nohighlight">\(A\)</span>, а затим га пуштамо да клизи редом ка тачкама <span class="math notranslate nohighlight">\(E, D, C, B, A, C, E, B\)</span>, као у решењу полазне мозгалице. Одговарајућа скрипта изгледа овако.</p>
 
@@ -498,9 +500,9 @@
 <div style="text-align: center">
 <iframe src="https://scratch.mit.edu/projects/416418381/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"  allowfullscreen>
 </iframe>
-</div>
-    <div data-component="reveal" id="drugi_primer"   data-showtitle="Други пример" data-hidetitle="Сакриј пример">
-    <p><strong>Пример 2 - Лађа</strong></p>
+</div></div>
+<div class="section" id="id4">
+<h3>Пример 2 - Лађа<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
 <p>У овом примеру ћемо нацртати једну овакву лађу.</p>
 <a class="reference internal image-reference" href="../_images/ladja_izgled.png"><img alt="../_images/ladja_izgled.png" class="align-center" src="../_images/ladja_izgled.png" style="width: 400px;" /></a>
 <p>Слика се састоји од три дела: трупа, јарбола и заставице. Да нам скрипта не би била предугачка и тешка за праћење, поделићемо је у целине. У првој целини бришемо претходна цртања, искључујемо цртање (подижемо оловку) и постављамо мачка на палубу. У свакој од следеће три целине цртамо по један део лађе (труп, јарбол и заставицу), а у последњој, петој целини поново постављамо мачка на палубу.</p>
@@ -513,16 +515,14 @@
 <iframe src="https://scratch.mit.edu/projects/416418534/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"         allowfullscreen>
 </iframe>
 </div></div></blockquote>
-
-    </div>
-    </div>
 </div>
-<div class="section" id="id4">
-<h2>Шта смо научили<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
-<p>У овој лекцији показали смо како у своје окружење можеш да додаш стандарно проширење за цртање - групу блокова „Оловка”. У Скречу сваки лик има виртуелну оловку којом може да црта приликом свог кретања по позорници. Виртуелна оловка има облик округле четкице за коју се могу задати дебљина, боја и сенка. Кроз примере пројеката и вежбе показали смо како повезивањем блокова из групе „Кретање” и групе „Оловка” можемо да креирамо различите цртеже.</p>
 </div>
 <div class="section" id="id5">
-<h2>Додатак<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<h2>Шта смо научили<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+<p>У овој лекцији показали смо како у своје окружење можеш да додаш стандарно проширење за цртање - групу блокова „Оловка”. У Скречу сваки лик има виртуелну оловку којом може да црта приликом свог кретања по позорници. Виртуелна оловка има облик округле четкице за коју се могу задати дебљина, боја и сенка. Кроз примере пројеката и вежбе показали смо како повезивањем блокова из групе „Кретање” и групе „Оловка” можемо да креирамо различите цртеже.</p>
+</div>
+<div class="section" id="id6">
+<h2>Додатак<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h2>
 <p>Ако желиш, погледај <a class="reference external" href="https://petlja.org/biblioteka/r/lekcije/scratch3-praktikum/scratch3-kornjaca-grafika">поглавље Хајде да цртамо</a> у Петљином практикуму. Тамо можеш да нађеш још нека објашњења, корисне савете и идеје. На пример, објашњење како да лик оловке црта својим врхом (које смо помињали у задатку <em>Слова С, К, Р, Е, Ч</em>) се налази у овом поглављу, а можеш сазнати и како ради блок <img alt="pecat" src="../_images/pecat.png" /> из групе блокова „Оловка” и друге занимљиве ствари.</p>
 <p>Петљин <a class="reference external" href="https://scratch.mit.edu/studios/24055098/">студио Корњача графика</a> на сајту Скреча садржи урађене пројекте за задатке сличне оним којима смо се овде бавили.</p>
 
@@ -530,10 +530,10 @@
         <div class="note-icon-holder"> </div>
         <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <p><strong>Провери своје знање пролазећи кроз наредна питања и вежбе.</strong></p>
 
-    </p></div></div>
+    </div></div>
 </div>
 </div>
 

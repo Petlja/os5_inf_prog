@@ -6,6 +6,7 @@
     <title>11.1. Променљиве</title>
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/qchoice.css" />
     <link rel="stylesheet" type="text/css" href="../_static/clickable.css" />
     <link rel="stylesheet" type="text/css" href="../_static/pytutor.css" />
     <link rel="stylesheet" type="text/css" href="../_static/modal-basic.css" />
@@ -109,6 +110,7 @@
     <script type="text/javascript" src="../_static/karelCorner.js"></script>
     <script type="text/javascript" src="../_static/karelRobot.js"></script>
     <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelChat.js"></script>
     <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
     <script type="text/javascript" src="../_static/karelUI.js"></script>
     <script type="text/javascript" src="../_static/karel.js"></script>
@@ -480,12 +482,12 @@
 </div>
 <p><strong>Како се праве променљиве?</strong></p>
 <p>На врху групе блокова променљиве се налази дугме на коме пише „Направи променљиву”.</p>
-<a class="reference internal image-reference" href="../_images/PravljenjePromenljiveMeni.png"><img alt="../_images/PravljenjePromenljiveMeni.png" class="align-center" src="../_images/PravljenjePromenljiveMeni.png" style="width: 480px;" /></a>
+<a class="reference internal image-reference" href="../_images/PravljenjePromenljiveMeni.png"><img alt="../_images/PravljenjePromenljiveMeni.png" class="align-center" src="../_images/PravljenjePromenljiveMeni.png" style="width: 500px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <p>Када кликнемо на дугме „Направи променљиву” појавиће се прозор - дијалог сличан овим:</p>
-<a class="reference internal image-reference" href="../_images/PravljenjePromenljive.png"><img alt="../_images/PravljenjePromenljive.png" class="align-center" src="../_images/PravljenjePromenljive.png" style="width: 600px;" /></a>
+<a class="reference internal image-reference" href="../_images/PravljenjePromenljive.png"><img alt="../_images/PravljenjePromenljive.png" class="align-center" src="../_images/PravljenjePromenljive.png" style="width: 780px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -520,7 +522,7 @@
 <div>
     <div  id="hpDCMjjhC-E" class="ytvideo"  style="text-align: center; margin: 15px; cursor:pointer;">
         <div style="background-image: url('https://img.youtube.com/vi/hpDCMjjhC-E/mqdefault.jpg'); background-repeat: no-repeat;background-position: center; height: 210px; width: 310px; margin: 0 auto; border: 1px solid #20c997">
-            <img src="/_static/images/play_button.svg" style="margin-top: 78px;" /> 
+            <img src="../_static/images/play_button.svg" style="margin-top: 78px;" /> 
         </div>
       
 
@@ -542,7 +544,7 @@
 <div class="section" id="id3">
 <h2>Примери<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
 <p>У првом примеру показано је како се вредности променљивих уносе са улаза наредбом „питај … чекај” и користе за израчунавање вредности израза. У изразу се користе аритметички оператори, а резултат његовог израчунавања се приказује на излазу.</p>
-<p>У другом примеру показано је како се бројевни подаци уносе преко монитора са клизачем придуженим променљивој. У програму се такође користи променљива у оператору поређења који омогућава излазак и петље.</p>
+<p>У другом примеру показано је како се бројевни подаци уносе преко монитора са клизачем придруженим променљивој. У програму се такође користи променљива у оператору поређења који омогућава излазак и петље.</p>
 <p>У трећем (скривеном) примеру, анимацији алгоритма за прелазак преко реке, променљиве се користе за задавање координата на које ликове треба премештати.</p>
 <div class="section" id="id4">
 <h3>Пример 1 - Кликери<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
@@ -628,13 +630,13 @@
 </table>
 <p>Ради решавања оригиналног задатка је требало сетити се да жаба може и да врати мајмуна на леву обалу. Сада када знамо редослед потеза, хајде да видимо како да их прикажемо.</p>
 <p>Жаба би могла да објављује потезе, а сви остали само реагују на објаве. То значи да у скриптама пантера, мајмуна и банана нема никаквог знања о томе како ће се сви они наћи на другој страни, они само умеју да иду са жабом кад их она позове. Сво знање се налази у главној жабиној скрипти, која изгледа овако:</p>
-<a class="reference internal image-reference" href="../_images/PanterMajmunBanane_Zaba1.jpg"><img alt="../_images/PanterMajmunBanane_Zaba1.jpg" class="align-center" src="../_images/PanterMajmunBanane_Zaba1.jpg" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="../_images/PanterMajmunBanane_Zaba1.png"><img alt="../_images/PanterMajmunBanane_Zaba1.png" class="align-center" src="../_images/PanterMajmunBanane_Zaba1.png" style="width: 400px;" /></a>
 <p>Променљиве <strong>а</strong>, <strong>б</strong> и <strong>т</strong> се не мењају током рада програма, па уместо њих свуда у програму могу да стоје бројеви 100, 170, 1. Променљиве смо користили да бисмо лакше подешавали положаје ликова и брзину анимације, јер током испробавања је лакше мењати на пример све брзине на само једном месту. Улоге ових променљивих ћеш још боље разумети када погледаш остале скрипте.</p>
 <p>Поред главне, жаба има и две споредне скрипте, за постављање на почетни положај и за прелазак реке:</p>
-<a class="reference internal image-reference" href="../_images/PanterMajmunBanane_Zaba2.jpg"><img alt="../_images/PanterMajmunBanane_Zaba2.jpg" class="align-center" src="../_images/PanterMajmunBanane_Zaba2.jpg" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="../_images/PanterMajmunBanane_Zaba2.png"><img alt="../_images/PanterMajmunBanane_Zaba2.png" class="align-center" src="../_images/PanterMajmunBanane_Zaba2.png" style="width: 400px;" /></a>
 <p>Жаба на основу <em>X</em> координате свог положаја зна на коју страну треба да иде. Ако је <em>X</em> негативно, значи да се жаба налази на левој страни па треба прећи са леве на десну обалу, а ако је <em>X</em>  позитивно, жаба треба да се врати на леву страну.</p>
 <p>Скрипте осталих ликова су међусобно скоро истоветне, зато ћемо их показати само за пантера:</p>
-<a class="reference internal image-reference" href="../_images/PanterMajmunBanane_Panter.jpg"><img alt="../_images/PanterMajmunBanane_Panter.jpg" class="align-center" src="../_images/PanterMajmunBanane_Panter.jpg" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="../_images/PanterMajmunBanane_Panter.png"><img alt="../_images/PanterMajmunBanane_Panter.png" class="align-center" src="../_images/PanterMajmunBanane_Panter.png" style="width: 400px;" /></a>
 <p>Када пантер прими објаву „пређи са пантером”, он прво дође до жабе (попне јој се на леђа), затим пређе реку заједно са жабом, а на крају сиђе са жабе и стане на своје место на другој обали. Да ли се иде на лево или на десно, пантер одређује на исти начин као и жаба.</p>
 <p>Остала два лика извршавају исте кораке, само што мајмун реагује на објаву „пређи са мајмуном”, а банане на објаву „пређи са бананама”. Још једна мала разлика између скрипти ових ликова је у томе што они користе различите <em>Y</em> координате за свој положај на обали. За пантера је та <em>Y</em> координата 120, за мајмуна 0, а за банане -120.</p>
 <p>Кликни на слику да видиш анимацију решења.</p>
@@ -659,10 +661,10 @@
         <div class="note-icon-holder"> </div>
         <img src="../_static/img/infonote-img.svg" class="note-image infonote-image" /> 
         <div class="course-content">
-            <p>
+            
 <p><strong>Провери своје знање пролазећи кроз наредна питања и вежбе.</strong></p>
 
-    </p></div></div>
+    </div></div>
 </div>
 </div>
 
