@@ -26,7 +26,7 @@
 .. |mesto_y|           image:: ../../_images/S3_opste/mesto_y.png
 .. |smer|              image:: ../../_images/S3_opste/smer.png
 
-.. |lopta|             image:: ../../_images/S3_04_nizanje_koraka/lopta.jpg
+.. |lopta|             image:: ../../_images/S3_04_nizanje_koraka/lopta.png
 
 
 
@@ -65,13 +65,13 @@
 
         Лавиринт ћеш најлакше направити ако из галерије позадина изабереш позадину "Xy-grid-30px", коју ћеш затим прилагодити. Ова позадина садржи квадратну мрежу (енгл. *grid*), у којој је сваки квадрат величине 30 корака.
 
-    .. image:: ../../_images/S3_04_nizanje_koraka/lavirint_pozadina.jpg
+    .. image:: ../../_images/S3_04_nizanje_koraka/lavirint_pozadina.png
         :align: center
         :width: 400
 
     Када изабереш ову позадину, кликни на њу у листи (корак 1 на слици), а затим кликни на картицу "Позадине" (корак 2 на слици).
 
-    .. image:: ../../_images/S3_04_nizanje_koraka/lavirint_pravljenje.jpg
+    .. image:: ../../_images/S3_04_nizanje_koraka/lavirint_pravljenje.png
         :align: center
         :width: 600
 

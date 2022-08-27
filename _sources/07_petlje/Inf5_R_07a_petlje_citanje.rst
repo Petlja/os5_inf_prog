@@ -20,7 +20,7 @@
 .. |zauvek|            image:: ../../_images/S3_opste/zauvek.png
 .. |vece|              image:: ../../_images/S3_opste/vece.png
 
-У претходним лекцијамa већ смо користили наредбе понављања. Тако су у пројекту *Јурњава* све три скрипте придружене ликовима имале **цикличну** структуру са бесконачним понављањем. У групи "Управљање" блокови који служе за понављање других наредби изгледају овако:
+У претходним7 лекцијамa већ смо користили наредбе понављања. Тако су у пројекту *Јурњава* све три скрипте придружене ликовима имале **цикличну** структуру са бесконачним понављањем. У групи "Управљање" блокови који служе за понављање других наредби изгледају овако:
 
 .. image:: ../../_images/S3_07_petlje/blokovi_ponavljanja.png
     :align: center
@@ -47,7 +47,7 @@
 
 .. image:: ../../_images/S3_07_petlje/hodajuci_lik.png
     :align: center
-    :width: 500
+    :width: 780
 
 |
 
@@ -55,7 +55,7 @@
 
 .. image:: ../../_images/S3_07_petlje/hodajuci_likovi.png
     :align: center
-    :width: 500
+    :width: 780
 
 |
 
@@ -129,7 +129,7 @@
 
 .. image:: ../../_images/S3_07_petlje/sta_crtaju_skripte.png
     :align: center
-    :width: 700
+    :width: 780
 
 .. reveal:: zadatak_sta_crtaju_odskace
     :showtitle: Провери одговор
@@ -139,7 +139,7 @@
  
     .. image:: ../../_images/S3_07_petlje/sta_crtaju_izgled.png
         :align: center
-        :width: 700
+        :width: 780
 
 
 

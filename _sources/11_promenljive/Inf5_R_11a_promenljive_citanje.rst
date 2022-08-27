@@ -76,7 +76,7 @@
 На врху групе блокова променљиве се налази дугме на коме пише "Направи променљиву". 
 
 .. image:: ../../_images/S3_11_promenljive/PravljenjePromenljiveMeni.png
-    :width: 480px   
+    :width: 500px   
     :align: center
 
 |
@@ -84,7 +84,7 @@
 Када кликнемо на дугме "Направи променљиву" појавиће се прозор - дијалог сличан овим:
 
 .. image:: ../../_images/S3_11_promenljive/PravljenjePromenljive.png
-    :width: 600px
+    :width: 780px
     :align: center
 
 |
@@ -260,7 +260,7 @@
 
     Жаба би могла да објављује потезе, а сви остали само реагују на објаве. То значи да у скриптама пантера, мајмуна и банана нема никаквог знања о томе како ће се сви они наћи на другој страни, они само умеју да иду са жабом кад их она позове. Сво знање се налази у главној жабиној скрипти, која изгледа овако:
 
-    .. image:: ../../_images/S3_11_promenljive/PanterMajmunBanane_Zaba1.jpg
+    .. image:: ../../_images/S3_11_promenljive/PanterMajmunBanane_Zaba1.png
         :width: 400px
         :align: center
 
@@ -268,7 +268,7 @@
 
     Поред главне, жаба има и две споредне скрипте, за постављање на почетни положај и за прелазак реке:
 
-    .. image:: ../../_images/S3_11_promenljive/PanterMajmunBanane_Zaba2.jpg
+    .. image:: ../../_images/S3_11_promenljive/PanterMajmunBanane_Zaba2.png
         :width: 400px
         :align: center
 
@@ -276,7 +276,7 @@
 
     Скрипте осталих ликова су међусобно скоро истоветне, зато ћемо их показати само за пантера:
 
-    .. image:: ../../_images/S3_11_promenljive/PanterMajmunBanane_Panter.jpg
+    .. image:: ../../_images/S3_11_promenljive/PanterMajmunBanane_Panter.png
         :width: 400px
         :align: center
 
