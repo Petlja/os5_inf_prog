@@ -135,7 +135,7 @@ lessons:
         file: Inf5_R_05a_razglasavanje_citanje.rst
         guid: 3718060d-7b30-4091-82ff-8cd798b2cfdf
       - type: quiz
-        title: 5.2. Квиз - усклађивање скрипти
+        title: 5.2. Квиз - Усклађивање скрипти
         file: Inf5_R_05b_razglasavanje_kviz.rst
         guid: 1be1a2a7-2b15-4eb3-995c-6ea1d8c3fc08
   - title: 6. Цртање
@@ -148,7 +148,7 @@ lessons:
         file: Inf5_R_06a_kornjaca_citanje.rst
         guid: 670a08a8-6a4c-43fe-a52a-14aeb27371c9
       - type: quiz
-        title: 6.2. Квиз - цртање
+        title: 6.2. Квиз - Цртање
         file: Inf5_R_06b_kornjaca_kviz.rst
         guid: e218dbc4-8713-47b6-869d-8b9ef5808d21
   - title: 7. Наредбе понављања
@@ -187,7 +187,7 @@ lessons:
         file: Inf5_R_09a_grananje_citanje.rst
         guid: 7b7c3a5b-e597-44b3-b0bf-00fd90f62c4c
       - type: quiz
-        title: 9.2. Квиз - гранање
+        title: 9.2. Квиз - Гранање
         file: Inf5_R_09b_grananje_kviz.rst
         guid: ad755c0c-0211-48fd-891b-9c426216bd2f
   - title: 10. Осећаји
@@ -200,7 +200,7 @@ lessons:
         file: Inf5_R_10a_osecaji_citanje.rst
         guid: 09967186-10bd-4357-b215-6df6bb0dfcb6
       - type: quiz
-        title: 10.2. Квиз - осећаји
+        title: 10.2. Квиз - Осећаји
         file: Inf5_R_10b_osecaji_kviz.rst
         guid: 77d6e775-adbf-46a3-9d5c-06671e5ae8dd
   - title: 11. Променљиве
@@ -213,7 +213,7 @@ lessons:
         file: Inf5_R_11a_promenljive_citanje.rst
         guid: dbc45bed-8ef0-4e85-be4f-91ca05cd7053
       - type: quiz
-        title: 11.2. Квиз - променљиве
+        title: 11.2. Квиз - Променљиве
         file: Inf5_R_11b_promenljive_kviz.rst
         guid: f773d76c-a812-4954-9e8a-1532eb1a06cb
       - type: reading
@@ -230,7 +230,7 @@ lessons:
         file: Inf5_R_12a_procedure_citanje.rst
         guid: 0de5dcff-abef-42ff-8dfa-aa0698fcdf90
       - type: quiz
-        title: 12.2. Квиз - процедуре
+        title: 12.2. Квиз - Процедуре
         file: Inf5_R_12b_procedure_kviz.rst
         guid: 853b4a7d-7810-450b-90b8-1709f33cb888
   - title: 13. Листе
@@ -243,7 +243,7 @@ lessons:
         file: Inf5_R_13a_liste_citanje.rst
         guid: 301192fc-1c63-4f03-91fd-9ebf60704101
       - type: quiz
-        title: 13.2. Квиз - листе
+        title: 13.2. Квиз - Листе
         file: Inf5_R_13b_liste_kviz.rst
         guid: 17d4a70a-43fd-476d-8706-6e1f03166c79
       - type: reading
@@ -260,7 +260,7 @@ lessons:
         file: Inf5_R_14a_zvuk_citanje.rst
         guid: ecbb471b-3539-4199-9c5e-8c7486292605
       - type: quiz
-        title: 14.2. Квиз - звук
+        title: 14.2. Квиз - Звук
         file: Inf5_R_14b_zvuk_kviz.rst
         guid: 7fdb0ff4-eead-42e7-94e8-b8fd69bd706d
   - title: 15. Музика
@@ -273,7 +273,7 @@ lessons:
         file: Inf5_R_15a_muzika_citanje.rst
         guid: 0f5dcb0f-35e7-4e48-a926-8ba616b40a53
       - type: quiz
-        title: 15.2. Квиз - музика
+        title: 15.2. Квиз - Музика
         file: Inf5_R_15b_muzika_kviz.rst
         guid: d35620ca-eb31-4678-8d76-25cc273a910c
   - title: 16. Завршни квиз

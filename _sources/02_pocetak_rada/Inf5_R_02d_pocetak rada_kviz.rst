@@ -1,4 +1,4 @@
-2.4. Квиз - Почетак рада
+2.4. Квиз – Почетак рада
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Питање 1
 ~~~~~~~~
@@ -28,10 +28,10 @@
 ~~~~~~~~
 
 .. mchoice:: pocetak_3
-   :answer_a: скрипта
-   :answer_b: објекат
-   :answer_c: интерфејс
-   :answer_d: програм
+   :answer_a: Скрипта
+   :answer_b: Објекат
+   :answer_c: Интерфејс
+   :answer_d: Програм
    :correct: c
    :feedback_a: Нетачно.
    :feedback_b: Нетачно.
@@ -45,10 +45,10 @@
 
 .. mchoice:: pocetak_4
    :multiple_answers:
-   :answer_a: линија менија
-   :answer_b: листа ликова
-   :answer_c: област скрипти
-   :answer_d: палета наредби
+   :answer_a: Линија менија
+   :answer_b: Листа ликова
+   :answer_c: Област скрипти
+   :answer_d: Палета наредби
    :correct: b
    :feedback_a: 
    :feedback_b: 
@@ -62,15 +62,15 @@
  
 .. mchoice:: pocetak_5
    :multiple_answers:
-   :answer_a: презентације
-   :answer_b: скрипте
-   :answer_c: графичке датотеке
-   :answer_d: звучне датотеке
+   :answer_a: Презентације
+   :answer_b: Скрипте
+   :answer_c: Графичке датотеке
+   :answer_d: Звучне датотеке
    :correct: b, c, d
    :feedback_a: 
    :feedback_b: 
    :feedback_c: 
    :feedback_d: 
 
-   Позорници и ликовима могу да буду придружене: (Изабери све тачне одговоре) 
+   Позорници и ликовима могу да буду придружене: (Изабери све тачне одговоре.) 
  
