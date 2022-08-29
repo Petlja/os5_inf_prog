@@ -189,7 +189,7 @@ lessons:
     file: Inf5_R_05b_razglasavanje_kviz.html
     guid: 1be1a2a7-2b15-4eb3-995c-6ea1d8c3fc08
     src: Inf5_R_05b_razglasavanje_kviz.rst
-    title: 5.2. Квиз - усклађивање скрипти
+    title: 5.2. Квиз - Усклађивање скрипти
     type: quiz
   archived-activities: []
   description: Разглашавање
@@ -208,7 +208,7 @@ lessons:
     file: Inf5_R_06b_kornjaca_kviz.html
     guid: e218dbc4-8713-47b6-869d-8b9ef5808d21
     src: Inf5_R_06b_kornjaca_kviz.rst
-    title: 6.2. Квиз - цртање
+    title: 6.2. Квиз - Цртање
     type: quiz
   archived-activities: []
   description: Цртање - корњача графика
@@ -265,7 +265,7 @@ lessons:
     file: Inf5_R_09b_grananje_kviz.html
     guid: ad755c0c-0211-48fd-891b-9c426216bd2f
     src: Inf5_R_09b_grananje_kviz.rst
-    title: 9.2. Квиз - гранање
+    title: 9.2. Квиз - Гранање
     type: quiz
   archived-activities: []
   description: Гранање
@@ -284,7 +284,7 @@ lessons:
     file: Inf5_R_10b_osecaji_kviz.html
     guid: 77d6e775-adbf-46a3-9d5c-06671e5ae8dd
     src: Inf5_R_10b_osecaji_kviz.rst
-    title: 10.2. Квиз - осећаји
+    title: 10.2. Квиз - Осећаји
     type: quiz
   archived-activities: []
   description: Осећаји
@@ -303,7 +303,7 @@ lessons:
     file: Inf5_R_11b_promenljive_kviz.html
     guid: f773d76c-a812-4954-9e8a-1532eb1a06cb
     src: Inf5_R_11b_promenljive_kviz.rst
-    title: 11.2. Квиз - променљиве
+    title: 11.2. Квиз - Променљиве
     type: quiz
   - description: ''
     file: Inf5_R_11c_promenljive_vezbanje.html
@@ -328,7 +328,7 @@ lessons:
     file: Inf5_R_12b_procedure_kviz.html
     guid: 853b4a7d-7810-450b-90b8-1709f33cb888
     src: Inf5_R_12b_procedure_kviz.rst
-    title: 12.2. Квиз - процедуре
+    title: 12.2. Квиз - Процедуре
     type: quiz
   archived-activities: []
   description: Процедуре
@@ -347,7 +347,7 @@ lessons:
     file: Inf5_R_13b_liste_kviz.html
     guid: 17d4a70a-43fd-476d-8706-6e1f03166c79
     src: Inf5_R_13b_liste_kviz.rst
-    title: 13.2. Квиз - листе
+    title: 13.2. Квиз - Листе
     type: quiz
   - description: ''
     file: Inf5_R_13c_liste_vezbanje.html
@@ -372,7 +372,7 @@ lessons:
     file: Inf5_R_14b_zvuk_kviz.html
     guid: 7fdb0ff4-eead-42e7-94e8-b8fd69bd706d
     src: Inf5_R_14b_zvuk_kviz.rst
-    title: 14.2. Квиз - звук
+    title: 14.2. Квиз - Звук
     type: quiz
   archived-activities: []
   description: Звук
@@ -391,7 +391,7 @@ lessons:
     file: Inf5_R_15b_muzika_kviz.html
     guid: d35620ca-eb31-4678-8d76-25cc273a910c
     src: Inf5_R_15b_muzika_kviz.rst
-    title: 15.2. Квиз - музика
+    title: 15.2. Квиз - Музика
     type: quiz
   archived-activities: []
   description: Mузика
