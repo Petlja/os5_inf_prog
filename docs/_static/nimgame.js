@@ -33,7 +33,7 @@ function WrappingNimGame(){
         this.circleRadius = document.documentElement.clientWidth < 900 ? 30 : 40;
         this.removedCircleIndex = 0;
         this.playersTurn = _PLAYER_ONE;
-        this.canvasContext.canvas.width = Math.min(document.documentElement.clientWidth,780);
+        this.canvasContext.canvas.width = Math.min(this.canvas.parentElement.clientWidth,780);
         this.canvasContext.canvas.height = 400;
         this.takeButtonPlayerOne = this.opts.querySelector('[data-id=player-1]');
         this.takeButtonPlayerTwo = this.opts.querySelector('[data-id=player-2]');
@@ -47,10 +47,14 @@ function WrappingNimGame(){
         this.takeButtonPlayerTwo.innerText = $.i18n("nimgame_take");
         this.restartGameButton.innerText = $.i18n("nimgame_restart_buttnon");
         this.opts.querySelector('[data-game-mode]').innerText = $.i18n("nimgame_single_player");
-        this.inputPlayerOne = this.opts.querySelector(`[data-input-id=player-1]`)
-        this.inputPlayerTwo = this.opts.querySelector(`[data-input-id=player-2]`)
-        this.inputPlayerOne.placeholder = `1-${this.maxTakeAway}`
-        this.inputPlayerTwo.placeholder = `1-${this.maxTakeAway}`
+        this.inputPlayerOne = this.opts.querySelector(`[data-input-id=player-1]`);
+        this.inputPlayerTwo = this.opts.querySelector(`[data-input-id=player-2]`);
+
+        this.canvasControlDiv = this.opts.querySelector('.canvas-control');
+        var maxTakeAwayMsg = document.createElement('p');
+        maxTakeAwayMsg.innerHTML = $.i18n("nimgame_take_away_msg",this.maxTakeAway);
+        this.canvasControlDiv.prepend(maxTakeAwayMsg)
+
         this.fristMove = true;
         this.inputPlayerOne.addEventListener("keydown",  function(event) {
                 if (event.key === "Enter") {

@@ -110,6 +110,7 @@
     <script type="text/javascript" src="../_static/karelCorner.js"></script>
     <script type="text/javascript" src="../_static/karelRobot.js"></script>
     <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelChat.js"></script>
     <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
     <script type="text/javascript" src="../_static/karelUI.js"></script>
     <script type="text/javascript" src="../_static/karel.js"></script>
@@ -474,13 +475,13 @@
 </div>
 <p>Покушајмо сада да искористимо правилност која се појављује у песми, да бисмо скратили програм. Ради тога ћемо изговарање једне строфе да издвојимо у засебну целину и од те целине да направимо нови блок.</p>
 <p>У групи „Моји блокови” кликни на дугме „Направи блок”.</p>
-<a class="reference internal image-reference" href="../_images/MojiBlokovi.jpg"><img alt="../_images/MojiBlokovi.jpg" class="align-center" src="../_images/MojiBlokovi.jpg" style="width: 300px;" /></a>
+<a class="reference internal image-reference" href="../_images/MojiBlokovi.png"><img alt="../_images/MojiBlokovi.png" class="align-center" src="../_images/MojiBlokovi.png" style="width: 500px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <p>Појавиће се нови прозор - дијалог, у коме можеш да направиш свој блок. Сваки блок који на овај начин направиш зове се <strong>процедура</strong>.</p>
 <p>Кликом у поље у коме на почетку пише „Име блока”, можеш да задаш име будућег блока - процедуре.</p>
-<a class="reference internal image-reference" href="../_images/InterfejsBloka.jpg"><img alt="../_images/InterfejsBloka.jpg" class="align-center" src="../_images/InterfejsBloka.jpg" style="width: 550px;" /></a>
+<a class="reference internal image-reference" href="../_images/InterfejsBloka.png"><img alt="../_images/InterfejsBloka.png" class="align-center" src="../_images/InterfejsBloka.png" style="width: 780px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -495,23 +496,23 @@
 <p>Кликом на дугме „Додај улаз” у блоку се ствара још једно поље. Овакво поље се зове улазно поље и у њега ћемо уписати име променљиве која ће да садржи прву од три речи које желимо да проследимо нашем блоку. Та променљива се у нашем примеру зове ’какве’, јер говори какве ствари деца воле (чудне, слатке и смешне).</p>
 <p>Када поново кликнемо да дугме „Додај улаз”, појавиће се ново улазно поље, у којем дајемо име другој речи коју ћемо прослеђивати. Нека се та друга реч зове ’ствар1’. На крају, још једним кликом направићемо и улазно поље за трећу реч, коју називамо ’ствар2’. Кликом на дугме „У реду” завршавамо овај део посла.</p>
 <p>Уписивањем имена блока и прављењем улазних поља смо задали како ће наш блок бити коришћен у програму. Кажемо и да смо задали <strong>интерфејс</strong> нашег блока.</p>
-<a class="reference internal image-reference" href="../_images/ParametriBloka.jpg"><img alt="../_images/ParametriBloka.jpg" class="align-center" src="../_images/ParametriBloka.jpg" style="width: 300px;" /></a>
+<a class="reference internal image-reference" href="../_images/ParametriBloka.png"><img alt="../_images/ParametriBloka.png" class="align-center" src="../_images/ParametriBloka.png" style="width: 500px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <p>У простору за скрипте појавио се почетни блок, који зовемо <strong>заглавље процедуре</strong>. Испод заглавља треба да задамо шта ће наш нови блок - процедура да ради.</p>
-<a class="reference internal image-reference" href="../_images/DefinisanjeBloka.jpg"><img alt="../_images/DefinisanjeBloka.jpg" class="align-center" src="../_images/DefinisanjeBloka.jpg" style="width: 450px;" /></a>
+<a class="reference internal image-reference" href="../_images/DefinisanjeBloka.png"><img alt="../_images/DefinisanjeBloka.png" class="align-center" src="../_images/DefinisanjeBloka.png" style="width: 500px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <p>Додај блокове за спајање и изговарање текста, као на следећој слици. Ови блокови испод заглавља чине <strong>тело процедуре</strong> коју дефинишемо.</p>
-<a class="reference internal image-reference" href="../_images/DecaVole2a.jpg"><img alt="../_images/DecaVole2a.jpg" class="align-center" src="../_images/DecaVole2a.jpg" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../_images/DecaVole2a.png"><img alt="../_images/DecaVole2a.png" class="align-center" src="../_images/DecaVole2a.png" style="width: 780px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <p>Формирајући тело процедуре, објаснили смо рачунару шта тачно треба да уради са речима ’какве’, ’ствар1’ и ’ствар2’ када будемо користили наш блок - процедуру. Ове речи које наша процедура користи називају се <strong>параметри</strong> процедуре. Можемо да кажемо да се интерфејс процедуре састоји од њеног имена и параметара, који се виде у заглављу процедуре.</p>
 <p>Пошто смо саставили тело процедуре „Кажи строфу”, она је сада потпуно спремна за употребу. Остаје још само да у главној скрипти позовемо ову процедуру за сваку строфу по једном.</p>
-<a class="reference internal image-reference" href="../_images/DecaVole2b.jpg"><img alt="../_images/DecaVole2b.jpg" class="align-center" src="../_images/DecaVole2b.jpg" style="width: 400px;" /></a>
+<a class="reference internal image-reference" href="../_images/DecaVole2b.png"><img alt="../_images/DecaVole2b.png" class="align-center" src="../_images/DecaVole2b.png" style="width: 500px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>

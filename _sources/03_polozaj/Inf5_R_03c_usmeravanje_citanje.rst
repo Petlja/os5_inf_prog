@@ -41,7 +41,7 @@
 
 .. image:: ../../_images/S3_03_polozaj/imenovanje_likova.png
    :align: center
-   :width: 400
+   :width: 500
 
 |
 
@@ -94,7 +94,7 @@
 
 .. image:: ../../_images/S3_03_polozaj/interaktivno_zadavanje_smera_lika1.png
    :align: center
-   :width: 600
+   :width: 780
 
 |
 
@@ -109,7 +109,7 @@
 
 .. image:: ../../_images/S3_03_polozaj/interaktivno_zadavanje_smera_lika2.png
    :align: center
-   :width: 400
+   :width: 780
 
 У таквом случају користимо три дугмета |interaktivno_nacin_okretanja|, која се налазе испод круга за задавање смера, да бисмо задали начин окретања лика. Испробај свако од ова три дугмета: кликни на дугме, окрећи стрелицу на кругу и прати на који начин се лик окреће. Ако задржиш миша изнад дугмета, добићеш кратку поруку о функцији тог дугмета. Примети да и поред тога што лик не мора да се **окрене** (усмери) ка смеру кретања, задати **смер кретања** за њега и даље важи. Ово можеш да потврдиш користећи блок |idi_koraka|.
 
@@ -121,7 +121,8 @@
 
 .. image:: ../../_images/S3_03_polozaj/blokovi_reporteri.png
    :align: center
-   :width: 600
+   :width: 780
+
 
 Пошто блокови |mesto_x|, |mesto_y| и |smer| јављају неке вредности, зовемо их блокови-репортери (остали блокови су блокови-наредбе).
 
@@ -197,7 +198,7 @@
 
     .. image:: ../../_images/S3_03_polozaj/vezba_pas_macka_mis_likovi.png
        :align: center
-       :width: 320
+       :width: 400
 
     |
 

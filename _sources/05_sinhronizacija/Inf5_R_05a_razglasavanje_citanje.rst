@@ -73,15 +73,15 @@
    
     Сада се скрипта за сваку девојчицу лако саставља на основу њене колоне у табели. Да би скрипте биле једноставније, трајања узастопних чекања смо сабрали и представили једном наредбом чекања.
 
-    .. image:: ../../_images/S3_05_sinhronizacija/SrnetinaCekanje_Dana.jpg
+    .. image:: ../../_images/S3_05_sinhronizacija/SrnetinaCekanje_Dana.png
         :width: 500px
         :align: center
 
-    .. image:: ../../_images/S3_05_sinhronizacija/SrnetinaCekanje_Ana.jpg
+    .. image:: ../../_images/S3_05_sinhronizacija/SrnetinaCekanje_Ana.png
         :width: 500px
         :align: center
 
-    .. image:: ../../_images/S3_05_sinhronizacija/SrnetinaCekanje_Tamara.jpg
+    .. image:: ../../_images/S3_05_sinhronizacija/SrnetinaCekanje_Tamara.png
         :width: 500px
         :align: center
 
@@ -92,8 +92,8 @@
 
 Ево како се праве објаве: у групи блокова *Догађаји* изаберемо блок |razglasi| и поставимо га у скрипту. У поље блока уместо "порука1" упишемо текст који желимо. То ће бити име наше објаве.
 
-.. image:: ../../_images/S3_05_sinhronizacija/RazglasavanjeMeni.jpg
-    :width: 375px
+.. image:: ../../_images/S3_05_sinhronizacija/RazglasavanjeMeni.png
+    :width: 500px
     :align: center
 
 |
@@ -102,20 +102,20 @@
 
 За овај пример то је све што нам треба. Погледајмо скрипте за сваку од девојчица и у верзији када се користе објаве.
 
-.. image:: ../../_images/S3_05_sinhronizacija/SrnetinaObjave_Dana.jpg
-    :width: 500px
+.. image:: ../../_images/S3_05_sinhronizacija/SrnetinaObjave_Dana.png
+    :width: 780px
     :align: center
 
 |
 
-.. image:: ../../_images/S3_05_sinhronizacija/SrnetinaObjave_Ana.jpg
-    :width: 500px
+.. image:: ../../_images/S3_05_sinhronizacija/SrnetinaObjave_Ana.png
+    :width: 780px
     :align: center
 
 |
 
-.. image:: ../../_images/S3_05_sinhronizacija/SrnetinaObjave_Tamara.jpg
-    :width: 500px
+.. image:: ../../_images/S3_05_sinhronizacija/SrnetinaObjave_Tamara.png
+    :width: 780px
     :align: center
 
 |
@@ -144,7 +144,7 @@
 
 Скрипта позорнице изгледа овако:
 
-.. image:: ../../_images/S3_05_sinhronizacija/Sportovi_Pozornica.jpg
+.. image:: ../../_images/S3_05_sinhronizacija/Sportovi_Pozornica.png
     :width: 250px
     :align: center
 
@@ -154,8 +154,8 @@
 
 Погледајмо и скрипту дечака:
 
-.. image:: ../../_images/S3_05_sinhronizacija/Sportovi_Lik.jpg
-    :width: 420px
+.. image:: ../../_images/S3_05_sinhronizacija/Sportovi_Lik.png
+    :width: 500px
     :align: center
 
 Примећујемо да ни "дечак не мора да зна" када ће се која позадина појавити. Што се њега тиче, позорница је могла да поставља позадине било којим редом, па и да их понавља, а скрипте којима дечак реагује на објаве не би морале због тога уопште да се мењају.

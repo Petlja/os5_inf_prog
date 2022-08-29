@@ -110,6 +110,7 @@
     <script type="text/javascript" src="../_static/karelCorner.js"></script>
     <script type="text/javascript" src="../_static/karelRobot.js"></script>
     <script type="text/javascript" src="../_static/karelWorld.js"></script>
+    <script type="text/javascript" src="../_static/karelChat.js"></script>
     <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
     <script type="text/javascript" src="../_static/karelUI.js"></script>
     <script type="text/javascript" src="../_static/karel.js"></script>
@@ -439,17 +440,17 @@
 </ul>
 </div>
 <p>Подршка за музику се не налази међу основним групама блокова, него у једном од неколико стандардних проширења Скреча. Проширења се једноставно укључују у радно окружење. Док је активна картица „Програм”, у доњем левом углу се налази дугме за додавање проширења:</p>
-<a class="reference internal image-reference" href="../_images/muzika_prosirenja1.png"><img alt="../_images/muzika_prosirenja1.png" class="align-center" src="../_images/muzika_prosirenja1.png" style="width: 100px;" /></a>
+<a class="reference internal image-reference" href="../_images/dodaj_prosirenje1.png"><img alt="../_images/dodaj_prosirenje1.png" class="align-center" src="../_images/dodaj_prosirenje1.png" style="width: 100px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <p>Када кликнемо на то дугме, отвара се листа доступних проширења. Кликом на проширење „музика”, додајемо га у радно окружење.</p>
-<a class="reference internal image-reference" href="../_images/muzika_prosirenja2.png"><img alt="../_images/muzika_prosirenja2.png" class="align-center" src="../_images/muzika_prosirenja2.png" style="width: 500px;" /></a>
+<a class="reference internal image-reference" href="../_images/muzika_prosirenja2.png"><img alt="../_images/muzika_prosirenja2.png" class="align-center" src="../_images/muzika_prosirenja2.png" style="width: 780px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <p>Сада имамо нову групу блокова, која се зове „музика”. Када кликемо на ту групу, видимо следеће наредбе:</p>
-<a class="reference internal image-reference" href="../_images/muzika_komande.png"><img alt="../_images/muzika_komande.png" class="align-center" src="../_images/muzika_komande.png" style="width: 636px;" /></a>
+<a class="reference internal image-reference" href="../_images/muzika_komande.png"><img alt="../_images/muzika_komande.png" class="align-center" src="../_images/muzika_komande.png" style="width: 500px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -470,20 +471,20 @@
 </iframe>
 </div><p>Сваку дирку основне октаве представљаће по један лик. Укупно ће бити 8 белих и 5 црних дирки (нота <em>до</em> се понавља на крају октаве), дакле 13 ликова у програму. Пошто ће ови ликови имати врло сличне скрипте (и углавном исте костиме), лакше је да прво потпуно довршимо креирање једног лика, а затим остале ликове направимо копирањем креираног лика и преправљањем скрипти.</p>
 <p>Почнимо од дирке за ноту <strong>до</strong>, односно ноту <strong>C4</strong> (нота <em>C</em> четврте октаве). Најпре ћемо нацртати костим лика, који се састоји од једног белог правоугаоника.</p>
-<a class="reference internal image-reference" href="../_images/muzika_kostim_dirke.png"><img alt="../_images/muzika_kostim_dirke.png" class="align-center" src="../_images/muzika_kostim_dirke.png" style="width: 474px;" /></a>
+<a class="reference internal image-reference" href="../_images/muzika_kostim_dirke.png"><img alt="../_images/muzika_kostim_dirke.png" class="align-center" src="../_images/muzika_kostim_dirke.png" style="width: 780px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <p>Лик дирке ћемо испрограмирати помоћу три кратке скрипте: једна за постављање на праву позицију при стартовању програма, друга која се извршава када се притисне тастер <em>А</em> и трећа, која се извршава када се кликне на овај лик.</p>
-<a class="reference internal image-reference" href="../_images/muzika_klavir_skripte_bela.png"><img alt="../_images/muzika_klavir_skripte_bela.png" class="align-center" src="../_images/muzika_klavir_skripte_bela.png" style="width: 300px;" /></a>
+<a class="reference internal image-reference" href="../_images/muzika_klavir_skripte_bela.png"><img alt="../_images/muzika_klavir_skripte_bela.png" class="align-center" src="../_images/muzika_klavir_skripte_bela.png" style="width: 500px;" /></a>
 <p>Напоменимо да није потребно знати бројчане вредности нота, јер кликом на поље у које се уписује вредност, отвара се мала клавијатура у којој можемо да задамо вредност ноте кликом на одговарајућу дирку.</p>
-<a class="reference internal image-reference" href="../_images/muzika_zadavanje_note.png"><img alt="../_images/muzika_zadavanje_note.png" class="align-center" src="../_images/muzika_zadavanje_note.png" style="width: 414px;" /></a>
+<a class="reference internal image-reference" href="../_images/muzika_zadavanje_note.png"><img alt="../_images/muzika_zadavanje_note.png" class="align-center" src="../_images/muzika_zadavanje_note.png" style="width: 500px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <p>Сада овај лик треба копирати и променити име лика, слово на које реагује лик, вредност ноте и вредност <em>X</em> координате положаја ноте на екрану. У нашем случају свака следећа нота је 60 пиксела десно од претходне. Слова смо изабрали тако да белим диркама редом одговарају <em>A</em>, <em>S</em>, <em>D</em>, <em>F</em>, <em>G</em>, <em>H</em>, <em>J</em>, <em>K</em>, а црним диркама <em>W</em>, <em>E</em>, <em>T</em>, <em>Y</em>, <em>U</em>. Ове тастере смо изабрали зато што је њихов распоред сличан распореду дирки на правој клавијатури.</p>
 <p>Ликови који представљају црне дирке разликују се још и по томе што они као костим имају црни правоугаоник уместо белог, немају наредбу за постављање у позадину (црне дирке су нацртане преко белих), а <em>Y</em> координата им је већа за 50. На пример, скрипте за последњу црну дирку изгледају овако:</p>
-<a class="reference internal image-reference" href="../_images/muzika_klavir_skripte_crna.png"><img alt="../_images/muzika_klavir_skripte_crna.png" class="align-center" src="../_images/muzika_klavir_skripte_crna.png" style="width: 300px;" /></a>
+<a class="reference internal image-reference" href="../_images/muzika_klavir_skripte_crna.png"><img alt="../_images/muzika_klavir_skripte_crna.png" class="align-center" src="../_images/muzika_klavir_skripte_crna.png" style="width: 500px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
@@ -496,12 +497,12 @@
 </iframe>
 </div><p>Програм који свира одређену мелодију се прави веома лако. Довољно је да наређамо низ блокова „свирај ноту … током … откуцаја” и мелодија је спремна за свирање.</p>
 <p>Нешто другачији начин, који смо ми овде употребили је да прво висине и трајања нота сместимо у листе:</p>
-<a class="reference internal image-reference" href="../_images/muzika_dunje_ranke_liste.png"><img alt="../_images/muzika_dunje_ranke_liste.png" class="align-center" src="../_images/muzika_dunje_ranke_liste.png" style="width: 300px;" /></a>
+<a class="reference internal image-reference" href="../_images/muzika_dunje_ranke_liste.png"><img alt="../_images/muzika_dunje_ranke_liste.png" class="align-center" src="../_images/muzika_dunje_ranke_liste.png" style="width: 350px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>
 <p>Пошто се на слици не виде целе листе, поменимо да је четрнаеста нота иста као и тринаеста. Након дефинисања овакве две листе, следећа скрипта ће одсвирати мелодију записану у тим листама.</p>
-<a class="reference internal image-reference" href="../_images/muzika_dunje_ranke_melodija.png"><img alt="../_images/muzika_dunje_ranke_melodija.png" class="align-center" src="../_images/muzika_dunje_ranke_melodija.png" style="width: 700px;" /></a>
+<a class="reference internal image-reference" href="../_images/muzika_dunje_ranke_melodija.png"><img alt="../_images/muzika_dunje_ranke_melodija.png" class="align-center" src="../_images/muzika_dunje_ranke_melodija.png" style="width: 780px;" /></a>
 <div class="line-block">
 <div class="line"><br /></div>
 </div>

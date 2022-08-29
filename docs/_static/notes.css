@@ -113,6 +113,18 @@
     top: -26px;
 }
 
+
+.questionnote-type {
+    background-color: #D9F2ED;
+}
+
+.questionnote-image {
+    left: calc(50% - 20px);
+    top: -26px;
+    width: 40px;
+}
+
+
 .note-icon-holder {
     width: 80px;
     height: 80px;

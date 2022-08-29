@@ -83,7 +83,7 @@
   }
 
   .game-input{
-      margin-top: 30px;
+      margin-top: 5px;
       height: auto;
       overflow: hidden;
   }
@@ -125,6 +125,14 @@
     margin-top: 10px;
     width: 250px;
   }
+
+  .canvas-control{
+    margin-top:20px
+  }
+  .canvas-control p span{
+    color: #18bc9c;
+  }
+
   @media only screen and (max-width: 1045px) {
 
     .player-two{

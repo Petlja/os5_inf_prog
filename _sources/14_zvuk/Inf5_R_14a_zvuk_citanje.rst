@@ -27,7 +27,7 @@
 а затим постави миша на сличицу звучника у доњем левом углу.
 
 .. image:: ../../_images/S3_14_zvuk/zvukovi_dodavanje.png
-    :width: 300
+    :width: 350
     :align: center
 
 |
@@ -37,7 +37,7 @@
 Кликни на звучник или лупу. Појавиће се избор од преко 300 различитих звукова.
 
 .. image:: ../../_images/S3_14_zvuk/zvukovi_izbor.png
-    :width: 700
+    :width: 780
     :align: center
 
 |
