@@ -27,74 +27,69 @@ function WrappingNimGame(){
         this.canvas = opts.querySelector('canvas');
         this.canvasContext = this.canvas.getContext('2d');
         this.circles = [];
-        this.msgDiv = opts.querySelector('.msg-banner');
+        this.msgDiv = opts.querySelector('.nim-game-game-msg');
         this.maxTakeAway = this.data['takeaway'];
         this.numOfCircles = Math.min(this.data['count'],15);
-        this.circleRadius = document.documentElement.clientWidth < 900 ? 30 : 40;
+        this.circleRadius = document.documentElement.clientWidth < 900 ? 27 : 36;
         this.removedCircleIndex = 0;
         this.playersTurn = _PLAYER_ONE;
-        this.canvasContext.canvas.width = Math.min(this.canvas.parentElement.clientWidth,780);
+        this.controlsLabelPlayerOne = this.opts.querySelector('.p1-label')
+        this.controlsLabelPlayerTwo = this.opts.querySelector('.p2-label')
+        this.controlsDivPlayerOne = this.opts.querySelector('.nim-controls[data-player=controls-1] .turn')
+        this.controlsDivPlayerTwo = this.opts.querySelector('.nim-controls[data-player=controls-2] .turn')
+        this.canvasContext.canvas.width = Math.min(this.canvas.parentElement.clientWidth,702);
         this.canvasContext.canvas.height = 400;
-        this.takeButtonPlayerOne = this.opts.querySelector('[data-id=player-1]');
-        this.takeButtonPlayerTwo = this.opts.querySelector('[data-id=player-2]');
-        this.slider = this.opts.querySelector('.slider.round');
         this.playerTwo = this.opts.querySelector('.player-two');
         this.sliderInput = this.opts.querySelector('input');
-        this.gameVersion =  this.sliderInput.checked ? _SINGLE_PLAYER : _MULTY_PLAYER;
-        this.restartGameButton = this.opts.querySelector('[data-restart]');
+        this.gameVersion =  _SINGLE_PLAYER;
+
+
+        this.imageLoaded = false;
+        this.coinImage = new Image();
+        this.coinImage.onload = this.onImageLoad.bind(this);
+        this.coinImage.src = eBookConfig.staticDir + 'img/green-coin.png';
+
+
+        this.restartGameButtonSP = this.opts.querySelector(`[data-restart=sp]`)
+        this.restartGameButtonMP = this.opts.querySelector(`[data-restart=mp]`)
         this.thinking = false;
-        this.takeButtonPlayerOne.innerText = $.i18n("nimgame_take");
-        this.takeButtonPlayerTwo.innerText = $.i18n("nimgame_take");
-        this.restartGameButton.innerText = $.i18n("nimgame_restart_buttnon");
-        this.opts.querySelector('[data-game-mode]').innerText = $.i18n("nimgame_single_player");
+
+
         this.inputPlayerOne = this.opts.querySelector(`[data-input-id=player-1]`);
         this.inputPlayerTwo = this.opts.querySelector(`[data-input-id=player-2]`);
 
-        this.canvasControlDiv = this.opts.querySelector('.canvas-control');
-        var maxTakeAwayMsg = document.createElement('p');
-        maxTakeAwayMsg.innerHTML = $.i18n("nimgame_take_away_msg",this.maxTakeAway);
-        this.canvasControlDiv.prepend(maxTakeAwayMsg)
 
         this.fristMove = true;
-        this.inputPlayerOne.addEventListener("keydown",  function(event) {
-                if (event.key === "Enter") {
-                  event.preventDefault();
-                  this.takeButtonPlayerOne.click();
-                }
-        }.bind(this));
-        this.inputPlayerTwo.addEventListener("keydown",  function(event) {
-            if (event.key === "Enter") {
-              event.preventDefault();
-              this.takeButtonPlayerTwo.click();
-            }
-        }.bind(this));
-        [this.takeButtonPlayerOne, this.takeButtonPlayerTwo].forEach(function(button){
+
+        this.opts.querySelectorAll(".nim-take").forEach(function(button){
             button.addEventListener("click", function(){
-                this.displayMsg('');
                 var buttonId = button.getAttribute('data-id');
                 // bouth players can start
                 if(this.fristMove){
-                    if(this.gameVersion == _MULTY_PLAYER)
+                    if(this.gameVersion == _MULTY_PLAYER){
                         this.playersTurn= buttonId;
+                        if(this.playersTurn == "player-1"){
+                            this.controlsDivPlayerOne.classList.toggle("d-none")
+                        }
+                        else{
+                            this.controlsDivPlayerTwo.classList.toggle("d-none")
+                        }
+                    }
                     this.fristMove = false;
                 }
                 // cant play 2 times in a row or while computer is thinking
                 if(buttonId !== this.playersTurn || this.thinking){
                     return
                 }
-                var value = Number.parseInt(this.opts.querySelector(`[data-input-id=${buttonId}]`).value);
-                // only permitted values
-                if(!Number.isInteger(value) || value> this.maxTakeAway || value<0){
-                    this.displayMsg($.i18n("nimgame_error", this.maxTakeAway));
-                    return
-                }
+                var value = Number.parseInt(button.getAttribute('data-take'));
+
                 for(var i=0;i<value;i++){
                     if(this.removedCircleIndex + 1 > this.circles.length)
                         break;
                     if(this.playersTurn == _PLAYER_ONE)
-                        this.circles[this.removedCircleIndex].color = "#18bc9c";
+                        this.circles[this.removedCircleIndex].color = "#9C18BC";
                     else
-                    this.circles[this.removedCircleIndex].color = "orange"; 
+                    this.circles[this.removedCircleIndex].color = "#d62c1a"; 
                     this.removedCircleIndex++;
                 }
                 this.clearCanvas();
@@ -107,9 +102,13 @@ function WrappingNimGame(){
                 // switch turn
                 if(this.gameVersion === _MULTY_PLAYER){
                     this.playersTurn = playerTunrSwitcher[this.playersTurn];
+                    this.controlsDivPlayerOne.classList.toggle("d-none")
+                    this.controlsDivPlayerTwo.classList.toggle("d-none")
                 }
                 //"computer playes"
                 if(this.gameVersion === _SINGLE_PLAYER){
+                    this.controlsDivPlayerOne.classList.toggle("d-none")
+                    this.controlsDivPlayerTwo.classList.toggle("d-none")
                     this.thinking = true;
                     setTimeout(() => { 
                     var numberOfCircles = this.circles.reduce(function(n, circle) {
@@ -135,42 +134,46 @@ function WrappingNimGame(){
                     this.clearCanvas();
                     this.drawAllElements();
                     this.thinking = false;
-                    this.inputPlayerOne.placeholder = ""
-                    this.inputPlayerTwo.placeholder = ""
-                },350);
+                    this.controlsDivPlayerOne.classList.toggle("d-none")
+                    this.controlsDivPlayerTwo.classList.toggle("d-none")
+                },1000);
                 }
 
             }.bind(this));
         }.bind(this)); 
-        this.slider.addEventListener('click',function(){
-            this.displayMsg('');
+        this.restartGameButtonSP.addEventListener("click",function(){
+            this.displayMsg(' На табли je ' + this.numOfCircles + ' жетона - побеђује ко узме последњи');
             this.circles = this.circles.map(circle => {circle.color = "transparent";return circle});
-            this.playersTurn = _PLAYER_ONE;
-            this.gameVersion = gameModeSwitcher[this.gameVersion];
-            this.removedCircleIndex = 0;    
-            this.clearCanvas();
-            this.drawAllElements();
-            if(this.sliderInput.checked){
-                this.playerTwo.style.display = "";
-            }
-            else{
-                this.playerTwo.style.display = "none";
-            }
-            this.fristMove = true;
-        }.bind(this))
-        this.restartGameButton.addEventListener("click",function(){
-            this.displayMsg('');
-            this.circles = this.circles.map(circle => {circle.color = "transparent";return circle});
+            this.controlsLabelPlayerOne.innerText = "Tи";
+            this.controlsLabelPlayerTwo.innerText  = "Рачунар";
             this.playersTurn = _PLAYER_ONE;
             this.removedCircleIndex = 0;    
             this.clearCanvas();
             this.drawAllElements();
+            this.gameVersion =  _SINGLE_PLAYER;
             this.fristMove = true;
         }.bind(this));
+        this.restartGameButtonMP.addEventListener("click",function(){
+            this.controlsDivPlayerOne.classList.add("d-none");
+            this.controlsDivPlayerTwo.classList.add("d-none");
+            this.controlsLabelPlayerOne.innerText = "Играч 1";
+            this.controlsLabelPlayerTwo.innerText = "Играч 2";
+            this.displayMsg(' На табли je ' + this.numOfCircles + ' жетона - побеђује ко узме последњи');
+            this.circles = this.circles.map(circle => {circle.color = "transparent";return circle});
+            this.playersTurn = _PLAYER_ONE;
+            this.removedCircleIndex = 0;    
+            this.clearCanvas();
+            this.drawAllElements();
+            this.gameVersion =  _MULTY_PLAYER;
+            this.fristMove = true;
+        }.bind(this))
         this.initNIM();
         this.drawAllElements();
     }
 
+    NIMgame.prototype.onImageLoad = function(){
+        this.imageLoaded = true;
+    }
 
     NIMgame.prototype.clearCanvas = function(){
         this.canvasContext.clearRect(0,0,this.canvasContext.canvas.width,this.canvasContext.canvas.height);
@@ -178,7 +181,7 @@ function WrappingNimGame(){
 
     NIMgame.prototype.drawAllElements = function(){
         for(var i=0;i<this.numOfCircles;i++){
-                draw(this.canvasContext,this.circles[i].x,this.circles[i].y,this.circles[i].color,this.circleRadius);
+                this.draw(this.canvasContext,this.circles[i].x,this.circles[i].y,this.circles[i].color,this.circleRadius);
        }
     }
 
@@ -211,13 +214,7 @@ function WrappingNimGame(){
                     break;
                 }
             }
-        }  
-        if(this.sliderInput.checked){
-            this.playerTwo.style.display = "none";
-        }
-        else{
-            this.playerTwo.style.display = "";
-        }   
+        }    
     }
 
     NIMgame.prototype.displayMsg = function(msg){
@@ -231,13 +228,22 @@ function WrappingNimGame(){
         }
     });
 
-    function draw(canvasContext,x,y,color,radius){
-        canvasContext.fillStyle = color
-        canvasContext.beginPath();
-        canvasContext.arc(x,y, radius, 0, 2 * Math.PI);
-        canvasContext.fill();
-        canvasContext.closePath();
-        canvasContext.stroke();
+    NIMgame.prototype.draw = function(canvasContext,x,y,color,radius){
+        if (!this.imageLoaded) {
+            console.log('Delay until images are loaded...');
+            setTimeout(this.draw.bind(this, canvasContext,x,y,color,radius), 100);
+            return;
+        }
+        canvasContext.drawImage(this.coinImage, x-radius*2/Math.sqrt(2), y-radius*2/Math.sqrt(2),radius*4/Math.sqrt(2),(radius*4/Math.sqrt(2))*0.90);
+        if  (color !== 'transparent'){
+            canvasContext.strokeStyle = color;
+            canvasContext.beginPath();
+            canvasContext.lineWidth = 6;
+            canvasContext.moveTo(x-radius/Math.sqrt(2), y+radius/Math.sqrt(2));
+            canvasContext.lineTo(x+radius/Math.sqrt(2), y-radius/Math.sqrt(2));
+            canvasContext.stroke(); 
+        }
+
     }
     function randomIntFromInterval(min, max) {
         return Math.floor(Math.random() * (max - min + 1) + min)
