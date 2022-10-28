@@ -46,7 +46,6 @@
 ~~~~~~~~
 
 .. mchoice:: podesavanja_4
-   :multiple_answers:
    :answer_a: Да.
    :answer_b: Не.
    :correct: b
