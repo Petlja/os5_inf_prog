@@ -44,7 +44,6 @@
 ~~~~~~~~
 
 .. mchoice:: pocetak_4
-   :multiple_answers:
    :answer_a: Линија менија
    :answer_b: Листа ликова
    :answer_c: Област скрипти
