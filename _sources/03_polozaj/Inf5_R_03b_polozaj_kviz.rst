@@ -82,25 +82,25 @@
 ~~~~~~~~
 
 
+.. quizq::
 
+   На следећој слици приказани су положаји 5 тачака на позорници.
 
-На следећој слици приказани су положаји 5 тачака на позорници.
+   .. image:: ../../_images/S3_03_polozaj_kviz/pitanje_2_5.png
+      :align: center
+      :width: 300  
 
-.. image:: ../../_images/S3_03_polozaj_kviz/pitanje_2_5.png
-    :align: center
-    :width: 300  
+   .. mchoice:: koordinate2
+      :multiple_answers:
+      :answer_a: Тачка A
+      :answer_b: Тачка B
+      :answer_c: Тачка D
+      :answer_d: Тачка E
+      :correct: b, d
+      :feedback_a:  
+      :feedback_b: 
+      :feedback_c: 
+      :feedback_d: 
 
-.. mchoice:: koordinate2
-   :multiple_answers:
-   :answer_a: Тачка A
-   :answer_b: Тачка B
-   :answer_c: Тачка D
-   :answer_d: Тачка E
-   :correct: b, d
-   :feedback_a:  
-   :feedback_b: 
-   :feedback_c: 
-   :feedback_d: 
-
-   Које тачке имају негативну *y* координату?
-   (Изабери све тачне одговоре)
+      Које тачке имају негативну *y* координату?
+      (Изабери све тачне одговоре)

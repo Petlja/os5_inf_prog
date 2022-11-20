@@ -67,7 +67,7 @@
    
     Процедура "понови и додај" се позива три пута, па лик чија је ово скрипта говори три пута. Шта он изговара први, шта други, а шта трећи пут?
 
-    .. image:: ../../_images/S3_12_procedure_kviz/BioJednomJedan.jpg
+    .. image:: ../../_images/S3_12_procedure_kviz/BioJednomJedan.png
         :width: 600px
         :align: center
    

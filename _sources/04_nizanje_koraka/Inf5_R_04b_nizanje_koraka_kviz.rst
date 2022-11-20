@@ -76,7 +76,6 @@
    :feedback_a: Нетачно!
    :feedback_b: Тачно!
    :feedback_c: Нетачно!
-   :feedback_d: Нетачно!
 
 
    
