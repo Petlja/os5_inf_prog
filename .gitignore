@@ -7,3 +7,6 @@ _intermediate
 course
 _tmp
 update.py
+course.json
+export
+override.json
