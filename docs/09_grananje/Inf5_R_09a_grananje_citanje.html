@@ -2,8 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="sr-Cyrl">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
     <title>9.1. Условно извршавање (гранање)</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/basic.css" />
     <link rel="stylesheet" type="text/css" href="../_static/activecode.css" />
     <link rel="stylesheet" type="text/css" href="../_static/codemirror.css" />
     <link rel="stylesheet" type="text/css" href="../_static/qchoice.css" />
@@ -38,116 +41,117 @@
     <link rel="stylesheet" href="../_static/petlja-course.css" type="text/css" />
     <link rel="stylesheet" href="../_static/nbstyle.css" type="text/css" />
     <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
-    <script type="text/javascript" src="../_static/runestonebase.js"></script>
-    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
-    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
-    <script type="text/javascript" src="../_static/jquery.js"></script>
-    <script type="text/javascript" src="../_static/underscore.js"></script>
-    <script type="text/javascript" src="../_static/doctools.js"></script>
-    <script type="text/javascript" src="../_static/language_data.js"></script>
-    <script type="text/javascript" src="../_static/jquery.highlight.js"></script>
-    <script type="text/javascript" src="../_static/bookfuncs.js"></script>
-    <script type="text/javascript" src="../_static/codemirror.js"></script>
-    <script type="text/javascript" src="../_static/xml.js"></script>
-    <script type="text/javascript" src="../_static/css.js"></script>
-    <script type="text/javascript" src="../_static/python.js"></script>
-    <script type="text/javascript" src="../_static/htmlmixed.js"></script>
-    <script type="text/javascript" src="../_static/javascript.js"></script>
-    <script type="text/javascript" src="../_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
-    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.js"></script>
-    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
-    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
-    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.language.js"></script>
-    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.parser.js"></script>
-    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.js"></script>
-    <script type="text/javascript" src="../_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
-    <script type="text/javascript" src="../_static/activecode-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/activecode-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/activecode.js"></script>
-    <script type="text/javascript" src="../_static/clike.js"></script>
-    <script type="text/javascript" src="../_static/timed_activecode.js"></script>
-    <script type="text/javascript" src="../_static/animationbase.js"></script>
-    <script type="text/javascript" src="../_static/mchoice.js"></script>
-    <script type="text/javascript" src="../_static/timedmc.js"></script>
-    <script type="text/javascript" src="../_static/timed.js"></script>
-    <script type="text/javascript" src="../_static/mchoice-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/mchoice-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/clickable.js"></script>
-    <script type="text/javascript" src="../_static/timedclickable.js"></script>
-    <script type="text/javascript" src="../_static/d3.v2.min.js"></script>
-    <script type="text/javascript" src="../_static/jquery.ba-bbq.min.js"></script>
-    <script type="text/javascript" src="../_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
-    <script type="text/javascript" src="../_static/pytutor.js"></script>
-    <script type="text/javascript" src="../_static/codelens.js"></script>
-    <script type="text/javascript" src="../_static/skulpt.min.js"></script>
-    <script type="text/javascript" src="../_static/skulpt-stdlib.js"></script>
-    <script type="text/javascript" src="../_static/datafile.js"></script>
-    <script type="text/javascript" src="../_static/dragndrop.js"></script>
-    <script type="text/javascript" src="../_static/timeddnd.js"></script>
-    <script type="text/javascript" src="../_static/dragndrop-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/dragndrop-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/fitb.js"></script>
-    <script type="text/javascript" src="../_static/timedfitb.js"></script>
-    <script type="text/javascript" src="../_static/fitb-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/fitb-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/matrixeq.js"></script>
-    <script type="text/javascript" src="../_static/lib/prettify.js"></script>
-    <script type="text/javascript" src="../_static/lib/hammer.min.js"></script>
-    <script type="text/javascript" src="../_static/parsons.js"></script>
-    <script type="text/javascript" src="../_static/parsons-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/parsons-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/timedparsons.js"></script>
-    <script type="text/javascript" src="../_static/poll.js"></script>
-    <script type="text/javascript" src="../_static/reveal.js"></script>
-    <script type="text/javascript" src="../_static/shortanswer.js"></script>
-    <script type="text/javascript" src="../_static/timed_shortanswer.js"></script>
-    <script type="text/javascript" src="../_static/showEval.js"></script>
-    <script type="text/javascript" src="../_static/tabbedstuff.js"></script>
-    <script type="text/javascript" src="../_static/runestonevideo.js"></script>
-    <script type="text/javascript" src="../_static/webglinteractive.js"></script>
-    <script type="text/javascript" src="../_static/FileSaver.min.js"></script>
-    <script type="text/javascript" src="../_static/Blob.js"></script>
-    <script type="text/javascript" src="../_static/karelCorner.js"></script>
-    <script type="text/javascript" src="../_static/karelRobot.js"></script>
-    <script type="text/javascript" src="../_static/karelWorld.js"></script>
-    <script type="text/javascript" src="../_static/karelChat.js"></script>
-    <script type="text/javascript" src="../_static/karelRobotDrawer.js"></script>
-    <script type="text/javascript" src="../_static/karelUI.js"></script>
-    <script type="text/javascript" src="../_static/karel.js"></script>
-    <script type="text/javascript" src="../_static/karel-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/karel-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/notes.js"></script>
-    <script type="text/javascript" src="../_static/pygamelib-init.js"></script>
-    <script type="text/javascript" src="../_static/gallery.js"></script>
-    <script type="text/javascript" src="../_static/associations.js"></script>
-    <script type="text/javascript" src="../_static/associations-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/associations-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/editor.js"></script>
-    <script type="text/javascript" src="../_static/jszip.js"></script>
-    <script type="text/javascript" src="../_static/editor-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/editor-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/nimgame.js"></script>
-    <script type="text/javascript" src="../_static/nimgame-i18n.en.js"></script>
-    <script type="text/javascript" src="../_static/nimgame-i18n.sr-Cyrl.js"></script>
-    <script type="text/javascript" src="../_static/translations.js"></script>
-    <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/javascript" src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
-    <script type="text/javascript" src="../_static/jquery-fix.js"></script>
-    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../_static/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
-    <script type="text/javascript" src="../_static/waypoints.min.js"></script>
-    <script type="text/javascript" src="../_static/rangy-core.js"></script>
-    <script type="text/javascript" src="../_static/rangy-textrange.js"></script>
-    <script type="text/javascript" src="../_static/rangy-cssclassapplier.js"></script>
-    <script type="text/javascript" src="../_static/user-highlights.js"></script>
-    <script type="text/javascript" src="../_static/jquery.idle-timer.js"></script>
-    <script type="text/javascript" src="../_static/processing-1.4.1.min.js"></script>
-    <script type="text/javascript" src="../_static/jquery.hotkey.js"></script>
-    <script type="text/javascript" src="../_static/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="../_static/course-errors.js"></script>
-    <script type="text/javascript" src="../_static/petlja.js"></script>
-    <script type="text/javascript" src="../_static/require.js"></script>
+    <script src="../_static/runestonebase.js"></script>
+    <script src="../_static/skulpt.min.js"></script>
+    <script src="../_static/skulpt-stdlib.js"></script>
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
+    <script src="../_static/jquery.highlight.js"></script>
+    <script src="../_static/bookfuncs.js"></script>
+    <script src="../_static/codemirror.js"></script>
+    <script src="../_static/xml.js"></script>
+    <script src="../_static/css.js"></script>
+    <script src="../_static/python.js"></script>
+    <script src="../_static/htmlmixed.js"></script>
+    <script src="../_static/javascript.js"></script>
+    <script src="../_static/jquery_i18n/CLDRPluralRuleParser.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.messagestore.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.fallbacks.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.language.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.parser.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.emitter.js"></script>
+    <script src="../_static/jquery_i18n/jquery.i18n.emitter.bidi.js"></script>
+    <script src="../_static/activecode-i18n.en.js"></script>
+    <script src="../_static/activecode-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/activecode.js"></script>
+    <script src="../_static/clike.js"></script>
+    <script src="../_static/timed_activecode.js"></script>
+    <script src="../_static/animationbase.js"></script>
+    <script src="../_static/mchoice.js"></script>
+    <script src="../_static/timedmc.js"></script>
+    <script src="../_static/timed.js"></script>
+    <script src="../_static/mchoice-i18n.en.js"></script>
+    <script src="../_static/mchoice-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/clickable.js"></script>
+    <script src="../_static/timedclickable.js"></script>
+    <script src="../_static/d3.v2.min.js"></script>
+    <script src="../_static/jquery.ba-bbq.min.js"></script>
+    <script src="../_static/jquery.jsPlumb-1.3.10-all-min.js"></script>
+    <script src="../_static/pytutor.js"></script>
+    <script src="../_static/codelens.js"></script>
+    <script src="../_static/skulpt.min.js"></script>
+    <script src="../_static/skulpt-stdlib.js"></script>
+    <script src="../_static/datafile.js"></script>
+    <script src="../_static/dragndrop.js"></script>
+    <script src="../_static/timeddnd.js"></script>
+    <script src="../_static/dragndrop-i18n.en.js"></script>
+    <script src="../_static/dragndrop-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/fitb.js"></script>
+    <script src="../_static/timedfitb.js"></script>
+    <script src="../_static/fitb-i18n.en.js"></script>
+    <script src="../_static/fitb-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/matrixeq.js"></script>
+    <script src="../_static/lib/prettify.js"></script>
+    <script src="../_static/lib/hammer.min.js"></script>
+    <script src="../_static/parsons.js"></script>
+    <script src="../_static/parsons-i18n.en.js"></script>
+    <script src="../_static/parsons-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/timedparsons.js"></script>
+    <script src="../_static/poll.js"></script>
+    <script src="../_static/reveal.js"></script>
+    <script src="../_static/shortanswer.js"></script>
+    <script src="../_static/timed_shortanswer.js"></script>
+    <script src="../_static/showEval.js"></script>
+    <script src="../_static/tabbedstuff.js"></script>
+    <script src="../_static/runestonevideo.js"></script>
+    <script src="../_static/webglinteractive.js"></script>
+    <script src="../_static/FileSaver.min.js"></script>
+    <script src="../_static/Blob.js"></script>
+    <script src="../_static/karelCorner.js"></script>
+    <script src="../_static/karelRobot.js"></script>
+    <script src="../_static/karelWorld.js"></script>
+    <script src="../_static/karelChat.js"></script>
+    <script src="../_static/karelRobotDrawer.js"></script>
+    <script src="../_static/karelUI.js"></script>
+    <script src="../_static/karel.js"></script>
+    <script src="../_static/karel-i18n.en.js"></script>
+    <script src="../_static/karel-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/notes.js"></script>
+    <script src="../_static/pygamelib-init.js"></script>
+    <script src="../_static/gallery.js"></script>
+    <script src="../_static/associations.js"></script>
+    <script src="../_static/associations-i18n.en.js"></script>
+    <script src="../_static/associations-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/editor.js"></script>
+    <script src="../_static/jszip.js"></script>
+    <script src="../_static/editor-i18n.en.js"></script>
+    <script src="../_static/editor-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/nimgame.js"></script>
+    <script src="../_static/nimgame-i18n.en.js"></script>
+    <script src="../_static/nimgame-i18n.sr-Cyrl.js"></script>
+    <script src="../_static/translations.js"></script>
+    <script src="../_static/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="../_static/jquery-fix.js"></script>
+    <script src="../_static/bootstrap-4.0.0-dist/js/bootstrap.min.js"></script>
+    <script src="../_static/bootstrap-4.0.0-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../_static/bootstrap-sphinx.js"></script>
+    <script src="../_static/waypoints.min.js"></script>
+    <script src="../_static/rangy-core.js"></script>
+    <script src="../_static/rangy-textrange.js"></script>
+    <script src="../_static/rangy-cssclassapplier.js"></script>
+    <script src="../_static/user-highlights.js"></script>
+    <script src="../_static/jquery.idle-timer.js"></script>
+    <script src="../_static/processing-1.4.1.min.js"></script>
+    <script src="../_static/jquery.hotkey.js"></script>
+    <script src="../_static/jquery-migrate-1.2.1.min.js"></script>
+    <script src="../_static/course-errors.js"></script>
+    <script src="../_static/petlja.js"></script>
+    <script src="../_static/require.js"></script>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -431,25 +435,25 @@
   
     <div id="main-content">
     
-  <div class="section" id="id1">
-<h1>9.1. Условно извршавање (гранање)<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
-<div class="topic">
+  <section id="id1">
+<h1>9.1. Условно извршавање (гранање)<a class="headerlink" href="#id1" title="Permalink to this heading">¶</a></h1>
+<aside class="topic">
 <p class="topic-title">У оквиру овог часа:</p>
 <ul class="simple">
 <li><p>Упознаћеш наредбе условног извршавања.</p></li>
 <li><p>Упознаћеш логичке операторе <em>и</em>, <em>или</em>, <em>није</em>.</p></li>
 <li><p>Вежбаћеш употребу оператора поређења.</p></li>
 </ul>
-</div>
+</aside>
 <p>У овој лекцији научићеш како се програмирају алгоритми <strong>разгранате</strong> структуре. Основни алат за прављење разгранате структуре су наредбе условног извршавања, односно управљачки блокови који омогућавају условно извршавање. Ти блокови изглeдају овако:</p>
 <a class="reference internal image-reference" href="../_images/BlokoviGrananja.png"><img alt="../_images/BlokoviGrananja.png" class="align-center" src="../_images/BlokoviGrananja.png" style="width: 400px;" /></a>
 <p>Да бисмо употребили овакве блокове потребан нам је услов, а он се формира као код блока „понављај до …”.</p>
 <p>Када користимо први блок са једним устима, наредбе у устима ће се извршити једном ако је услов испуњен, а иначе неће ни једном. Код другог блока који има двоја уста, у случају да је услов испуњен извршавају се наредбе у горњим устима, а ако није испуњен извршавају се наредбе у доњим устима.</p>
-<div class="section" id="id2">
-<h2>Примери<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<section id="id2">
+<h2>Примери<a class="headerlink" href="#id2" title="Permalink to this heading">¶</a></h2>
 <p>У наредна два примера илустроваћемо коришћење наредби гранања, упознати се са начином прихватања улазних података помоћу наредбе „питај … чекај”, операторима поређења и логичким операторима. Напомињемо да смо у претходним лекцијама већ користили неке од блокова из групе <em>Оператори</em>.</p>
-<div class="section" id="id3">
-<h3>Пример 1 – Поздрав<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<section id="id3">
+<h3>Пример 1 – Поздрав<a class="headerlink" href="#id3" title="Permalink to this heading">¶</a></h3>
 <div style="text-align: center">
 <iframe src="https://scratch.mit.edu/projects/714839283/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"  allowfullscreen>
 </iframe>
@@ -477,10 +481,10 @@
 
         </div>
         </div>
-            </div>
-</div>
-<div class="section" id="id4">
-<h2>Оператори поређења<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+            </section>
+</section>
+<section id="id4">
+<h2>Оператори поређења<a class="headerlink" href="#id4" title="Permalink to this heading">¶</a></h2>
 <p>У претходном примеру смо користили и оператор за поређење добијеног одговора и броја 21. У групи блокова <em>Оператори</em> постоје ова три оператора за поређење:</p>
 <a class="reference internal image-reference" href="../_images/ManjeOd.png"><img alt="../_images/ManjeOd.png" src="../_images/ManjeOd.png" style="width: 150px;" /></a>
 <a class="reference internal image-reference" href="../_images/JednakoSa.png"><img alt="../_images/JednakoSa.png" src="../_images/JednakoSa.png" style="width: 150px;" /></a>
@@ -528,9 +532,9 @@
 
             </ul>
             </div>
-            </div>
-<div class="section" id="id5">
-<h2>Логички оператори<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h2>
+            </section>
+<section id="id5">
+<h2>Логички оператори<a class="headerlink" href="#id5" title="Permalink to this heading">¶</a></h2>
 <p>Можда примећујеш да би у претходном примеру мачак у 1 сат по поноћи одговорио „Довиђења”, а не „Лаку ноћ”. Мачак за сада одговара са „Лаку ноћ” само у 21, 22 и 23 сата, а било би боље да тако одговара на пример и у 0, 1, 2, 3 и 4 сата.</p>
 <p>Да бисмо научили мачка да примереније одговори, треба нам начин да му кажемо да са „Довиђења” одговара само од 5 до 20 сати, а са „Лаку ноћ” у осталим случајевима. Услов</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">одговор</span> <span class="n">је</span> <span class="n">између</span> <span class="mi">5</span> <span class="n">и</span> <span class="mi">20</span>
@@ -551,8 +555,8 @@
 <p>Логички оператор <strong>ИЛИ</strong> даје вредност <strong>true</strong> зато што је испуњен бар један од два услова (број који је корисник унео није једнак 50, али јесте једнак 40).</p>
 <p>Логички оператор <strong>НИЈЕ</strong> даје вредност <strong>false</strong> зато што је под-услов испуњен (40 јесте мање од 50), па је цела изјава „није тачно да је 40 мање од 50” нетачна.</p>
 <p>Сада смо спремни да дорадимо претходни пример.</p>
-<div class="section" id="id6">
-<h3>Пример 2 – Поздрав после поноћи<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<section id="id6">
+<h3>Пример 2 – Поздрав после поноћи<a class="headerlink" href="#id6" title="Permalink to this heading">¶</a></h3>
 <div style="text-align: center">
 <iframe src="https://scratch.mit.edu/projects/714839945/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no"  allowfullscreen>
 </iframe>
@@ -561,7 +565,7 @@
 <p>Исти резултат можемо да добијемо и мало другачије:</p>
 <a class="reference internal image-reference" href="../_images/if_primer2b.png"><img alt="../_images/if_primer2b.png" class="align-center" src="../_images/if_primer2b.png" style="width: 600px;" /></a>
 <p><strong>Напомена</strong>. У групу <em>Оператори</em> спадају још и оператори за основне аритметичке операције – сабирање, одузимање, множење и дељење, оператор за генерисање случајних бројева и други, које ћемо касније упознати.</p>
-<div class="topic">
+<aside class="topic">
 <p class="topic-title">Погледај наредни видео.</p>
 <p>Пошто сада знаш како да употребиш наредбе гранања, погледај видео у коме ћемо применити наредбе гранања како бисмо унапредили нашу игрицу.</p>
 <blockquote>
@@ -573,22 +577,22 @@
       
 
         </div>
-    <div id="modal-_oqxqGW5IoY" class="ytvideoclose" style="display: none; position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-color: rgba(128, 182, 128, 0.3); z-index: 10000;">
-        <div style="background-color: white; position: fixed; top: 4vh; left: 5vw; width:  90vw; height:  90vh; z-index: 100;" id="YTmodal-_oqxqGW5IoY">
+    <div id="modal-_oqxqGW5IoY" class="ytvideoclose" style="display: none; background-color: transparent; z-index: 10000;">
+        <div style="background-color: white; position: relative; width:  780px; height:  500px; z-index: 100;" id="YTmodal-_oqxqGW5IoY">
         </div>
     </div>
     
     
     </div></blockquote>
-</div>
-</div>
-</div>
-<div class="section" id="id7">
-<h2>Шта смо научили<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h2>
+</aside>
+</section>
+</section>
+<section id="id7">
+<h2>Шта смо научили<a class="headerlink" href="#id7" title="Permalink to this heading">¶</a></h2>
 <p>У овој лекцији упознали смо неке од наредби гранања, наредбу за прихватање улазних података, операторе поређења и логичке операторе.</p>
-</div>
-<div class="section" id="id8">
-<h2>Додатак<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h2>
+</section>
+<section id="id8">
+<h2>Додатак<a class="headerlink" href="#id8" title="Permalink to this heading">¶</a></h2>
 <p>Ако желиш, погледај <a class="reference external" href="https://petlja.org/biblioteka/r/lekcije/scratch3-praktikum/scratch3-grananje">поглавље „Наредбе гранања”</a> у Петљином практикуму. Тамо можеш да нађеш још нека објашњења и занимљиве пројекте.</p>
 <p>Петљин <a class="reference external" href="https://scratch.mit.edu/studios/24292223">студио Гранање</a> на сајту Скреча садржи урађене пројекте за задатке сличне оним којима смо се овде бавили.</p>
 
@@ -600,8 +604,8 @@
 <p><strong>Провери своје знање пролазећи кроз наредна питања и вежбе.</strong></p>
 
     </div></div>
-</div>
-</div>
+</section>
+</section>
 
 
     </div>

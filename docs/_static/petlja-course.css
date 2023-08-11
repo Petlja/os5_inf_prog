@@ -391,11 +391,9 @@ ul:first-child {
 
 .petljadoc-resources {
 	height: 70px;
-	margin-top: 20px;
-	position: fixed;
+	position: absolute;
 	bottom: 0;
 	left: 0;
-	z-index: 1000;
 	width: 20%;
 	background: #f7f8fa;
 	border-top: 1px solid #dedfe0;
@@ -1262,4 +1260,10 @@ ul:first-child {
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
+  }
+
+  .screenshot-shadow {
+	
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+
   }

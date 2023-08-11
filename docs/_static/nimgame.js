@@ -42,6 +42,7 @@ function WrappingNimGame(){
         this.playerTwo = this.opts.querySelector('.player-two');
         this.sliderInput = this.opts.querySelector('input');
         this.gameVersion =  _SINGLE_PLAYER;
+        this.gameOver = false;
 
 
         this.imageLoaded = false;
@@ -78,7 +79,7 @@ function WrappingNimGame(){
                     this.fristMove = false;
                 }
                 // cant play 2 times in a row or while computer is thinking
-                if(buttonId !== this.playersTurn || this.thinking){
+                if(buttonId !== this.playersTurn || this.thinking || this.gameOver){
                     return
                 }
                 var value = Number.parseInt(button.getAttribute('data-take'));
@@ -95,9 +96,17 @@ function WrappingNimGame(){
                 this.clearCanvas();
                 this.drawAllElements();
                 //end game
-                if(this.removedCircleIndex + 1 > this.circles.length){
+                if (this.removedCircleIndex + 1 > this.circles.length) {
+                    if (!this.controlsDivPlayerOne.classList.contains("d-none"))
+                        this.controlsDivPlayerOne.classList.add("d-none")
+                    if (!this.controlsDivPlayerTwo.classList.contains("d-none"))
+                        this.controlsDivPlayerTwo.classList.add("d-none")
                     this.displayMsg($.i18n("nimgame_winner", this.playersTurn[this.playersTurn.length-1]));
+                    this.gameOver = true;
                     return
+                }
+                if(this.numOfCircles - this.removedCircleIndex > 0){
+                    this.displayMsg(' На табли je ' + (this.numOfCircles - this.removedCircleIndex)+ ' жетона - побеђује ко узме последњи')
                 }
                 // switch turn
                 if(this.gameVersion === _MULTY_PLAYER){
@@ -128,14 +137,24 @@ function WrappingNimGame(){
                         this.circles[this.removedCircleIndex].color = "#d62c1a";
                         this.removedCircleIndex++;
                     } 
+                    if(this.numOfCircles - this.removedCircleIndex > 0){
+                        this.displayMsg(' На табли je ' + (this.numOfCircles - this.removedCircleIndex)+ ' жетона - побеђује ко узме последњи')
+                    }
                     if(this.removedCircleIndex + 1 > this.circles.length){
                         this.displayMsg($.i18n("nimgame_alg_won"));
+                        if (!this.controlsDivPlayerOne.classList.contains("d-none"))
+                            this.controlsDivPlayerOne.classList.add("d-none")
+                        if (!this.controlsDivPlayerTwo.classList.contains("d-none"))
+                            this.controlsDivPlayerTwo.classList.add("d-none")
+                        this.gameOver = true;
                     }
                     this.clearCanvas();
                     this.drawAllElements();
                     this.thinking = false;
-                    this.controlsDivPlayerOne.classList.toggle("d-none")
-                    this.controlsDivPlayerTwo.classList.toggle("d-none")
+                    if (!this.gameOver) {
+                        this.controlsDivPlayerOne.classList.toggle("d-none")
+                        this.controlsDivPlayerTwo.classList.toggle("d-none")
+                    }
                 },1000);
                 }
 
@@ -152,6 +171,10 @@ function WrappingNimGame(){
             this.drawAllElements();
             this.gameVersion =  _SINGLE_PLAYER;
             this.fristMove = true;
+            this.gameOver = false;
+            if(this.controlsDivPlayerOne.classList.contains("d-none"))
+                this.controlsDivPlayerOne.classList.remove("d-none");
+            this.controlsDivPlayerTwo.classList.add("d-none");
         }.bind(this));
         this.restartGameButtonMP.addEventListener("click",function(){
             this.controlsDivPlayerOne.classList.add("d-none");
@@ -160,12 +183,12 @@ function WrappingNimGame(){
             this.controlsLabelPlayerTwo.innerText = "Играч 2";
             this.displayMsg(' На табли je ' + this.numOfCircles + ' жетона - побеђује ко узме последњи');
             this.circles = this.circles.map(circle => {circle.color = "transparent";return circle});
-            this.playersTurn = _PLAYER_ONE;
             this.removedCircleIndex = 0;    
             this.clearCanvas();
             this.drawAllElements();
             this.gameVersion =  _MULTY_PLAYER;
             this.fristMove = true;
+            this.gameOver = false;
         }.bind(this))
         this.initNIM();
         this.drawAllElements();

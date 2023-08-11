@@ -69,6 +69,7 @@ lessons:
   - description: ''
     file: Inf5_R_00_uvod.html
     guid: 17641290-d557-43c4-b021-5697a874d9e7
+    normalized_title: Увод
     src: Inf5_R_00_uvod.rst
     title: Увод
     type: reading
@@ -82,12 +83,14 @@ lessons:
   - description: ''
     file: Inf5_R_01a_algoritmi_citanje.html
     guid: f3b55b94-0020-4cac-babc-40ec0fabf6ad
+    normalized_title: 1.1. Алгоритамски начин размишљања
     src: Inf5_R_01a_algoritmi_citanje.rst
     title: 1.1. Алгоритамски начин размишљања
     type: reading
   - description: ''
     file: Inf5_R_01b_algoritmi_kviz.html
     guid: 2e314791-53b4-4aee-9c85-afc9dc5f17e6
+    normalized_title: 1.2. Квиз - Алгоритамски начин размишљања
     src: Inf5_R_01b_algoritmi_kviz.rst
     title: 1.2. Квиз - Алгоритамски начин размишљања
     type: quiz
@@ -101,24 +104,28 @@ lessons:
   - description: ''
     file: Inf5_R_02a_priprema_za_rad_citanje.html
     guid: eb18682a-afa5-4a95-adb5-0c629f7e6b34
+    normalized_title: 2.1. Подешавања и почетак рада
     src: Inf5_R_02a_priprema_za_rad_citanje.rst
     title: 2.1. Подешавања и почетак рада
     type: reading
   - description: ''
     file: Inf5_R_02b_podesavanja_kviz.html
     guid: b6497698-4d44-4499-90c1-29c656035ab5
+    normalized_title: 2.2. Квиз - Подешавања
     src: Inf5_R_02b_podesavanja_kviz.rst
     title: 2.2. Квиз - Подешавања
     type: quiz
   - description: ''
     file: Inf5_R_02c_prvi_program_citanje.html
     guid: cb1ca071-ca2a-4305-9544-367ae2b43d41
+    normalized_title: 2.3. Први програм
     src: Inf5_R_02c_prvi_program_citanje.rst
     title: 2.3. Први програм
     type: reading
   - description: ''
     file: Inf5_R_02d_pocetak rada_kviz.html
     guid: e4ba8af1-f87d-4fd0-bc09-dacfcb0c4be0
+    normalized_title: 2.4. Квиз - Почетак рада
     src: Inf5_R_02d_pocetak rada_kviz.rst
     title: 2.4. Квиз - Почетак рада
     type: quiz
@@ -132,24 +139,28 @@ lessons:
   - description: ''
     file: Inf5_R_03a_polozaj_citanje.html
     guid: 532e5659-3dff-47f7-bf97-ef01ebf02e56
+    normalized_title: 3.1. Положај и кретање лика
     src: Inf5_R_03a_polozaj_citanje.rst
     title: 3.1. Положај и кретање лика
     type: reading
   - description: ''
     file: Inf5_R_03b_polozaj_kviz.html
     guid: 1d6663b2-a7d7-4961-ab09-2f6a8c2d84c9
+    normalized_title: 3.2. Квиз - Положај и кретање лика
     src: Inf5_R_03b_polozaj_kviz.rst
     title: 3.2. Квиз - Положај и кретање лика
     type: quiz
   - description: ''
     file: Inf5_R_03c_usmeravanje_citanje.html
     guid: 959fc64f-5f04-451f-a966-aec7b1da464d
+    normalized_title: 3.3. Усмеравање лика
     src: Inf5_R_03c_usmeravanje_citanje.rst
     title: 3.3. Усмеравање лика
     type: reading
   - description: ''
     file: Inf5_R_03d_usmeravanje_kviz.html
     guid: 98ad3d59-b99d-40dc-83c8-f602746920c5
+    normalized_title: 3.4. Квиз - Усмеравање лика
     src: Inf5_R_03d_usmeravanje_kviz.rst
     title: 3.4. Квиз - Усмеравање лика
     type: quiz
@@ -163,12 +174,14 @@ lessons:
   - description: ''
     file: Inf5_R_04a_nizanje_koraka_citanje.html
     guid: 00a94999-1457-43a2-b138-5b68b30e140b
+    normalized_title: 4.1. Низање корака
     src: Inf5_R_04a_nizanje_koraka_citanje.rst
     title: 4.1. Низање корака
     type: reading
   - description: ''
     file: Inf5_R_04b_nizanje_koraka_kviz.html
     guid: 22c6ed4c-79b1-4fef-b816-02c8a3c25b17
+    normalized_title: 4.2. Квиз - Низање корака
     src: Inf5_R_04b_nizanje_koraka_kviz.rst
     title: 4.2. Квиз - Низање корака
     type: quiz
@@ -182,12 +195,14 @@ lessons:
   - description: ''
     file: Inf5_R_05a_razglasavanje_citanje.html
     guid: 3718060d-7b30-4091-82ff-8cd798b2cfdf
+    normalized_title: 5.1. Усклађивање скрипти
     src: Inf5_R_05a_razglasavanje_citanje.rst
     title: 5.1. Усклађивање скрипти
     type: reading
   - description: ''
     file: Inf5_R_05b_razglasavanje_kviz.html
     guid: 1be1a2a7-2b15-4eb3-995c-6ea1d8c3fc08
+    normalized_title: 5.2. Квиз - Усклађивање скрипти
     src: Inf5_R_05b_razglasavanje_kviz.rst
     title: 5.2. Квиз - Усклађивање скрипти
     type: quiz
@@ -201,12 +216,14 @@ lessons:
   - description: ''
     file: Inf5_R_06a_kornjaca_citanje.html
     guid: 670a08a8-6a4c-43fe-a52a-14aeb27371c9
+    normalized_title: 6.1. Цртање
     src: Inf5_R_06a_kornjaca_citanje.rst
     title: 6.1. Цртање
     type: reading
   - description: ''
     file: Inf5_R_06b_kornjaca_kviz.html
     guid: e218dbc4-8713-47b6-869d-8b9ef5808d21
+    normalized_title: 6.2. Квиз - Цртање
     src: Inf5_R_06b_kornjaca_kviz.rst
     title: 6.2. Квиз - Цртање
     type: quiz
@@ -220,18 +237,21 @@ lessons:
   - description: ''
     file: Inf5_R_07a_petlje_citanje.html
     guid: bdd92d86-0c8e-4e25-ba5c-ae7d2a8d81c1
+    normalized_title: 7.1. Наредбе понављања
     src: Inf5_R_07a_petlje_citanje.rst
     title: 7.1. Наредбе понављања
     type: reading
   - description: ''
     file: Inf5_R_07b_petlje_kviz.html
     guid: 44dcf1d4-cb32-47bb-b2ac-f6b24ef0234c
+    normalized_title: 7.2. Квиз - Наредбе понављања
     src: Inf5_R_07b_petlje_kviz.rst
     title: 7.2. Квиз - Наредбе понављања
     type: quiz
   - description: ''
     file: Inf5_R_07c_petlje_vezbanje.html
     guid: e681cdd9-ad87-459c-a3e0-e679deb94290
+    normalized_title: 7.3. Наредбе понављања - вежбање
     src: Inf5_R_07c_petlje_vezbanje.rst
     title: 7.3. Наредбе понављања - вежбање
     type: reading
@@ -245,6 +265,7 @@ lessons:
   - description: ''
     file: Inf5_R_08a_sistematizacija_kviz.html
     guid: 9cc9f3d5-295c-4b79-9190-37b95bcc7b9c
+    normalized_title: 8. Квиз - Систематизација
     src: Inf5_R_08a_sistematizacija_kviz.rst
     title: 8. Квиз - Систематизација
     type: quiz
@@ -258,12 +279,14 @@ lessons:
   - description: ''
     file: Inf5_R_09a_grananje_citanje.html
     guid: 7b7c3a5b-e597-44b3-b0bf-00fd90f62c4c
+    normalized_title: 9.1. Условно извршавање (гранање)
     src: Inf5_R_09a_grananje_citanje.rst
     title: 9.1. Условно извршавање (гранање)
     type: reading
   - description: ''
     file: Inf5_R_09b_grananje_kviz.html
     guid: ad755c0c-0211-48fd-891b-9c426216bd2f
+    normalized_title: 9.2. Квиз - Гранање
     src: Inf5_R_09b_grananje_kviz.rst
     title: 9.2. Квиз - Гранање
     type: quiz
@@ -277,12 +300,14 @@ lessons:
   - description: ''
     file: Inf5_R_10a_osecaji_citanje.html
     guid: 09967186-10bd-4357-b215-6df6bb0dfcb6
+    normalized_title: 10.1. Осећаји
     src: Inf5_R_10a_osecaji_citanje.rst
     title: 10.1. Осећаји
     type: reading
   - description: ''
     file: Inf5_R_10b_osecaji_kviz.html
     guid: 77d6e775-adbf-46a3-9d5c-06671e5ae8dd
+    normalized_title: 10.2. Квиз - Осећаји
     src: Inf5_R_10b_osecaji_kviz.rst
     title: 10.2. Квиз - Осећаји
     type: quiz
@@ -296,18 +321,21 @@ lessons:
   - description: ''
     file: Inf5_R_11a_promenljive_citanje.html
     guid: dbc45bed-8ef0-4e85-be4f-91ca05cd7053
+    normalized_title: 11.1. Променљиве
     src: Inf5_R_11a_promenljive_citanje.rst
     title: 11.1. Променљиве
     type: reading
   - description: ''
     file: Inf5_R_11b_promenljive_kviz.html
     guid: f773d76c-a812-4954-9e8a-1532eb1a06cb
+    normalized_title: 11.2. Квиз - Променљиве
     src: Inf5_R_11b_promenljive_kviz.rst
     title: 11.2. Квиз - Променљиве
     type: quiz
   - description: ''
     file: Inf5_R_11c_promenljive_vezbanje.html
     guid: c234da73-8b8b-49ee-94be-0a51dfbfc9a4
+    normalized_title: 11.3. Променљиве - вежбање
     src: Inf5_R_11c_promenljive_vezbanje.rst
     title: 11.3. Променљиве - вежбање
     type: reading
@@ -321,12 +349,14 @@ lessons:
   - description: ''
     file: Inf5_R_12a_procedure_citanje.html
     guid: 0de5dcff-abef-42ff-8dfa-aa0698fcdf90
+    normalized_title: 12.1. Процедуре
     src: Inf5_R_12a_procedure_citanje.rst
     title: 12.1. Процедуре
     type: reading
   - description: ''
     file: Inf5_R_12b_procedure_kviz.html
     guid: 853b4a7d-7810-450b-90b8-1709f33cb888
+    normalized_title: 12.2. Квиз - Процедуре
     src: Inf5_R_12b_procedure_kviz.rst
     title: 12.2. Квиз - Процедуре
     type: quiz
@@ -340,18 +370,21 @@ lessons:
   - description: ''
     file: Inf5_R_13a_liste_citanje.html
     guid: 301192fc-1c63-4f03-91fd-9ebf60704101
+    normalized_title: 13.1. Листе
     src: Inf5_R_13a_liste_citanje.rst
     title: 13.1. Листе
     type: reading
   - description: ''
     file: Inf5_R_13b_liste_kviz.html
     guid: 17d4a70a-43fd-476d-8706-6e1f03166c79
+    normalized_title: 13.2. Квиз - Листе
     src: Inf5_R_13b_liste_kviz.rst
     title: 13.2. Квиз - Листе
     type: quiz
   - description: ''
     file: Inf5_R_13c_liste_vezbanje.html
     guid: 536ef363-19c1-4bec-8539-f5803f36ec78
+    normalized_title: 13.3 Листе - вежбање
     src: Inf5_R_13c_liste_vezbanje.rst
     title: 13.3 Листе - вежбање
     type: reading
@@ -365,12 +398,14 @@ lessons:
   - description: ''
     file: Inf5_R_14a_zvuk_citanje.html
     guid: ecbb471b-3539-4199-9c5e-8c7486292605
+    normalized_title: 14.1. Звук
     src: Inf5_R_14a_zvuk_citanje.rst
     title: 14.1. Звук
     type: reading
   - description: ''
     file: Inf5_R_14b_zvuk_kviz.html
     guid: 7fdb0ff4-eead-42e7-94e8-b8fd69bd706d
+    normalized_title: 14.2. Квиз - Звук
     src: Inf5_R_14b_zvuk_kviz.rst
     title: 14.2. Квиз - Звук
     type: quiz
@@ -384,12 +419,14 @@ lessons:
   - description: ''
     file: Inf5_R_15a_muzika_citanje.html
     guid: 0f5dcb0f-35e7-4e48-a926-8ba616b40a53
+    normalized_title: 15.1. Mузика
     src: Inf5_R_15a_muzika_citanje.rst
     title: 15.1. Mузика
     type: reading
   - description: ''
     file: Inf5_R_15b_muzika_kviz.html
     guid: d35620ca-eb31-4678-8d76-25cc273a910c
+    normalized_title: 15.2. Квиз - Музика
     src: Inf5_R_15b_muzika_kviz.rst
     title: 15.2. Квиз - Музика
     type: quiz
@@ -403,6 +440,7 @@ lessons:
   - description: ''
     file: Inf5_R_16a_zavrsni_kviz.html
     guid: b004ebd8-a620-4329-9bc7-b1df72e9a75c
+    normalized_title: 16. Завршни квиз
     src: Inf5_R_16a_zavrsni_kviz.rst
     title: 16. Завршни квиз
     type: quiz
