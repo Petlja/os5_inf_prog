@@ -2,9 +2,9 @@
 
 Ovaj repozitorijum posvećen je kursu za Programiranje u Skreču za peti razred. 
 
-Kurs je na Petljom portalu dotupan ovde: [https://petlja.org/kurs/351/0](https://petlja.org/kurs/351/)
+Kurs je na Petljinom portalu dotupan ovde: [https://petlja.org/kurs/351/0](https://petlja.org/kurs/351/)
 
-Kurs možete itegrisati u svoj LMS koristeći SCORM pakete koji se mogu preuzeti sa: https://github.com/Petlja/os5_inf_prog/releases
+Kurs možete integrisati u svoj LMS koristeći SCORM pakete koji se mogu preuzeti sa: https://github.com/Petlja/os5_inf_prog/releases
 
 ## Konverzija u *HTML*
 
